@@ -18,5 +18,8 @@ HF_TOKEN = os.getenv("HF_TOKEN")
 CONV_DS = "ministere-culture/comparia-conversations"
 REAC_DS = "ministere-culture/comparia-reactions"
 
-REQ_DS = "requests-dataset"
-HYP_DS = "hypothesis-dataset"
+REQ_DS = "dieuant/requests-dataset"
+HYP_DS = "dieuant/hypothesis-dataset"
+
+#French Question Words
+question_words = ['quoi', 'quand', 'comment', 'pourquoi', 'où', 'qui', 'quel', 'quelle', 'quels', 'quelles', 'lequel', 'combien']
