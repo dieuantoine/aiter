@@ -1,3 +1,4 @@
+import numpy as np
 from collections import Counter
 from src.utils import clean_text
 
@@ -24,7 +25,8 @@ def words_counter(df):
         word_counts.update(filtered_words)
     return word_counts
 
-def categories_counter(df):
-    all_categories = df['categories'].explode()
-    category_counts = Counter(all_categories)
-    return category_counts
+def list_features_counter(df, feature):
+    all_feature = df[feature].explode()
+    counts = Counter(all_feature)
+    counts.pop(np.nan, None)
+    return counts
