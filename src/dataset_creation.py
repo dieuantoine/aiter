@@ -23,7 +23,7 @@ def reduce_dataset(ds, columns, valid_ids):
     col_to_remove = [x for x in ds.column_names if x not in columns]
     return ds.filter(lambda x: x['id'] in valid_ids).remove_columns(col_to_remove)
 
-def push_datasets():
+def create_req_and_hyp_ds():
     conv_dataset = load_dataset(CONV_DS)['train']
     reac_dataset = load_dataset(REAC_DS)['train']
     valid_ids = select_valid_ids(conv_dataset, reac_dataset)
@@ -45,7 +45,7 @@ def calc_qw(df):
     )
     return df
 
-def create_req_info_dataset():
+def create_req_info_ds():
     df = load_dataset(REQ_DS)['train'].to_pandas()
     df = calc_msg_length(df)
     df = calc_qw(df)
@@ -54,6 +54,4 @@ def create_req_info_dataset():
     return
     
 if __name__ == '__main__':
-    login(HF_TOKEN)
-    #create_req_info_dataset()
-    
+    login(HF_TOKEN)    

@@ -1,5 +1,3 @@
-from huggingface_hub import login
-from datasets import load_dataset
 import pandas as pd
 
 import matplotlib.pyplot as plt
@@ -32,8 +30,8 @@ def plot_msg_length(df, cap=True):
     plt.show()
     return
 
-def create_wc(word_counts):
-    wordcloud = WordCloud(width=800, height=400, background_color='white').generate_from_frequencies(word_counts)
+def create_wc(counts):
+    wordcloud = WordCloud(width=800, height=400, background_color='white').generate_from_frequencies(counts)
     plt.figure(figsize=(12,6))
     plt.imshow(wordcloud, interpolation='bilinear')
     plt.axis('off')
