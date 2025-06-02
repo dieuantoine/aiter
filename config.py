@@ -9,6 +9,8 @@ BASE_DIR = Path(__file__).resolve().parent
 
 # Chemins importants
 
+SELECTED_IDS_CSV = "selected_conv_ids.csv"
+
 
 # Secrets
 MISTRAL_API_KEY = os.getenv("MISTRAL_API_KEY")
