@@ -9,7 +9,7 @@ BASE_DIR = Path(__file__).resolve().parent
 
 # Chemins importants
 
-SELECTED_IDS_CSV = "selected_conv_ids.csv"
+SELECTED_IDS_CSV = "tests/selected_conv_ids.csv"
 
 
 # Secrets
