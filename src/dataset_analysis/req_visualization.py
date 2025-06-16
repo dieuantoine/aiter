@@ -1,3 +1,5 @@
+####  streamlit run src/dataset_analysis/req_visualization.py
+
 from huggingface_hub import login
 from datasets import load_dataset
 import sys, os
@@ -87,6 +89,7 @@ if total_results > 0:
             st.markdown(short_msg)
 
             with st.expander("➕ Plus d'informations"):
+                st.markdown(f"id: {row['conversation_pair_id']}")
                 st.markdown(f"**Thématiques :** {', '.join(row['categories'])}")
                 st.markdown(f"**Mot(s) interrogatif(s) :** {', '.join(row['question_word'])}")
                 st.markdown(f"**Requête ({row['msg_length']}) :** {row['opening_msg']}")

@@ -4,12 +4,12 @@ from config import HF_TOKEN, CONV_DS, REAC_DS, REQ_DS, REQ_INFO_DS, HYP_DS, ques
 
 def select_valid_ids(conv_dataset, reac_dataset):
     conv_valid_ids = set(
-        x['id'] for x in conv_dataset 
+        x['conversation_pair_id'] for x in conv_dataset 
         if not x['is_unedited_prompt'] and x['languages'] == ['fr'] and len(x['opening_msg'])>10
         )
 
     reac_valid_ids = set(
-        x['id'] for x in reac_dataset
+        x['conversation_pair_id'] for x in reac_dataset
         if x['conv_turns'] == 1 and (
             x['useful'] or x['creative'] or x['complete'] or x['clear_formatting'] or x['incorrect'] or x['superficial'] or x['instructions_not_followed']
             )
@@ -21,7 +21,7 @@ def select_valid_ids(conv_dataset, reac_dataset):
 
 def reduce_dataset(ds, columns, valid_ids):
     col_to_remove = [x for x in ds.column_names if x not in columns]
-    return ds.filter(lambda x: x['id'] in valid_ids).remove_columns(col_to_remove)
+    return ds.filter(lambda x: x['conversation_pair_id'] in valid_ids).remove_columns(col_to_remove)
 
 def create_req_and_hyp_ds():
     conv_dataset = load_dataset(CONV_DS)['train']
@@ -33,6 +33,7 @@ def create_req_and_hyp_ds():
     reduced_hyp_dataset = reduce_dataset(reac_dataset, hyp_col, valid_ids)
     reduced_req_dataset.push_to_hub(REQ_DS)
     reduced_hyp_dataset.push_to_hub(HYP_DS)
+    return
 
 def calc_msg_length(df):
     df['msg_length'] = df['opening_msg'].apply(lambda x: len(str(x).split()))
@@ -54,4 +55,5 @@ def create_req_info_ds():
     return
     
 if __name__ == '__main__':
-    login(HF_TOKEN)    
+    login(HF_TOKEN)
+    create_req_info_ds()
