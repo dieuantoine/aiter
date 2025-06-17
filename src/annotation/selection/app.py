@@ -1,9 +1,9 @@
 import sys, os
 import streamlit as st
 import pandas as pd
-from src.utils.utils import load_from_hf
 
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../../')))
+from src.utils.utils import load_from_hf
 from config import REQ_DS, SELECTED_IDS_CSV
 
 if "selected_conv_ids" not in st.session_state:
@@ -14,7 +14,7 @@ if "selected_conv_ids" not in st.session_state:
 
 @st.cache_data
 def load_data():
-    load_from_hf(REQ_DS)
+    df = load_from_hf(REQ_DS)
     return df
 
 df = load_data()
