@@ -1,26 +1,20 @@
-####  streamlit run src/dataset_analysis/req_visualization.py
-
-from huggingface_hub import login
-from datasets import load_dataset
 import sys, os
-
 import streamlit as st
 import pandas as pd
-import ast
+from src.utils.utils import load_from_hf
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
-from config import HF_TOKEN, REQ_INFO_DS, SELECTED_IDS_CSV
+from config import REQ_DS, SELECTED_IDS_CSV
 
 if "selected_conv_ids" not in st.session_state:
     if os.path.exists(SELECTED_IDS_CSV):
-        st.session_state.selected_conv_ids = set(pd.read_csv(SELECTED_IDS_CSV)["conversation_pair_id"].tolist())
+        st.session_state.selected_conv_ids = set(pd.read_csv(SELECTED_IDS_CSV)["request_id"].tolist())
     else:
         st.session_state.selected_conv_ids = set()
 
 @st.cache_data
 def load_data():
-    login(HF_TOKEN)
-    df = load_dataset(REQ_INFO_DS)['train'].to_pandas()
+    load_from_hf(REQ_DS)
     return df
 
 df = load_data()
@@ -31,7 +25,7 @@ if "local_selection_updates" not in st.session_state:
 st.title("Exploration des requêtes")
 
 all_thematics = sorted(set(t for sublist in df["categories"] for t in sublist))
-all_mots = sorted(set(m for sublist in df["question_word"] for m in sublist))
+all_mots = sorted(set(m for sublist in df["question_words"] for m in sublist))
 
 min_len, max_len = int(df["msg_length"].min()), int(df["msg_length"].max())
 
@@ -52,13 +46,13 @@ if selected_thematiques:
     filtered_df = filtered_df[filtered_df['categories'].apply(lambda lst: any(t in lst for t in selected_thematiques))]
 
 if selected_mots:
-    filtered_df = filtered_df[filtered_df['question_word'].apply(lambda lst: any(m in lst for m in selected_mots))]
+    filtered_df = filtered_df[filtered_df['question_words'].apply(lambda lst: any(m in lst for m in selected_mots))]
 
 if search_text:
-    filtered_df = filtered_df[filtered_df['opening_msg'].str.contains(search_text, case=False, na=False)]
+    filtered_df = filtered_df[filtered_df['request'].str.contains(search_text, case=False, na=False)]
 
 if show_selected_only:
-    filtered_df = filtered_df[filtered_df['conversation_pair_id'].isin(st.session_state.selected_conv_ids)]
+    filtered_df = filtered_df[filtered_df['request_id'].isin(st.session_state.selected_conv_ids)]
 
 if msg_len_min > msg_len_max:
     st.warning("La longueur minimale est supérieure à la longueur maximale.")
@@ -81,21 +75,21 @@ if total_results > 0:
     for idx, row in filtered_df.iloc[start_idx:end_idx].iterrows():
         cols = st.columns([10, 2])
         with cols[0]:
-            full_words = row['opening_msg'].split()
+            full_words = row['request'].split()
             if len(full_words) > 100:
                 short_msg = ' '.join(full_words[:100]) + "..."
             else:
-                short_msg = row['opening_msg']
+                short_msg = row['request']
             st.markdown(short_msg)
 
             with st.expander("➕ Plus d'informations"):
-                st.markdown(f"id: {row['conversation_pair_id']}")
+                st.markdown(f"id: {row['request_id']}")
                 st.markdown(f"**Thématiques :** {', '.join(row['categories'])}")
-                st.markdown(f"**Mot(s) interrogatif(s) :** {', '.join(row['question_word'])}")
-                st.markdown(f"**Requête ({row['msg_length']}) :** {row['opening_msg']}")
+                st.markdown(f"**Mot(s) interrogatif(s) :** {', '.join(row['question_words'])}")
+                st.markdown(f"**Requête ({row['msg_length']}) :** {row['request']}")
     
         with cols[1]:
-            conv_id = row['conversation_pair_id']
+            conv_id = row['request_id']
 
             base_state = conv_id in st.session_state.selected_conv_ids
             updated_state = st.session_state.local_selection_updates.get(conv_id, base_state)
@@ -110,7 +104,7 @@ else:
 
 if st.button("💾 Enregistrer les modifications"):
     if os.path.exists(SELECTED_IDS_CSV):
-        all_ids = set(pd.read_csv(SELECTED_IDS_CSV)["conversation_pair_id"].tolist())
+        all_ids = set(pd.read_csv(SELECTED_IDS_CSV)["request_id"].tolist())
     else:
         all_ids = set()
 
@@ -125,7 +119,7 @@ if st.button("💾 Enregistrer les modifications"):
             all_ids.discard(conv_id)
             removed += 1
 
-    pd.DataFrame({"conversation_pair_id": list(all_ids)}).to_csv(SELECTED_IDS_CSV, index=False)
+    pd.DataFrame({"request_id": list(all_ids)}).to_csv(SELECTED_IDS_CSV, index=False)
     
     st.session_state.selected_conv_ids = all_ids
     st.session_state.local_selection_updates = {}

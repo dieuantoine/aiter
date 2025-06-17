@@ -9,7 +9,7 @@ BASE_DIR = Path(__file__).resolve().parent
 
 # Chemins importants
 
-SELECTED_IDS_CSV = "tests/selected_conv_ids.csv"
+SELECTED_IDS_CSV = "data/selected_conv_ids.csv"
 
 
 # Secrets
@@ -21,7 +21,6 @@ CONV_DS = "ministere-culture/comparia-conversations"
 REAC_DS = "ministere-culture/comparia-reactions"
 
 REQ_DS = "dieuant/requests-dataset"
-REQ_INFO_DS = "dieuant/requests-with-info-dataset"
 HYP_DS = "dieuant/hypothesis-dataset"
 
 #French Question Words
