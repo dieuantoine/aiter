@@ -1,4 +1,12 @@
+from datasets import load_dataset, Dataset
+from huggingface_hub import login
+from config import HF_TOKEN
+
 import re
+
+def load_from_hf(path):
+    login(HF_TOKEN)
+    return load_dataset(path)['train'].to_pandas()
 
 def clean_text(text):
     text = text.lower()

@@ -1,6 +1,6 @@
 import numpy as np
 from collections import Counter
-from src.utils import clean_text
+from utils.utils import clean_text
 
 import nltk
 from nltk.corpus import stopwords
