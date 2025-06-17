@@ -8,6 +8,10 @@ def load_from_hf(path):
     login(HF_TOKEN)
     return load_dataset(path)['train'].to_pandas()
 
+def load_prompt(file_path):
+    with open(file_path, 'r', encoding='utf-8') as f:
+        return f.read()
+
 def clean_text(text):
     text = text.lower()
     text = re.sub(r"[éèê]", "e", text)

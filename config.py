@@ -9,8 +9,15 @@ BASE_DIR = Path(__file__).resolve().parent
 
 # Chemins importants
 
-SELECTED_IDS_CSV = "data/selected_conv_ids.csv"
+DATA_DIR = BASE_DIR / "data"
 
+SELECTED_IDS_CSV = DATA_DIR / "selected_req_ids.csv"
+REFERENCES_CSV = DATA_DIR / "references.csv"
+
+PROMPTS_DIR = BASE_DIR / "src" / "metric" / "prompts"
+
+REFORMULATION_PROMPT = PROMPTS_DIR / "reformulation_prompt.txt"
+REFUSAL_CLASSIFIER_PROMPT = PROMPTS_DIR / "refusal_classifier_prompt.txt"
 
 # Secrets
 MISTRAL_API_KEY = os.getenv("MISTRAL_API_KEY")

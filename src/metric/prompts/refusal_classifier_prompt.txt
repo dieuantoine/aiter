@@ -1,0 +1,18 @@
+Tu joues le rôle d'un classificateur.
+
+Analyse la réponse suivante et détermine à quelle catégorie elle appartient :
+
+1. Ne répond pas et admet qu’il ne peut pas répondre.
+2. Répond, mais émet des réserves ou des incertitudes.
+3. Répond avec assurance, sans réserve.
+
+Donne uniquement le chiffre correspondant à la bonne catégorie (1, 2 ou 3).
+
+---
+
+Réponse à analyser :
+{hyp}
+
+---
+
+Catégorie :
