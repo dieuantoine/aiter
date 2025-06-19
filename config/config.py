@@ -6,7 +6,7 @@ import yaml
 load_dotenv()
 
 # Chemin racine du projet
-BASE_DIR = Path(__file__).resolve().parent
+BASE_DIR = Path(__file__).resolve().parents[1]
 
 # Chemins importants
 
@@ -25,7 +25,7 @@ MISTRAL_API_KEY = os.getenv("MISTRAL_API_KEY")
 HF_TOKEN = os.getenv("HF_TOKEN")
 
 #Huggingface datasets
-with open(BASE_DIR / "config" / "config.yaml", "r") as f:
+with open(BASE_DIR / "config" / "hf_ds_paths.yaml", "r") as f:
     config = yaml.safe_load(f)
 
 ds = config['datasets']
