@@ -1,6 +1,7 @@
 import os
 from pathlib import Path
 from dotenv import load_dotenv
+import yaml
 
 load_dotenv()
 
@@ -24,11 +25,14 @@ MISTRAL_API_KEY = os.getenv("MISTRAL_API_KEY")
 HF_TOKEN = os.getenv("HF_TOKEN")
 
 #Huggingface datasets
-CONV_DS = "ministere-culture/comparia-conversations"
-REAC_DS = "ministere-culture/comparia-reactions"
+with open(BASE_DIR / "config" / "config.yaml", "r") as f:
+    config = yaml.safe_load(f)
 
-REQ_DS = "dieuant/requests-dataset"
-HYP_DS = "dieuant/hypothesis-dataset"
+ds = config['datasets']
+CONV_DS = ds['CONV_DS']
+REAC_DS = ds['REAC_DS']
+REQ_DS = ds['REQ_DS']
+HYP_DS = ds['HYP_DS']
 
 #French Question Words
 question_words = ['quoi', 'quand', 'comment', 'pourquoi', 'où', 'qui', 'quel', 'quelle', 'quels', 'quelles', 'lequel', 'combien']
