@@ -1,7 +1,10 @@
 from config import REFERENCES_CSV
-from src.metric.reformulation import create_reformulations
-from metric.ter_computation import compute_scores
+from metric.scorer import ScoringPipeline
+
 
 if __name__ == '__main__':
-   create_reformulations(REFERENCES_CSV)
-   compute_scores(REFERENCES_CSV)
+   scorer = ScoringPipeline(REFERENCES_CSV, "test0")
+   scorer.exec_pipeline()
+   scorer.save()
+   
+   
