@@ -7,14 +7,11 @@ tqdm.pandas()
 def compute_ter(ter, ref, hyp):
     return ter.sentence_score(hyp, [ref]).score
 
-def compute_scores(ref_csv):
-    df = pd.read_csv(ref_csv)
+def compute_scores(df):
     ter = TER()
+    mask = df['score'].isna()
+    if mask.any():
+        for idx in df[mask].index:
+            df.at[idx, 'score'] = compute_ter(ter, df.at[idx, 'reference'], df.at[idx, 'reformulation'])
 
-    df["TER"] = df.progress_apply(
-        lambda row: compute_ter(ter, row["reference"], row["reformulation"]),
-        axis=1
-    )
-    
-    df.to_csv(ref_csv, index=False)
-    return
+    return df

@@ -1,0 +1,951 @@
+conv_id,model_id,request_id,request,reference,hypothesis,reformulation,score,request_x,response,liked,disliked,useful,creative,complete,clear_formatting,incorrect,superficial,instructions_not_followed,request_y,reference_created
+625,mistral-large-2411,514,y a t il des cultures de safran en france?,"Oui, on trouve des safraniers dans une quarantaine de départements français, avec une production significative dans le Loiret (safran du Gâtinais), le Lot (safran du Quercy) et dans la Creuse.",,"Oui, on trouve des safraniers dans plusieurs régions françaises. La culture du safran en France remonte à plusieurs siècles, avec des traces historiques dans certaines régions comme le Quercy, dans le Lot, où le safran était cultivé au Moyen Âge. Aujourd'hui, plusieurs régions françaises se distinguent par leur production de safran, notamment le Quercy (Lot), la Provence, la Drôme et le Vaucluse. Le safran français est apprécié pour sa qualité et son goût unique. Les producteurs français mettent souvent l'accent sur des méthodes de culture biologiques et respectueuses de l'environnement. La cueillette du safran est une tâche minutieuse et laborieuse, car elle implique de récolter les stigmates des fleurs de crocus à la main. Cette délicatesse contribue à son prix élevé, souvent considéré comme l'épice la plus chère au monde.",390.0,,"Oui, il y a des cultures de safran en France. En fait, la France est l'un des rares pays européens à produire du safran de haute qualité. La culture du safran en France remonte à plusieurs siècles, avec des traces historiques dans certaines régions comme le Quercy, dans le Lot, où le safran était cultivé au Moyen Âge.
+
+Aujourd'hui, plusieurs régions françaises se distinguent par leur production de safran, notamment :
+
+1. **Le Quercy (Lot)** : Cette région est historiquement connue pour sa culture du safran.
+2. **La Provence** : Certaines zones de la Provence, comme le Vaucluse, sont également renommées pour leur safran.
+3. **La Drôme** : Cette région accueille plusieurs producteurs de safran.
+4. **Le Vaucluse** : Une autre région de Provence où le safran est cultivé.
+
+Le safran français est apprécié pour sa qualité et son goût unique. Les producteurs français mettent souvent l'accent sur des méthodes de culture biologiques et respectueuses de l'environnement. Le safran est une culture délicate qui nécessite des conditions spécifiques, notamment un sol bien drainé et une exposition ensoleillée.
+
+La cueillette du safran est une tâche minutieuse et laborieuse, car elle implique de récolter les stigmates des fleurs de crocus à la main. Cette délicatesse contribue à son prix élevé, souvent considéré comme l'épice la plus chère au monde.
+
+En résumé, bien que le safran ne soit pas cultivé à grande échelle en France, il existe plusieurs régions où cette épice est produite avec soin et passion.",,,,,,,,,,,
+629,lfm-40b,514,y a t il des cultures de safran en france?,"Oui, on trouve des safraniers dans une quarantaine de départements français, avec une production significative dans le Loiret (safran du Gâtinais), le Lot (safran du Quercy) et dans la Creuse.",,"Oui, on trouve des safraniers dans une quarantaine de départements français, avec une production significative en Auvergne, en Provence et en Île-de-France. La production de safran français est connue pour sa qualité et est utilisée dans la cuisine française traditionnelle.",73.33333333333333,,"Oui, il y a des cultures de safran en France, notamment dans les régions d'Auvergne, de Provence et d'Île-de-France. La production de safran français est connue pour sa qualité et est utilisée dans la cuisine française traditionnelle.",,,,,,,,,,,
+1491,ministral-8b-instruct-2410,557,Combien de communes comporte la Métropole de Grenoble,49 communes. Grenoble Alpes Métropole regroupe 49 villes et villages situés en Isère (38).,,"Grenoble Alpes Métropole regroupe 45 communes. Grenoble, Saint-Martin-d'Hères, Meylan, Échirolles, Saint-Quentin-Fallavier, Gières, Crolles, Domène, Montbonnot-Saint-Martin, La Tronche, Sassenage, Saint-Ismier.",114.28571428571428,,"La Métropole de Grenoble est une collectivité territoriale française qui regroupe plusieurs communes. Voici le nombre de communes qui composent la Métropole de Grenoble :
+
+- Grenoble (ville-centre)
+- Saint-Martin-d'Hères
+- Meylan
+- Échirolles
+- Saint-Quentin-Fallavier
+- Gières
+- Crolles
+- Domène
+- Montbonnot-Saint-Martin
+- La Tronche
+- Sassenage
+- Saint-Ismier
+- Saint-Martin-d'Hères
+- Saint-Quentin-Fallavier
+- Gières
+- Crolles
+- Domène
+- Montbonnot-Saint-Martin
+- La Tronche
+- Sassenage
+- Saint-Ismier
+
+En tout, la Métropole de Grenoble compte 45 communes.",,,,,,,,,,,
+1494,gpt-4o-mini-2024-07-18,557,Combien de communes comporte la Métropole de Grenoble,49 communes. Grenoble Alpes Métropole regroupe 49 villes et villages situés en Isère (38).,,Grenoble Alpes Métropole regroupe 49 communes situées en Isère (38). Cette structure intercommunale regroupe des communes autour de la ville de Grenoble et joue un rôle important dans la gestion des services publics et le développement territorial.,221.42857142857144,,"La Métropole de Grenoble, officiellement appelée la Métropole Grenoble-Alpes Métropole, comprend 49 communes. Cette structure intercommunale regroupe des communes autour de la ville de Grenoble et joue un rôle important dans la gestion des services publics et le développement territorial.",,,,,,,,,,,
+1731,gemini-2.0-flash-001,323,Que signifie l'expression beau comme une girafe ?,"L'expression ""beau comme une girafe"" n'est pas une expression connue de la langue française.",,"L'expression ""beau comme une girafe"" est une expression ironique et humoristique. Elle signifie que quelque chose ou quelqu'un n'est pas beau du tout. Elle sous-entend que comparer quelque chose à une girafe en termes de beauté est absurde, car les girafes ne sont généralement pas considérées comme des animaux particulièrement beaux au sens traditionnel du terme. En résumé, l'expression ""beau comme une girafe"" est une façon sarcastique de dire très moche ou pas beau du tout.",478.57142857142856,,"L'expression ""beau comme une girafe"" est une expression **ironique et humoristique** qui signifie que quelque chose ou quelqu'un **n'est pas beau du tout**. 
+
+Elle sous-entend que comparer quelque chose à une girafe en termes de beauté est absurde, car les girafes ne sont généralement pas considérées comme des animaux particulièrement beaux au sens traditionnel du terme.
+
+En résumé, l'expression ""beau comme une girafe"" est une façon sarcastique de dire : **très moche** ou **pas beau du tout**.",,,,,,,,,,,
+1735,claude-3-5-sonnet-v2,323,Que signifie l'expression beau comme une girafe ?,"L'expression ""beau comme une girafe"" n'est pas une expression connue de la langue française.",,"L'expression ""beau comme une girafe"" est utilisée pour décrire quelqu'un de grand et élancé, avec une certaine élégance naturelle. Elle fait référence à la silhouette gracieuse et majestueuse de la girafe, qui est l'animal terrestre le plus grand au monde. Cette expression est plutôt positive et complimenteuse, soulignant particulièrement la grâce et la prestance d'une personne de grande taille.",364.2857142857143,,"L'expression ""beau comme une girafe"" est généralement utilisée pour décrire quelqu'un de grand et élancé, avec une certaine élégance naturelle. Elle fait référence à la silhouette gracieuse et majestueuse de la girafe, qui est l'animal terrestre le plus grand au monde. Cette expression est plutôt positive et complimenteuse, soulignant particulièrement la grâce et la prestance d'une personne de grande taille.",,,,,,,,,,,
+6057,mixtral-8x22b-instruct-v0.1,677,"bonjour, comment s'appelle la mère de francois mitterand",La mère de François Mitterand s'appelait Yvonne Lorrain.,,"La mère de François Mitterrand s'appelait Yvonne Lorrain. Elle a épousé Joseph Mitterrand en 1919 et ils ont eu ensemble plusieurs enfants, dont François Mitterrand, né en 1916.",262.5,,"Bonjour ! La mère de François Mitterrand s'appelait Yvonne Lorrain. Elle a épousé Joseph Mitterrand en 1919 et ils ont eu ensemble plusieurs enfants, dont François Mitterrand, né en 1916.",,,,,,,,,,,
+7257,deepseek-v3-chat,325,détaillez le format ISO 8601,"La norme ISO 8601 est une norme de l'Organisation internationale de normalisation (ISO) qui spécifie la représentation numérique de la date et de l'heure, respectivement basées sur le calendrier grégorien et le système horaire sur 24 heures. Cette notation, créée en 1988, est destinée à éviter toute confusion dans les communications internationales due au grand nombre de notations nationales différentes.
+La représentation de la date et de l'heure est effectuée comme suit, si l'on souhaite être le plus précis possible :
+AAAA-MM-JJTHH:MM:SS,ss-/+FF:ff
+« AAAA » représente l'année sur quatre chiffres (par exemple : 1959) ;
+« MM » représente le mois sur deux chiffres (par exemple : 12 pour décembre) ;
+« JJ » représente le jour du mois sur deux chiffres (par exemple : 25 pour le 25e jour du mois) ;
+« T » pour time permet de séparer les indications de date (à gauche) et d'heure (à droite) ;
+« HH » représente l'heure en système 24 heures (par exemple : 15) ;
+« MM » représente les minutes (par exemple : 20) ;
+« SS » représente les secondes (par exemple : 49) ;
+« ss » représente les fractions de seconde sur autant d'unités que nécessaire (par exemple : 3342) ;
+« -/+» représente le fuseau horaire, où « + » permet d'indiquer un fuseau en avance sur UTC et « - » permet d'indiquer un fuseau en retard sur UTC ;
+« FF » représente le nombre d'heures d'avance ou de retard sur le fuseau horaire UTC ;
+« ff » représente le nombre de minutes d'avance ou de retard sur le fuseau horaire UTC.",,"La norme ISO 8601 est une norme de l'Organisation internationale de normalisation (ISO) qui spécifie la représentation numérique de la date et de l'heure, respectivement basées sur le calendrier grégorien et le système horaire sur 24 heures. Cette notation, créée en 1988, est destinée à éviter toute confusion dans les communications internationales due au grand nombre de notations nationales différentes.
+
+La représentation de la date et de l'heure est effectuée comme suit, si l'on souhaite être le plus précis possible :
+AAAA-MM-JJTHH:MM:SS,ss-/+FF:ff
+
+« AAAA » représente l'année sur quatre chiffres (par exemple : 1959) ;
+« MM » représente le mois sur deux chiffres (par exemple : 12 pour décembre) ;
+« JJ » représente le jour du mois sur deux chiffres (par exemple : 25 pour le 25e jour du mois) ;
+« T » pour time permet de séparer les indications de date (à gauche) et d'heure (à droite) ;
+« HH » représente l'heure en système 24 heures (par exemple : 15) ;
+« MM » représente les minutes (par exemple : 20) ;
+« SS » représente les secondes (par exemple : 49) ;
+« ss » représente les fractions de seconde sur autant d'unités que nécessaire (par exemple : 3342) ;
+« -/+» représente le fuseau horaire, où « + » permet d'indiquer un fuseau en avance sur UTC et « - » permet d'indiquer un fuseau en retard sur UTC ;
+« FF » représente le nombre d'heures d'avance ou de retard sur le fuseau horaire UTC ;
+« ff » représente le nombre de minutes d'avance ou de retard sur le fuseau horaire UTC.
+
+### 1. Date
+- **Format de base** : `YYYYMMDD`
+  - `YYYY` : Année sur 4 chiffres (ex: 2023)
+  - `MM` : Mois sur 2 chiffres (ex: 10 pour octobre)
+  - `DD` : Jour sur 2 chiffres (ex: 05)
+  - Exemple : `20231005` pour le 5 octobre 2023.
+
+- **Format étendu** : `YYYY-MM-DD`
+  - Les éléments sont séparés par des tirets.
+  - Exemple : `2023-10-05` pour le 5 octobre 2023.
+
+### 2. Heure
+- **Format de base** : `hhmmss`
+  - `hh` : Heure sur 2 chiffres (00 à 23)
+  - `mm` : Minute sur 2 chiffres (00 à 59)
+  - `ss` : Seconde sur 2 chiffres (00 à 59)
+  - Exemple : `142536` pour 14 heures, 25 minutes et 36 secondes.
+
+- **Format étendu** : `hh:mm:ss`
+  - Les éléments sont séparés par des deux-points.
+  - Exemple : `14:25:36` pour 14 heures, 25 minutes et 36 secondes.
+
+- **Fractions de seconde** : `hh:mm:ss.sss`
+  - Les fractions de seconde sont séparées par un point.
+  - Exemple : `14:25:36.123` pour 14 heures, 25 minutes, 36 secondes et 123 millisecondes.
+
+### 3. Date et Heure Combinées
+- **Format de base** : `YYYYMMDDThhmmss`
+  - Le `T` sépare la date de l'heure.
+  - Exemple : `20231005T142536` pour le 5 octobre 2023 à 14:25:36.
+
+- **Format étendu** : `YYYY-MM-DDThh:mm:ss`
+  - Exemple : `2023-10-05T14:25:36` pour le 5 octobre 2023 à 14:25:36.
+
+- **Avec fuseau horaire** : `YYYY-MM-DDThh:mm:ss±hh:mm`
+  - Le fuseau horaire est indiqué par un décalage par rapport à UTC.
+  - Exemple : `2023-10-05T14:25:36+02:00` pour le 5 octobre 2023 à 14:25:36 dans un fuseau horaire UTC+2.
+
+### 4. Durée
+- **Format de base** : `PnYnMnDTnHnMnS`
+  - `P` indique le début de la durée.
+  - `Y` pour les années, `M` pour les mois, `D` pour les jours.
+  - `T` sépare la date de l'heure.
+  - `H` pour les heures, `M` pour les minutes, `S` pour les secondes.
+  - Exemple : `P1Y2M3DT4H5M6S` pour une durée de 1 an, 2 mois, 3 jours, 4 heures, 5 minutes et 6 secondes.
+
+### 5. Intervalle
+- **Format de base** : `start/end`
+  - `start` et `end` sont des dates ou des heures au format ISO 8601.
+  - Exemple : `2023-10-05T14:25:36/2023-10-06T15:30:00` pour un intervalle entre deux dates et heures.
+
+### 6. Fuseau horaire
+- **UTC** : `Z`
+  - Exemple : `2023-10-05T14:25:36Z` pour 14:25:36 UTC.
+- **Décalage** : `±hh:mm`
+  - Exemple : `2023-10-05T14:25:36+02:00` pour 14:25:36 dans un fuseau horaire UTC+2.
+
+### 7. Semaine
+- **Format de base** : `YYYY-Www`
+  - `YYYY` : Année sur 4 chiffres.
+  - `W` : Indicateur de semaine.
+  - `ww` : Numéro de la semaine (01 à 53).
+  - Exemple : `2023-W40` pour la 40e semaine de 2023.
+
+- **Avec jour de la semaine** : `YYYY-Www-D`
+  - `D` : Jour de la semaine (1 pour lundi, 7 pour dimanche).
+  - Exemple : `2023-W40-3` pour le mercredi de la 40e semaine de 2023.
+
+### 8. Ordre du jour
+- **Format de base** : `YYYY-DDD`
+  - `YYYY` : Année sur 4 chiffres.
+  - `DDD` : Jour de l'année (001 à 366).
+  - Exemple : `2023-278` pour le 278e jour de 2023.
+
+### 9. Heure réduite
+- **Heure et minute** : `hh:mm`
+  - Exemple : `14:25` pour 14 heures et 25 minutes.
+- **Heure seule** : `hh`
+  - Exemple : `14` pour 14 heures.
+
+### 10. Date réduite
+- **Année et mois** : `YYYY-MM`
+  - Exemple : `2023-10` pour octobre 2023.
+- **Année seule** : `YYYY`
+  - Exemple : `2023` pour l'année 2023.
+
+### 11. Heure de minuit
+- **Minuit** : `00:00:00`
+  - Exemple : `2023-10-05T00:00:00` pour minuit le 5 octobre 2023.
+
+### 12. Heure de fin de journée
+- **Fin de journée** : `24:00:00`
+  - Exemple : `2023-10-05T24:00:00` pour la fin du 5 octobre 2023 (équivalent à `2023-10-06T00:00:00`).
+
+### 13. Heure avec secondes optionnelles
+- **Secondes optionnelles** : `hh:mm[:ss]`
+  - Les secondes peuvent être omises.
+  - Exemple : `14:25` ou `14:25:36`.
+
+### 14. Date avec jour optionnel
+- **Jour optionnel** : `YYYY-MM[-DD]`
+  - Le jour peut être omis.
+  - Exemple : `2023-10` ou `2023-10-05`.
+
+### 15. Date avec mois optionnel
+- **Mois optionnel** : `YYYY[-MM[-DD]]`
+  - Le mois et le jour peuvent être omis.
+  - Exemple : `2023`, `2023-10`, ou `2023-10-05`.
+
+### 16. Heure avec fuseau horaire optionnel
+- **Fuseau horaire optionnel** : `hh:mm[:ss][±hh:mm]`
+  - Le fuseau horaire peut être omis.
+  - Exemple : `14:25`, `14:25:36`, ou `14:25:36+02:00`.
+
+### 17. Date et heure avec fuseau horaire optionnel
+- **Fuseau horaire optionnel** : `YYYY-MM-DDThh:mm[:ss][±hh:mm]`
+  - Le fuseau horaire peut être omis.
+  - Exemple : `2023-10-05T14:25`, `2023-10-05T14:25:36`, ou `2023-10-05T14:25:36+02:00`.
+
+### 18. Durée avec composants optionnels
+- **Composants optionnels** : `P[nY][nM][nD][T[nH][nM][nS]]`
+  - Les composants peuvent être omis.
+  - Exemple : `P1Y`, `P1Y2M`, `P1Y2M3D`, `PT4H`, `PT4H5M`, `PT4H5M6S`.
+
+### 19. Intervalle avec composants optionnels
+- **Composants optionnels** : `start[/end]`
+  - L'intervalle peut être ouvert.
+  - Exemple : `2023-10-05T14:25:36/` pour un intervalle commençant à cette date et heure.
+
+### 20. Semaine avec jour optionnel
+- **Jour optionnel** : `YYYY-Www[-D]`
+  - Le jour peut être omis.
+  - Exemple : `2023-W40` ou `2023-W40-3`.
+
+### 21. Ordre du jour avec jour optionnel
+- **Jour optionnel** : `YYYY[-DDD]`
+  - Le jour peut être omis.
+  - Exemple : `2023` ou `2023-278`.
+
+### 22. Heure réduite avec secondes optionnelles
+- **Secondes optionnelles** : `hh[:mm[:ss]]`
+  - Les minutes et secondes peuvent être omises.
+  - Exemple : `14`, `14:25`, ou `14:25:36`.
+
+### 23. Date réduite avec jour optionnel
+- **Jour optionnel** : `YYYY[-MM[-DD]]`
+  - Le mois et le jour peuvent être omis.
+  - Exemple : `2023`, `2023-10`, ou `2023-10-05`.
+
+### 24. Heure de minuit avec secondes optionnelles
+- **Secondes optionnelles** : `00:00[:00]`
+  - Les secondes peuvent être omises.
+  - Exemple : `00:00` ou `00:00:00`.
+
+### 25. Heure de fin de journée avec secondes optionnelles
+- **Secondes optionnelles** : `24:00[:00]`
+  - Les secondes peuvent être omises.
+  - Exemple : `24:00` ou `24:00:00`.
+
+### 26. Heure avec secondes et fuseau horaire optionnels
+- **Secondes et fuseau horaire optionnels** : `hh:mm[:ss][±hh:mm]`
+  - Les secondes et le fuseau horaire peuvent être omis.
+  - Exemple : `14:25`, `14:25:36`, ou `14:25:36+02:00`.
+
+### 27. Date et heure avec secondes et fuseau horaire optionnels
+- **Secondes et fuseau horaire optionnels** : `YYYY-MM-DDThh:mm[:ss][±hh:mm]`
+  - Les secondes et le fuseau horaire peuvent être omis.
+  - Exemple : `2023-10-05T14:25`, `2023-10-05T14:25:36`, ou `2023-10-05T14:25:36+02:00`.
+
+### 28. Durée avec composants et fuseau horaire optionnels
+- **Composants et fuseau horaire optionnels** : `P[nY][nM][nD][T[nH][nM][nS]][±hh:mm]`
+  - Les composants et le fuseau horaire peuvent être omis.
+  - Exemple : `P1Y`, `P1Y2M`, `P1Y2M3D`, `PT4H`, `PT4H5M`, `PT4H5M6S`, `P1Y2M3DT4H5M6S+02:00`.
+
+### 29. Intervalle avec composants et fuseau horaire optionnels
+- **Composants et fuseau horaire optionnels** : `start[/end][±hh:mm]`
+  - Les composants et le fuseau horaire peuvent être omis.
+  - Exemple : `2023-10-05T14:25:36/`, `2023-10-05T14:25:36/2023-10-06T15:30:00`, ou `2023-10-05T14:25:36+02:00/2023-10-06T15:30:00+02:00`.
+
+### 30. Semaine avec jour et fuseau horaire optionnels
+- **Jour et fuseau horaire optionnels** : `YYYY-Www[-D][±hh:mm]`
+  - Le jour et le fuseau horaire peuvent être omis.
+  - Exemple : `2023-W40`, `2023-W40-3`, ou `2023-W40-3+02:00`.
+
+### 31. Ordre du jour avec jour et fuseau horaire optionnels
+- **Jour et fuseau horaire optionnels** : `YYYY[-DDD][±hh:mm]`
+  - Le jour et le fuseau horaire peuvent être omis.
+  - Exemple : `2023`, `2023-278`, ou `2023-278+02:00`.
+
+### 32. Heure réduite avec secondes et fuseau horaire optionnels
+- **Secondes et fuseau horaire optionnels** : `hh[:mm[:ss]][±hh:mm]`
+  - Les minutes, secondes et fuseau horaire peuvent être omis.
+  - Exemple : `14`, `14:25`, `14:25:36`, ou `14:25:36+02:00`.
+
+### 33. Date réduite avec jour et fuseau horaire optionnels
+- **Jour et fuseau horaire optionnels** : `YYYY[-MM[-DD]][±hh:mm]`
+  - Le mois, jour et fuseau horaire peuvent être omis.
+  - Exemple : `2023`, `2023-10`, `2023-10-05`, ou `2023-10-05+02:00`.
+
+### 34. Heure de minuit avec secondes et fuseau horaire optionnels
+- **Secondes et fuseau horaire optionnels** : `00:00[:00][±hh:mm]`
+  - Les secondes et le fuseau horaire peuvent être omis.
+  - Exemple : `00:00`, `00:00:00`, ou `00:00:00+02:00`.
+
+### 35. Heure de fin de journée avec secondes et fuseau horaire optionnels
+- **Secondes et fuseau horaire optionnels** : `24:00[:00][±hh:mm]`
+  - Les secondes et le fuseau horaire peuvent être omis.
+  - Exemple : `24:00`, `24:00:00`, ou `24:00:00+02:00`.
+
+### 36. Heure avec secondes, fractions de seconde et fuseau horaire optionnels
+- **Secondes, fractions de seconde et fuseau horaire optionnels** : `hh:mm[:ss[.sss]][±hh:mm]`
+  - Les secondes, fractions de seconde et fuseau horaire peuvent être omis.
+  - Exemple : `14:25`, `14:25:36`, `14:25:36.123`, ou `14:25:36.123+02:00`.
+
+### 37. Date et heure avec secondes, fractions de seconde et fuseau horaire optionnels
+- **Secondes, fractions de seconde et fuseau horaire optionnels** : `YYYY-MM-DDThh:mm[:ss[.sss]][±hh:mm]`
+  - Les secondes, fractions de seconde et fuseau horaire peuvent être omis.
+  - Exemple : `2023-10-05T14:25`, `2023-10-05T14:25:36`, `2023-10-05T14:25:36.123`, ou `2023-10-05T14:25:36.123+02:00`.
+
+### 38. Durée avec composants, fractions de seconde et fuseau horaire optionnels
+- **Composants, fractions de seconde et fuseau horaire optionnels** : `P[nY][nM][nD][T[nH][nM][nS[.sss]]][±hh:mm]`
+  - Les composants, fractions de seconde et fuseau horaire peuvent être omis.
+  - Exemple : `P1Y`, `P1Y2M`, `P1Y2M3D`, `PT4H`, `PT4H5M`, `PT4H5M6S`, `PT4H5M6S.123`, `P1Y2M3DT4H5M6S.123+02:00`.
+
+### 39. Intervalle avec composants, fractions de seconde et fuseau horaire optionnels
+- **Composants, fractions de seconde et fuseau horaire optionnels** : `start[/end][±hh:mm]`
+  - Les composants, fractions de seconde et fuseau horaire peuvent être omis.
+  - Exemple : `2023-10-05T14:25:36/`, `2023-10-05T14:25:36/2023-10-06T15:30:00`, `2023-10-05T14:25:36.123/2023-10-06T15:30:00.456`, ou `2023-10-05T14:25:36.123+02:00/2023-10-06T15:30:00.456+02:00`.
+
+### 40. Semaine avec jour, fractions de seconde et fuseau horaire optionnels
+- **Jour, fractions de seconde et fuseau horaire optionnels** : `YYYY-Www[-D][±hh:mm]`
+  - Le jour, fractions de seconde et fuseau horaire peuvent être omis.
+  - Exemple : `2023-W40`, `2023-W40-3`, ou `2023-W40-3+02:00`.",629.1512915129151,,"Le format ISO 8601 est une norme internationale pour la représentation des dates et des heures. Il est conçu pour être clair, sans ambiguïté et facile à interpréter par les machines. Voici les principaux éléments et formats du standard ISO 8601 :
+
+### 1. **Date**
+   - **Format de base** : `YYYYMMDD`
+     - `YYYY` : Année sur 4 chiffres (ex: 2023)
+     - `MM` : Mois sur 2 chiffres (ex: 10 pour octobre)
+     - `DD` : Jour sur 2 chiffres (ex: 05)
+     - Exemple : `20231005` pour le 5 octobre 2023.
+
+   - **Format étendu** : `YYYY-MM-DD`
+     - Les éléments sont séparés par des tirets.
+     - Exemple : `2023-10-05` pour le 5 octobre 2023.
+
+### 2. **Heure**
+   - **Format de base** : `hhmmss`
+     - `hh` : Heure sur 2 chiffres (00 à 23)
+     - `mm` : Minute sur 2 chiffres (00 à 59)
+     - `ss` : Seconde sur 2 chiffres (00 à 59)
+     - Exemple : `142536` pour 14 heures, 25 minutes et 36 secondes.
+
+   - **Format étendu** : `hh:mm:ss`
+     - Les éléments sont séparés par des deux-points.
+     - Exemple : `14:25:36` pour 14 heures, 25 minutes et 36 secondes.
+
+   - **Fractions de seconde** : `hh:mm:ss.sss`
+     - Les fractions de seconde sont séparées par un point.
+     - Exemple : `14:25:36.123` pour 14 heures, 25 minutes, 36 secondes et 123 millisecondes.
+
+### 3. **Date et Heure Combinées**
+   - **Format de base** : `YYYYMMDDThhmmss`
+     - Le `T` sépare la date de l'heure.
+     - Exemple : `20231005T142536` pour le 5 octobre 2023 à 14:25:36.
+
+   - **Format étendu** : `YYYY-MM-DDThh:mm:ss`
+     - Exemple : `2023-10-05T14:25:36` pour le 5 octobre 2023 à 14:25:36.
+
+   - **Avec fuseau horaire** : `YYYY-MM-DDThh:mm:ss±hh:mm`
+     - Le fuseau horaire est indiqué par un décalage par rapport à UTC.
+     - Exemple : `2023-10-05T14:25:36+02:00` pour le 5 octobre 2023 à 14:25:36 dans un fuseau horaire UTC+2.
+
+### 4. **Durée**
+   - **Format de base** : `PnYnMnDTnHnMnS`
+     - `P` indique le début de la durée.
+     - `Y` pour les années, `M` pour les mois, `D` pour les jours.
+     - `T` sépare la date de l'heure.
+     - `H` pour les heures, `M` pour les minutes, `S` pour les secondes.
+     - Exemple : `P1Y2M3DT4H5M6S` pour une durée de 1 an, 2 mois, 3 jours, 4 heures, 5 minutes et 6 secondes.
+
+### 5. **Intervalle**
+   - **Format de base** : `start/end`
+     - `start` et `end` sont des dates ou des heures au format ISO 8601.
+     - Exemple : `2023-10-05T14:25:36/2023-10-06T15:30:00` pour un intervalle entre deux dates et heures.
+
+### 6. **Fuseau horaire**
+   - **UTC** : `Z`
+     - Exemple : `2023-10-05T14:25:36Z` pour 14:25:36 UTC.
+   - **Décalage** : `±hh:mm`
+     - Exemple : `2023-10-05T14:25:36+02:00` pour 14:25:36 dans un fuseau horaire UTC+2.
+
+### 7. **Semaine**
+   - **Format de base** : `YYYY-Www`
+     - `YYYY` : Année sur 4 chiffres.
+     - `W` : Indicateur de semaine.
+     - `ww` : Numéro de la semaine (01 à 53).
+     - Exemple : `2023-W40` pour la 40e semaine de 2023.
+
+   - **Avec jour de la semaine** : `YYYY-Www-D`
+     - `D` : Jour de la semaine (1 pour lundi, 7 pour dimanche).
+     - Exemple : `2023-W40-3` pour le mercredi de la 40e semaine de 2023.
+
+### 8. **Ordre du jour**
+   - **Format de base** : `YYYY-DDD`
+     - `YYYY` : Année sur 4 chiffres.
+     - `DDD` : Jour de l'année (001 à 366).
+     - Exemple : `2023-278` pour le 278e jour de 2023.
+
+### 9. **Heure réduite**
+   - **Heure et minute** : `hh:mm`
+     - Exemple : `14:25` pour 14 heures et 25 minutes.
+   - **Heure seule** : `hh`
+     - Exemple : `14` pour 14 heures.
+
+### 10. **Date réduite**
+   - **Année et mois** : `YYYY-MM`
+     - Exemple : `2023-10` pour octobre 2023.
+   - **Année seule** : `YYYY`
+     - Exemple : `2023` pour l'année 2023.
+
+### 11. **Heure de minuit**
+   - **Minuit** : `00:00:00`
+     - Exemple : `2023-10-05T00:00:00` pour minuit le 5 octobre 2023.
+
+### 12. **Heure de fin de journée**
+   - **Fin de journée** : `24:00:00`
+     - Exemple : `2023-10-05T24:00:00` pour la fin du 5 octobre 2023 (équivalent à `2023-10-06T00:00:00`).
+
+### 13. **Heure avec secondes optionnelles**
+   - **Secondes optionnelles** : `hh:mm[:ss]`
+     - Les secondes peuvent être omises.
+     - Exemple : `14:25` ou `14:25:36`.
+
+### 14. **Date avec jour optionnel**
+   - **Jour optionnel** : `YYYY-MM[-DD]`
+     - Le jour peut être omis.
+     - Exemple : `2023-10` ou `2023-10-05`.
+
+### 15. **Date avec mois optionnel**
+   - **Mois optionnel** : `YYYY[-MM[-DD]]`
+     - Le mois et le jour peuvent être omis.
+     - Exemple : `2023`, `2023-10`, ou `2023-10-05`.
+
+### 16. **Heure avec fuseau horaire optionnel**
+   - **Fuseau horaire optionnel** : `hh:mm[:ss][±hh:mm]`
+     - Le fuseau horaire peut être omis.
+     - Exemple : `14:25`, `14:25:36`, ou `14:25:36+02:00`.
+
+### 17. **Date et heure avec fuseau horaire optionnel**
+   - **Fuseau horaire optionnel** : `YYYY-MM-DDThh:mm[:ss][±hh:mm]`
+     - Le fuseau horaire peut être omis.
+     - Exemple : `2023-10-05T14:25`, `2023-10-05T14:25:36`, ou `2023-10-05T14:25:36+02:00`.
+
+### 18. **Durée avec composants optionnels**
+   - **Composants optionnels** : `P[nY][nM][nD][T[nH][nM][nS]]`
+     - Les composants peuvent être omis.
+     - Exemple : `P1Y`, `P1Y2M`, `P1Y2M3D`, `PT4H`, `PT4H5M`, `PT4H5M6S`.
+
+### 19. **Intervalle avec composants optionnels**
+   - **Composants optionnels** : `start[/end]`
+     - L'intervalle peut être ouvert.
+     - Exemple : `2023-10-05T14:25:36/` pour un intervalle commençant à cette date et heure.
+
+### 20. **Semaine avec jour optionnel**
+   - **Jour optionnel** : `YYYY-Www[-D]`
+     - Le jour peut être omis.
+     - Exemple : `2023-W40` ou `2023-W40-3`.
+
+### 21. **Ordre du jour avec jour optionnel**
+   - **Jour optionnel** : `YYYY[-DDD]`
+     - Le jour peut être omis.
+     - Exemple : `2023` ou `2023-278`.
+
+### 22. **Heure réduite avec secondes optionnelles**
+   - **Secondes optionnelles** : `hh[:mm[:ss]]`
+     - Les minutes et secondes peuvent être omises.
+     - Exemple : `14`, `14:25`, ou `14:25:36`.
+
+### 23. **Date réduite avec jour optionnel**
+   - **Jour optionnel** : `YYYY[-MM[-DD]]`
+     - Le mois et le jour peuvent être omis.
+     - Exemple : `2023`, `2023-10`, ou `2023-10-05`.
+
+### 24. **Heure de minuit avec secondes optionnelles**
+   - **Secondes optionnelles** : `00:00[:00]`
+     - Les secondes peuvent être omises.
+     - Exemple : `00:00` ou `00:00:00`.
+
+### 25. **Heure de fin de journée avec secondes optionnelles**
+   - **Secondes optionnelles** : `24:00[:00]`
+     - Les secondes peuvent être omises.
+     - Exemple : `24:00` ou `24:00:00`.
+
+### 26. **Heure avec secondes et fuseau horaire optionnels**
+   - **Secondes et fuseau horaire optionnels** : `hh:mm[:ss][±hh:mm]`
+     - Les secondes et le fuseau horaire peuvent être omis.
+     - Exemple : `14:25`, `14:25:36`, ou `14:25:36+02:00`.
+
+### 27. **Date et heure avec secondes et fuseau horaire optionnels**
+   - **Secondes et fuseau horaire optionnels** : `YYYY-MM-DDThh:mm[:ss][±hh:mm]`
+     - Les secondes et le fuseau horaire peuvent être omis.
+     - Exemple : `2023-10-05T14:25`, `2023-10-05T14:25:36`, ou `2023-10-05T14:25:36+02:00`.
+
+### 28. **Durée avec composants et fuseau horaire optionnels**
+   - **Composants et fuseau horaire optionnels** : `P[nY][nM][nD][T[nH][nM][nS]][±hh:mm]`
+     - Les composants et le fuseau horaire peuvent être omis.
+     - Exemple : `P1Y`, `P1Y2M`, `P1Y2M3D`, `PT4H`, `PT4H5M`, `PT4H5M6S`, `P1Y2M3DT4H5M6S+02:00`.
+
+### 29. **Intervalle avec composants et fuseau horaire optionnels**
+   - **Composants et fuseau horaire optionnels** : `start[/end][±hh:mm]`
+     - Les composants et le fuseau horaire peuvent être omis.
+     - Exemple : `2023-10-05T14:25:36/`, `2023-10-05T14:25:36/2023-10-06T15:30:00`, ou `2023-10-05T14:25:36+02:00/2023-10-06T15:30:00+02:00`.
+
+### 30. **Semaine avec jour et fuseau horaire optionnels**
+   - **Jour et fuseau horaire optionnels** : `YYYY-Www[-D][±hh:mm]`
+     - Le jour et le fuseau horaire peuvent être omis.
+     - Exemple : `2023-W40`, `2023-W40-3`, ou `2023-W40-3+02:00`.
+
+### 31. **Ordre du jour avec jour et fuseau horaire optionnels**
+   - **Jour et fuseau horaire optionnels** : `YYYY[-DDD][±hh:mm]`
+     - Le jour et le fuseau horaire peuvent être omis.
+     - Exemple : `2023`, `2023-278`, ou `2023-278+02:00`.
+
+### 32. **Heure réduite avec secondes et fuseau horaire optionnels**
+   - **Secondes et fuseau horaire optionnels** : `hh[:mm[:ss]][±hh:mm]`
+     - Les minutes, secondes et fuseau horaire peuvent être omis.
+     - Exemple : `14`, `14:25`, `14:25:36`, ou `14:25:36+02:00`.
+
+### 33. **Date réduite avec jour et fuseau horaire optionnels**
+   - **Jour et fuseau horaire optionnels** : `YYYY[-MM[-DD]][±hh:mm]`
+     - Le mois, jour et fuseau horaire peuvent être omis.
+     - Exemple : `2023`, `2023-10`, `2023-10-05`, ou `2023-10-05+02:00`.
+
+### 34. **Heure de minuit avec secondes et fuseau horaire optionnels**
+   - **Secondes et fuseau horaire optionnels** : `00:00[:00][±hh:mm]`
+     - Les secondes et le fuseau horaire peuvent être omis.
+     - Exemple : `00:00`, `00:00:00`, ou `00:00:00+02:00`.
+
+### 35. **Heure de fin de journée avec secondes et fuseau horaire optionnels**
+   - **Secondes et fuseau horaire optionnels** : `24:00[:00][±hh:mm]`
+     - Les secondes et le fuseau horaire peuvent être omis.
+     - Exemple : `24:00`, `24:00:00`, ou `24:00:00+02:00`.
+
+### 36. **Heure avec secondes, fractions de seconde et fuseau horaire optionnels**
+   - **Secondes, fractions de seconde et fuseau horaire optionnels** : `hh:mm[:ss[.sss]][±hh:mm]`
+     - Les secondes, fractions de seconde et fuseau horaire peuvent être omis.
+     - Exemple : `14:25`, `14:25:36`, `14:25:36.123`, ou `14:25:36.123+02:00`.
+
+### 37. **Date et heure avec secondes, fractions de seconde et fuseau horaire optionnels**
+   - **Secondes, fractions de seconde et fuseau horaire optionnels** : `YYYY-MM-DDThh:mm[:ss[.sss]][±hh:mm]`
+     - Les secondes, fractions de seconde et fuseau horaire peuvent être omis.
+     - Exemple : `2023-10-05T14:25`, `2023-10-05T14:25:36`, `2023-10-05T14:25:36.123`, ou `2023-10-05T14:25:36.123+02:00`.
+
+### 38. **Durée avec composants, fractions de seconde et fuseau horaire optionnels**
+   - **Composants, fractions de seconde et fuseau horaire optionnels** : `P[nY][nM][nD][T[nH][nM][nS[.sss]]][±hh:mm]`
+     - Les composants, fractions de seconde et fuseau horaire peuvent être omis.
+     - Exemple : `P1Y`, `P1Y2M`, `P1Y2M3D`, `PT4H`, `PT4H5M`, `PT4H5M6S`, `PT4H5M6S.123`, `P1Y2M3DT4H5M6S.123+02:00`.
+
+### 39. **Intervalle avec composants, fractions de seconde et fuseau horaire optionnels**
+   - **Composants, fractions de seconde et fuseau horaire optionnels** : `start[/end][±hh:mm]`
+     - Les composants, fractions de seconde et fuseau horaire peuvent être omis.
+     - Exemple : `2023-10-05T14:25:36/`, `2023-10-05T14:25:36/2023-10-06T15:30:00`, `2023-10-05T14:25:36.123/2023-10-06T15:30:00.456`, ou `2023-10-05T14:25:36.123+02:00/2023-10-06T15:30:00.456+02:00`.
+
+### 40. **Semaine avec jour, fractions de seconde et fuseau horaire optionnels**
+   - **Jour, fractions de seconde et fuseau horaire optionnels** : `YYYY-Www[-D][±hh:mm]`
+     - Le jour, fractions de seconde et fuseau horaire peuvent être omis.
+     - Ex",,,,,,,,,,,
+17903,mistral-small-3.1-24b,325,détaillez le format ISO 8601,"La norme ISO 8601 est une norme de l'Organisation internationale de normalisation (ISO) qui spécifie la représentation numérique de la date et de l'heure, respectivement basées sur le calendrier grégorien et le système horaire sur 24 heures. Cette notation, créée en 1988, est destinée à éviter toute confusion dans les communications internationales due au grand nombre de notations nationales différentes.
+La représentation de la date et de l'heure est effectuée comme suit, si l'on souhaite être le plus précis possible :
+AAAA-MM-JJTHH:MM:SS,ss-/+FF:ff
+« AAAA » représente l'année sur quatre chiffres (par exemple : 1959) ;
+« MM » représente le mois sur deux chiffres (par exemple : 12 pour décembre) ;
+« JJ » représente le jour du mois sur deux chiffres (par exemple : 25 pour le 25e jour du mois) ;
+« T » pour time permet de séparer les indications de date (à gauche) et d'heure (à droite) ;
+« HH » représente l'heure en système 24 heures (par exemple : 15) ;
+« MM » représente les minutes (par exemple : 20) ;
+« SS » représente les secondes (par exemple : 49) ;
+« ss » représente les fractions de seconde sur autant d'unités que nécessaire (par exemple : 3342) ;
+« -/+» représente le fuseau horaire, où « + » permet d'indiquer un fuseau en avance sur UTC et « - » permet d'indiquer un fuseau en retard sur UTC ;
+« FF » représente le nombre d'heures d'avance ou de retard sur le fuseau horaire UTC ;
+« ff » représente le nombre de minutes d'avance ou de retard sur le fuseau horaire UTC.",,"La norme ISO 8601 est une norme de l'Organisation internationale de normalisation (ISO) qui spécifie la représentation numérique de la date et de l'heure, respectivement basées sur le calendrier grégorien et le système horaire sur 24 heures. Cette notation, créée en 1988, est destinée à éviter toute confusion dans les communications internationales due au grand nombre de notations nationales différentes.
+
+La représentation de la date et de l'heure est effectuée comme suit, si l'on souhaite être le plus précis possible :
+AAAA-MM-JJTHH:MM:SS,ss-/+FF:ff
+
+« AAAA » représente l'année sur quatre chiffres (par exemple : 2023) ;
+« MM » représente le mois sur deux chiffres (par exemple : 10 pour octobre) ;
+« JJ » représente le jour du mois sur deux chiffres (par exemple : 05 pour le 5e jour du mois) ;
+« T » pour time permet de séparer les indications de date (à gauche) et d'heure (à droite) ;
+« HH » représente l'heure en système 24 heures (par exemple : 14) ;
+« MM » représente les minutes (par exemple : 30) ;
+« SS » représente les secondes (par exemple : 00) ;
+« ss » représente les fractions de seconde sur autant d'unités que nécessaire (par exemple : 3342) ;
+« -/+» représente le fuseau horaire, où « + » permet d'indiquer un fuseau en avance sur UTC et « - » permet d'indiquer un fuseau en retard sur UTC ;
+« FF » représente le nombre d'heures d'avance ou de retard sur le fuseau horaire UTC ;
+« ff » représente le nombre de minutes d'avance ou de retard sur le fuseau horaire UTC.
+
+La norme ISO 8601 est conçue pour être claire, non ambiguë et facile à utiliser dans les systèmes informatiques et les communications internationales. Voici un aperçu détaillé des différentes parties de cette norme :
+
+### Dates
+
+1. **Format de base (année-mois-jour)** :
+   - **Exemple** : `2023-10-05`
+   - **Description** : Année sur 4 chiffres, mois sur 2 chiffres, jour sur 2 chiffres.
+
+2. **Format étendu (année-mois-jour avec séparateurs)** :
+   - **Exemple** : `20231005`
+   - **Description** : Année sur 4 chiffres, mois sur 2 chiffres, jour sur 2 chiffres, sans séparateurs.
+
+3. **Dates incomplètes** :
+   - **Exemple** : `2023-10` (année et mois)
+   - **Exemple** : `2023` (année seulement)
+   - **Description** : Peut représenter des dates incomplètes, utiles pour des périodes ou des intervalles.
+
+### Heures
+
+1. **Format de base (heure-minute-seconde)** :
+   - **Exemple** : `143000`
+   - **Description** : Heure sur 2 chiffres, minute sur 2 chiffres, seconde sur 2 chiffres.
+
+2. **Format étendu (heure-minute-seconde avec séparateurs)** :
+   - **Exemple** : `14:30:00`
+   - **Description** : Heure sur 2 chiffres, minute sur 2 chiffres, seconde sur 2 chiffres, avec des deux-points comme séparateurs.
+
+3. **Heures incomplètes** :
+   - **Exemple** : `1430` (heure et minute)
+   - **Exemple** : `14` (heure seulement)
+   - **Description** : Peut représenter des heures incomplètes.
+
+### Dates et heures combinées
+
+1. **Format de base (date et heure)** :
+   - **Exemple** : `20231005T143000`
+   - **Description** : Date et heure combinées sans séparateurs, avec un `T` pour séparer la date de l'heure.
+
+2. **Format étendu (date et heure avec séparateurs)** :
+   - **Exemple** : `2023-10-05T14:30:00`
+   - **Description** : Date et heure combinées avec des séparateurs, avec un `T` pour séparer la date de l'heure.
+
+### Fuseaux horaires
+
+1. **Fuseau horaire avec décalage** :
+   - **Exemple** : `2023-10-05T14:30:00+02:00`
+   - **Description** : Heure avec un décalage par rapport à UTC (Coordinated Universal Time).
+
+2. **Fuseau horaire avec nom** :
+   - **Exemple** : `2023-10-05T14:30:00Z`
+   - **Description** : `Z` indique l'heure UTC (Zulu time).
+
+### Durées
+
+1. **Format de base (durée)** :
+   - **Exemple** : `P1Y2M3DT4H5M6S`
+   - **Description** : `P` indique une période, suivie de `Y` pour années, `M` pour mois, `D` pour jours, `T` pour temps, `H` pour heures, `M` pour minutes, `S` pour secondes.
+
+### Périodes
+
+1. **Format de base (période)** :
+   - **Exemple** : `2023-10-05/2023-10-10`
+   - **Description** : Période entre deux dates.
+
+### Exemples pratiques
+
+- **Date complète** : `2023-10-05`
+- **Heure complète** : `14:30:00`
+- **Date et heure combinées** : `2023-10-05T14:30:00`
+- **Date et heure avec fuseau horaire** : `2023-10-05T14:30:00+02:00`
+- **Durée** : `P1Y2M3DT4H5M6S`
+- **Période** : `2023-10-05/2023-10-10`",222.87822878228783,,"L'ISO 8601 est une norme internationale pour la représentation des dates et des heures. Elle est conçue pour être claire, non ambiguë et facile à utiliser dans les systèmes informatiques et les communications internationales. Voici un aperçu détaillé des différentes parties de cette norme :
+
+### Dates
+
+1. **Format de base (année-mois-jour)** :
+   - **Exemple** : `2023-10-05`
+   - **Description** : Année sur 4 chiffres, mois sur 2 chiffres, jour sur 2 chiffres.
+
+2. **Format étendu (année-mois-jour avec séparateurs)** :
+   - **Exemple** : `20231005`
+   - **Description** : Année sur 4 chiffres, mois sur 2 chiffres, jour sur 2 chiffres, sans séparateurs.
+
+3. **Dates incomplètes** :
+   - **Exemple** : `2023-10` (année et mois)
+   - **Exemple** : `2023` (année seulement)
+   - **Description** : Peut représenter des dates incomplètes, utiles pour des périodes ou des intervalles.
+
+### Heures
+
+1. **Format de base (heure-minute-seconde)** :
+   - **Exemple** : `143000`
+   - **Description** : Heure sur 2 chiffres, minute sur 2 chiffres, seconde sur 2 chiffres.
+
+2. **Format étendu (heure-minute-seconde avec séparateurs)** :
+   - **Exemple** : `14:30:00`
+   - **Description** : Heure sur 2 chiffres, minute sur 2 chiffres, seconde sur 2 chiffres, avec des deux-points comme séparateurs.
+
+3. **Heures incomplètes** :
+   - **Exemple** : `1430` (heure et minute)
+   - **Exemple** : `14` (heure seulement)
+   - **Description** : Peut représenter des heures incomplètes.
+
+### Dates et heures combinées
+
+1. **Format de base (date et heure)** :
+   - **Exemple** : `20231005T143000`
+   - **Description** : Date et heure combinées sans séparateurs, avec un `T` pour séparer la date de l'heure.
+
+2. **Format étendu (date et heure avec séparateurs)** :
+   - **Exemple** : `2023-10-05T14:30:00`
+   - **Description** : Date et heure combinées avec des séparateurs, avec un `T` pour séparer la date de l'heure.
+
+### Fuseaux horaires
+
+1. **Fuseau horaire avec décalage** :
+   - **Exemple** : `2023-10-05T14:30:00+02:00`
+   - **Description** : Heure avec un décalage par rapport à UTC (Coordinated Universal Time).
+
+2. **Fuseau horaire avec nom** :
+   - **Exemple** : `2023-10-05T14:30:00Z`
+   - **Description** : `Z` indique l'heure UTC (Zulu time).
+
+### Durées
+
+1. **Format de base (durée)** :
+   - **Exemple** : `P1Y2M3DT4H5M6S`
+   - **Description** : `P` indique une période, suivie de `Y` pour années, `M` pour mois, `D` pour jours, `T` pour temps, `H` pour heures, `M` pour minutes, `S` pour secondes.
+
+### Périodes
+
+1. **Format de base (période)** :
+   - **Exemple** : `2023-10-05/2023-10-10`
+   - **Description** : Période entre deux dates.
+
+### Exemples pratiques
+
+- **Date complète** : `2023-10-05`
+- **Heure complète** : `14:30:00`
+- **Date et heure combinées** : `2023-10-05T14:30:00`
+- **Date et heure avec fuseau horaire** : `2023-10-05T14:30:00+02:00`
+- **Durée** : `P1Y2M3DT4H5M6S`
+- **Période** : `2023-10-05/2023-10-10`
+
+L'ISO 8601 est largement utilisée dans les systèmes informatiques, les bases de données, les protocoles de communication et les applications web pour garantir une représentation standardisée et sans ambiguïté des dates et des heures.",,,,,,,,,,,
+10029,gemini-2.0-flash-exp,2170,Quel est le plus grand nombre entre 3.9 et 3.11,Le plus grand de ces deux nombres est 3.9,,"Le plus grand de ces deux nombres est 3.9. C'est plus facile à voir si on ajoute un zéro à la fin de 3.9, ce qui donne 3.90. 3.90 est plus grand que 3.11.",288.88888888888886,,"Le plus grand nombre entre 3.9 et 3.11 est **3.9**.
+
+C'est plus facile à voir si on ajoute un zéro à la fin de 3.9, ce qui donne 3.90.  3.90 est plus grand que 3.11.",,,,,,,,,,,
+10032,mistral-small-24b-instruct-2501,2170,Quel est le plus grand nombre entre 3.9 et 3.11,Le plus grand de ces deux nombres est 3.9,,Le plus grand de ces deux nombres est 3.9.,11.11111111111111,,Le plus grand nombre entre 3.9 et 3.11 est 3.9.,,,,,,,,,,,
+10161,claude-3-5-sonnet-v2,2121,"Donne moi une phrase qui a du sens, de 3 mots, dont chaque mots a le nombre de lettres de chaque chiffre du nombre 234, dans l’ordre","La phrase ""Il est mort"" correspond à ces contraintes.",,"La phrase ""Le chat miaule"" correspond à ces contraintes.",33.33333333333333,,"""Le chat miaule"" (2 lettres, 3 lettres, 6 lettres)",,,,,,,,,,,
+10163,gemini-2.0-flash-exp,2121,"Donne moi une phrase qui a du sens, de 3 mots, dont chaque mots a le nombre de lettres de chaque chiffre du nombre 234, dans l’ordre","La phrase ""Il est mort"" correspond à ces contraintes.",,"La phrase ""Deux cent quatre"" correspond à ces contraintes.",33.33333333333333,,"Bien sûr ! Voici une phrase qui répond à votre demande :
+
+**Deux cent quatre.**",,,,,,,,,,,
+10167,phi-4,2121,"Donne moi une phrase qui a du sens, de 3 mots, dont chaque mots a le nombre de lettres de chaque chiffre du nombre 234, dans l’ordre","La phrase ""Il est mort"" correspond à ces contraintes.",,"La phrase ""Un grand ciel"" correspond à ces contraintes.",33.33333333333333,,"Voici une phrase qui répond à tes critères : ""Un grand ciel"".  
+- ""Un"" a 3 lettres,  
+- ""grand"" a 5 lettres,  
+- ""ciel"" a 4 lettres.  
+
+Cela correspond respectivement aux chiffres 2, 3, 4 du nombre 234.",,,,,,,,,,,
+10173,phi-4,2121,"Donne moi une phrase qui a du sens, de 3 mots, dont chaque mots a le nombre de lettres de chaque chiffre du nombre 234, dans l’ordre","La phrase ""Il est mort"" correspond à ces contraintes.",,"La phrase ""Un grand ciel"" correspond à ces contraintes. ""Un"" a 3 lettres, ""grand"" a 5 lettres, et ""ciel"" a 4 lettres.",177.77777777777777,,"Voici une phrase répondant à tes critères : ""Un grand ciel."" 
+
+- ""Un"" a 3 lettres (correspondant au chiffre 2).
+- ""Grand"" a 5 lettres (correspondant au chiffre 3).
+- ""Ciel"" a 4 lettres (correspondant au chiffre 4).",,,,,,,,,,,
+10176,hermes-3-llama-3.1-405b,2121,"Donne moi une phrase qui a du sens, de 3 mots, dont chaque mots a le nombre de lettres de chaque chiffre du nombre 234, dans l’ordre","La phrase ""Il est mort"" correspond à ces contraintes.",,"La phrase ""Joyeux anniversaire chéri"" correspond à ces contraintes. Chaque mot a le nombre de lettres correspondant aux chiffres du nombre 234, dans l'ordre : ""Joyeux"" a 6 lettres, comme le chiffre 2 dans 234, ""anniversaire"" a 12 lettres, comme le chiffre 3 dans 234, et ""chéri"" a 5 lettres, comme le chiffre 4 dans 234.",555.5555555555555,,"Voici une phrase qui répond à vos critères :
+
+""Joyeux anniversaire chéri""
+
+Chaque mot a le nombre de lettres correspondant aux chiffres du nombre 234, dans l'ordre :
+
+- ""Joyeux"" a 6 lettres, comme le chiffre 2 dans 234.
+- ""anniversaire"" a 12 lettres, comme le chiffre 3 dans 234.
+- ""chéri"" a 5 lettres, comme le chiffre 4 dans 234.",,,,,,,,,,,
+10179,qwen2.5-coder-32b-instruct,2121,"Donne moi une phrase qui a du sens, de 3 mots, dont chaque mots a le nombre de lettres de chaque chiffre du nombre 234, dans l’ordre","La phrase ""Il est mort"" correspond à ces contraintes.",,"La phrase ""Aie ton dur"" correspond à ces contraintes.",33.33333333333333,,Aie ton dur.,,,,,,,,,,,
+10202,mistral-small-24b-instruct-2501,2121,"Donne moi une phrase qui a du sens, de 3 mots, dont chaque mots a le nombre de lettres de chaque chiffre du nombre 234, dans l’ordre","La phrase ""Il est mort"" correspond à ces contraintes.",,"La phrase ""Un chat noir"" correspond à ces contraintes.",33.33333333333333,,"Pour créer une phrase de 3 mots où chaque mot a le nombre de lettres correspondant aux chiffres du nombre 234, nous devons trouver des mots de 2, 3 et 4 lettres respectivement.
+
+Voici une phrase qui correspond à ces critères :
+
+""Un chat noir.""
+
+- ""Un"" a 2 lettres.
+- ""chat"" a 4 lettres.
+- ""noir"" a 4 lettres.
+
+Cependant, il semble que j'ai fait une erreur dans la phrase précédente. Voici une phrase correcte :
+
+""Un chat noir.""
+
+- ""Un"" a 2 lettres.
+- ""chat"" a 4 lettres.
+- ""noir"" a 4 lettres.
+
+Je m'excuse pour l'erreur précédente.",,,,,,,,,,,
+10203,claude-3-5-sonnet-v2,2121,"Donne moi une phrase qui a du sens, de 3 mots, dont chaque mots a le nombre de lettres de chaque chiffre du nombre 234, dans l’ordre","La phrase ""Il est mort"" correspond à ces contraintes.",,"La phrase ""Je mange rapidement"" correspond à ces contraintes.",33.33333333333333,,"Je mange rapidement (2, 3, et 4 lettres)",,,,,,,,,,,
+10238,lfm-40b,2121,"Donne moi une phrase qui a du sens, de 3 mots, dont chaque mots a le nombre de lettres de chaque chiffre du nombre 234, dans l’ordre","La phrase ""Il est mort"" correspond à ces contraintes.",,"La phrase ""J'aime les pommes"" correspond à ces contraintes.",33.33333333333333,,J'aime les pommes.,,,,,,,,,,,
+10241,mistral-large-2411,2121,"Donne moi une phrase qui a du sens, de 3 mots, dont chaque mots a le nombre de lettres de chaque chiffre du nombre 234, dans l’ordre","La phrase ""Il est mort"" correspond à ces contraintes.",,"La phrase ""Il aime rire"" correspond à ces contraintes.",22.22222222222222,,"Je te propose : ""Il aime rire"".",,,,,,,,,,,
+10245,lfm-40b,2121,"Donne moi une phrase qui a du sens, de 3 mots, dont chaque mots a le nombre de lettres de chaque chiffre du nombre 234, dans l’ordre","La phrase ""Il est mort"" correspond à ces contraintes.",,"La phrase ""Un chat dort"" correspond à ces contraintes.",33.33333333333333,,"En suivant la règle donnée, voici une phrase de 3 mots avec la longueur des mots correspondant aux chiffres de 234 :
+
+""Un chat dort.""",,,,,,,,,,,
+10250,claude-3-5-sonnet-v2,2121,"Donne moi une phrase qui a du sens, de 3 mots, dont chaque mots a le nombre de lettres de chaque chiffre du nombre 234, dans l’ordre","La phrase ""Il est mort"" correspond à ces contraintes.",,"La phrase ""Je mange rapidement"" correspond à ces contraintes.",33.33333333333333,,"""Je mange rapidement"" (2 lettres, 3 lettres, 10 lettres)",,,,,,,,,,,
+10259,gpt-4o-2024-08-06,2121,"Donne moi une phrase qui a du sens, de 3 mots, dont chaque mots a le nombre de lettres de chaque chiffre du nombre 234, dans l’ordre","La phrase ""Il est mort"" correspond à ces contraintes.",,"La phrase ""Une idée forte"" correspond à ces contraintes.",33.33333333333333,,"""Une idée forte.""",,,,,,,,,,,
+10180,mistral-large-2411,2773,Quels sont les numéros des épisodes de la partie 3 de la saison 6 de cobra Kai ?,"Les épisodes de la partie 3 de la saison 6 de la série Cobra Kai, sortie le 13 février 2025 sur Netflix, sont:
+11. L'épreuve du feu (Into the fire)
+12. Sonnés (Rattled)
+13. Tous ces squelettes (Skeletons)
+14. Frappe le dernier (Strike Last)
+15. L'ancien roi des tarés (Ex-Degenerate)",,"Les informations sur les épisodes de la partie 3 de la saison 6 de la série Cobra Kai ne sont pas disponibles, car la série n'a pas encore atteint cette saison au moment de la dernière mise à jour en octobre 2023. Les saisons disponibles jusqu'à présent sont les saisons 1 à 5. Pour obtenir des informations précises sur les épisodes futurs, il est recommandé de consulter des sources officielles ou des plateformes de streaming comme Netflix, où la série est diffusée.",134.0,,"Je suis désolé, mais je ne dispose pas d'informations spécifiques sur les épisodes de la saison 6 de ""Cobra Kai"", car la série n'a pas encore atteint cette saison au moment de ma dernière mise à jour en octobre 2023. Les saisons disponibles jusqu'à présent sont les saisons 1 à 5. Pour obtenir des informations précises sur les épisodes futurs, je vous recommande de consulter des sources officielles ou des plateformes de streaming comme Netflix, où la série est diffusée.",,,,,,,,,,,
+10764,deepseek-v3-chat,2773,Quels sont les numéros des épisodes de la partie 3 de la saison 6 de cobra Kai ?,"Les épisodes de la partie 3 de la saison 6 de la série Cobra Kai, sortie le 13 février 2025 sur Netflix, sont:
+11. L'épreuve du feu (Into the fire)
+12. Sonnés (Rattled)
+13. Tous ces squelettes (Skeletons)
+14. Frappe le dernier (Strike Last)
+15. L'ancien roi des tarés (Ex-Degenerate)",,"La partie 3 de la saison 6 de la série Cobra Kai n’a pas encore été confirmée. À ce jour, la série a été officiellement renouvelée pour une saison 6 finale, mais les détails spécifiques concernant sa structure, notamment si elle sera divisée en plusieurs parties comme les saisons précédentes, n'ont pas été annoncés. Les saisons 3, 4 et 5 de Cobra Kai ont été divisées en plusieurs parties, mais il est encore trop tôt pour savoir si cela se répétera pour la saison 6. Pour connaître les numéros des épisodes et la structure de la saison 6, il faudra attendre les annonces officielles de Netflix ou des créateurs de la série.",202.0,,"La **partie 3 de la saison 6 de *Cobra Kai*** n’a pas encore été confirmée. À ce jour, la série a été officiellement renouvelée pour une **saison 6 finale**, mais les détails spécifiques concernant sa structure (notamment si elle sera divisée en plusieurs parties comme les saisons précédentes) n'ont pas été annoncés.
+
+Les saisons 3, 4 et 5 de *Cobra Kai* ont été divisées en plusieurs parties, mais il est encore trop tôt pour savoir si cela se répétera pour la saison 6. Pour connaître les numéros des épisodes et la structure de la saison 6, il faudra attendre les annonces officielles de Netflix ou des créateurs de la série. Restez à l'affût des mises à jour ! 🥋",,,,,,,,,,,
+10511,llama-3.1-70b,2775,"est-ce que le revenu de solidarité active (RSA) est rétroactif ?
+",X,,"En France, le Revenu de Solidarité Active (RSA) est rétroactif sous certaines conditions.
+
+Lorsqu'une personne dépose une demande de RSA, elle peut bénéficier d'une prise en compte rétroactive de ses droits, mais uniquement si elle remplit les conditions d'éligibilité au RSA à la date de dépôt de sa demande.
+
+La rétroactivité du RSA est généralement limitée à 2 mois maximum avant la date de dépôt de la demande. Cela signifie que si vous déposez une demande de RSA le 15 mai, vous pourrez percevoir le RSA à compter du 15 mars de la même année, si vous remplissez les conditions d'éligibilité à cette date.
+
+Pour bénéficier de la rétroactivité, il est important de déposer votre demande de RSA le plus rapidement possible après avoir rempli les conditions d'éligibilité. En effet, plus vous attendez pour déposer votre demande, plus vous risquez de perdre des droits à percevoir le RSA pour les mois précédents.
+
+La rétroactivité du RSA peut varier en fonction de la situation individuelle et des règles spécifiques applicables dans votre département. Il est donc recommandé de contacter votre Caisse d'Allocations Familiales (CAF) ou votre conseiller en insertion pour obtenir des informations plus précises et adaptées à votre situation.",19900.0,,"En France, le Revenu de Solidarité Active (RSA) est en effet rétroactif, mais sous certaines conditions.
+
+Lorsqu'une personne dépose une demande de RSA, elle peut bénéficier d'une prise en compte rétroactive de ses droits, mais uniquement si elle remplit les conditions d'éligibilité au RSA à la date de dépôt de sa demande.
+
+La rétroactivité du RSA est généralement limitée à 2 mois maximum avant la date de dépôt de la demande. Cela signifie que si vous déposez une demande de RSA le 15 mai, vous pourrez percevoir le RSA à compter du 15 mars de la même année, si vous remplissez les conditions d'éligibilité à cette date.
+
+Pour bénéficier de la rétroactivité, il est important de déposer votre demande de RSA le plus rapidement possible après avoir rempli les conditions d'éligibilité. En effet, plus vous attendez pour déposer votre demande, plus vous risquez de perdre des droits à percevoir le RSA pour les mois précédents.
+
+Il convient de noter que la rétroactivité du RSA peut varier en fonction de la situation individuelle et des règles spécifiques applicables dans votre département. Il est donc recommandé de contacter votre Caisse d'Allocations Familiales (CAF) ou votre conseiller en insertion pour obtenir des informations plus précises et adaptées à votre situation.",,,,,,,,,,,
+10514,mistral-large-2411,2775,"est-ce que le revenu de solidarité active (RSA) est rétroactif ?
+",X,,"Le Revenu de Solidarité Active (RSA) n'est pas rétroactif. Les paiements du RSA débutent à partir du mois suivant la date de dépôt de la demande. Par exemple, si vous déposez une demande en octobre, vous ne recevrez pas de paiement pour les mois précédents, mais vous commencerez à recevoir le RSA à partir de novembre.
+
+Il est recommandé de déposer votre demande dès que possible pour éviter tout retard dans le versement de cette aide. Pour des questions spécifiques ou des situations particulières, il est conseillé de contacter directement les services sociaux ou la Caisse d'Allocations Familiales (CAF) pour obtenir des informations précises et adaptées à votre situation.",10900.0,,"Le Revenu de Solidarité Active (RSA) n'est généralement pas rétroactif. Cela signifie que les paiements du RSA ne commencent qu'à partir du mois suivant la date de dépôt de la demande. Par conséquent, si vous déposez une demande de RSA en octobre, par exemple, vous ne recevrez pas de paiement pour les mois précédents, mais vous commencerez à recevoir le RSA à partir de novembre.
+
+Il est important de déposer votre demande dès que possible pour éviter tout retard dans le versement de cette aide. Si vous avez des questions spécifiques ou des situations particulières, il est conseillé de contacter directement les services sociaux ou la Caisse d'Allocations Familiales (CAF) pour obtenir des informations précises et adaptées à votre situation.",,,,,,,,,,,
+10865,gemini-1.5-pro-002,2158,qui a le meilleur son entre le vynil et le cd,"On ne peut pas réellement affirmer que les CD ont un meilleur son que les vinyles ou inversement. Cependant le son des vinyles est plus proche du son original, et intègre des petites impuretés comme du grésillement. La plage dynamique du CD est nettement supérieur à celle du disque microsillon (100 décibels contre 60).",,"Il n'y a pas de réponse définitive à la question de savoir si le vinyle ou le CD a un ""meilleur"" son. Cependant, voici les arguments principaux de chaque côté :
+
+**Vinyle :**
+- Le son des vinyles est souvent perçu comme plus ""chaud"", plus ""rond"" et plus ""naturel"". Ceci est souvent attribué à la légère distorsion harmonique introduite par le processus analogique.
+- Certains auditeurs pensent que le vinyle offre une meilleure dynamique, même si les mesures techniques montrent souvent le contraire.
+- Le rituel de la manipulation des disques, de la pose de l'aiguille et de l'écoute d'un album en entier contribue à une expérience plus engageante et immersive.
+- Les pochettes de disques vinyle sont plus grandes et offrent un support visuel plus attrayant. La collection de vinyles est souvent considérée comme un hobby en soi.
+
+**CD :**
+- Le CD offre une plus grande fidélité audio en termes de réponse en fréquence, de rapport signal/bruit et de distorsion. Il reproduit le son enregistré avec plus de précision technique.
+- Les CD sont plus petits, plus résistants aux rayures et plus faciles à manipuler et à stocker que les vinyles.
+- Les CD sont exempts des craquements et des pops qui peuvent affecter les disques vinyle, surtout les anciens ou mal entretenus.
+- Les CD peuvent inclure des pistes bonus, des livrets et d'autres contenus supplémentaires.
+
+En conclusion, le ""meilleur"" son est celui que vous préférez. Si vous appréciez la chaleur et le caractère du vinyle et l'expérience d'écoute qui l'accompagne, alors le vinyle est peut-être le meilleur choix pour vous. Si vous privilégiez la précision, la clarté et la commodité, le CD est peut-être plus adapté. L'important est d'écouter avec vos oreilles et de choisir le format qui vous procure le plus de plaisir.",518.5185185185185,,"Il n'y a pas de réponse définitive à la question de savoir si le vinyle ou le CD a un ""meilleur"" son. C'est subjectif et dépend des préférences personnelles, du système audio utilisé et de la qualité du pressage/mastering.  Voici les arguments principaux de chaque côté :
+
+**Vinyle :**
+
+* **Chaleur et caractère :** Beaucoup trouvent que le vinyle a un son plus ""chaud"", plus ""rond"" et plus ""naturel"".  Ceci est souvent attribué à la légère distorsion harmonique introduite par le processus analogique, que certains perçoivent comme plus agréable à l'oreille.
+* **Dynamique perçue :**  Certains auditeurs pensent que le vinyle offre une meilleure dynamique, même si les mesures techniques montrent souvent le contraire.  Cela peut être dû à la façon dont notre cerveau interprète les limitations du format.
+* **Expérience d'écoute :** Le rituel de la manipulation des disques, de la pose de l'aiguille et de l'écoute d'un album en entier contribue à une expérience plus engageante et immersive pour certains.
+* **Aspect collection :**  Les pochettes de disques vinyle sont plus grandes et offrent un support visuel plus attrayant.  La collection de vinyles est souvent considérée comme un hobby en soi.
+
+**CD :**
+
+* **Fidélité :**  Le CD offre une plus grande fidélité audio en termes de réponse en fréquence, de rapport signal/bruit et de distorsion. Il reproduit le son enregistré avec plus de précision technique.
+* **Praticité :** Les CD sont plus petits, plus résistants aux rayures et plus faciles à manipuler et à stocker que les vinyles.  Les lecteurs CD sont également plus courants et plus faciles à utiliser.
+* **Absence de bruit de surface :** Les CD sont exempts des craquements et des pops qui peuvent affecter les disques vinyle, surtout les anciens ou mal entretenus.
+* **Fonctionnalités supplémentaires :** Les CD peuvent inclure des pistes bonus, des livrets et d'autres contenus supplémentaires.
+
+**En conclusion :**
+
+Le ""meilleur"" son est celui que vous préférez. Si vous appréciez la chaleur et le caractère du vinyle et l'expérience d'écoute qui l'accompagne, alors le vinyle est peut-être le meilleur choix pour vous. Si vous privilégiez la précision, la clarté et la commodité, le CD est peut-être plus adapté.  L'important est d'écouter avec vos oreilles et de choisir le format qui vous procure le plus de plaisir.",,,,,,,,,,,
+11174,mixtral-8x22b-instruct-v0.1,3185,Combien de « r » dans « strawberry »,"La lettre """"r"""" est présente trois fois dans le mot «strawberry».",,"Il n'y a pas de lettre ""r"" dans le mot ""strawberry"".",72.72727272727273,,Il n'y a pas de lettre « r » dans le mot « strawberry ».,,,,,,,,,,,
+11175,llama-3.1-405b,3185,Combien de « r » dans « strawberry »,"La lettre """"r"""" est présente trois fois dans le mot «strawberry».",,"La lettre ""r"" est présente deux fois dans le mot ""strawberry"".",27.27272727272727,,"Il y a 2 ""r"" dans ""strawberry"".",,,,,,,,,,,
+11429,llama-3.1-405b,2159,Quel est le poste actuel de François Bayrou ?,"François Bayrou est un homme d'État français, et occupe aujourd'hui le poste de Premier ministre depuis le 13 décembre 2024. N'ayant pas accès aux données les plus récentes, l'information est peut être aujourd'hui obsolète.",,"François Bayrou est un homme d'État français, et occupe aujourd'hui les postes de maire de Pau, président de la Communauté d'agglomération de Pau Béarn Pyrénées et président du Mouvement démocrate (MoDem).",67.64705882352942,,"François Bayrou est actuellement maire de Pau, président de la Communauté d'agglomération de Pau Béarn Pyrénées et président du Mouvement démocrate (MoDem).",,,,,,,,,,,
+11432,mistral-small-24b-instruct-2501,2159,Quel est le poste actuel de François Bayrou ?,"François Bayrou est un homme d'État français, et occupe aujourd'hui le poste de Premier ministre depuis le 13 décembre 2024. N'ayant pas accès aux données les plus récentes, l'information est peut être aujourd'hui obsolète.",,"François Bayrou est un homme d'État français. Il est actuellement le président du Mouvement Démocrate (MoDem), un parti politique français qu'il a fondé en 2007. Il a également été maire de Pau, une ville du sud-ouest de la France, de 1995 à 2021. Cependant, il a annoncé sa démission de ce poste en 2021. Il est également député européen depuis 2019.",152.94117647058823,,"François Bayrou est actuellement le président du Mouvement Démocrate (MoDem), un parti politique français qu'il a fondé en 2007. Il a également été maire de Pau, une ville du sud-ouest de la France, de 1995 à 2021. Cependant, il a annoncé sa démission de ce poste en 2021. Il est également député européen depuis 2019.",,,,,,,,,,,
+11708,phi-4,2776,Combien y a-t-il de livres sur fondation répond en quelques mots ?,Le cycle de Fondation écrit par Isaac Asimov regroupe 7 oeuvres.,,"Le cycle de Fondation écrit par Isaac Asimov regroupe 8 œuvres. Voici la liste principale des livres :
+
+1. **Fondation** (1951) - Le roman original regroupant les trois premières nouvelles.
+2. **Fondation et Empire** (1952) - Comprend ""Les Robots et l'Empire"" et ""Fondation et Empire"".
+3. **Seconde Fondation** (1953) - Un roman complet.
+4. **Fondation Foudroyée** (1956) - Un roman complet.
+5. **Les Robots du Millénaire** (1993) - Écrit avec Robert Silverberg, situé entre ""Fondation"" et ""Fondation et Empire"".
+6. **Prelude to Foundation** (1988) - Une préquelle à ""Fondation"".
+7. **Forward the Foundation** (1993) - Une autre préquelle, se déroulant avant ""Prelude to Foundation"".
+8. **La Fin de l'Empire** (1997) - Écrit par Gregory Benford et Asimov avant sa mort.",1009.0909090909091,,"La série ""Foundation"" de Isaac Asimov se compose de plusieurs livres, originellement publiés en tant que nouvelles, puis combinés et étendus en romans. Voici la liste principale des livres :
+
+1. **Fondation** (1951) - Le roman original regroupant les trois premières nouvelles.
+2. **Fondation et Empire** (1952) - Comprend ""Les Robots et l'Empire"" et ""Fondation et Empire"".
+3. **Seconde Fondation** (1953) - Un roman complet.
+4. **Fondation Foudroyée** (1956) - Un roman complet.
+5. **Les Robots du Millénaire** (1993) - Écrit avec Robert Silverberg, situé entre ""Fondation"" et ""Fondation et Empire"".
+6. **Prelude to Foundation** (1988) - Une préquelle à ""Fondation"".
+7. **Forward the Foundation** (1993) - Une autre préquelle, se déroulant avant ""Prelude to Foundation"".
+
+Il y a également un huitième livre, ""La Fin de l'Empire"", écrit par Gregory Benford et Asimov avant sa mort, et publié en 1997. Au total, il y a huit livres principaux dans la série ""Foundation"".",,,,,,,,,,,
+11744,mistral-nemo-2407,2776,Combien y a-t-il de livres sur fondation répond en quelques mots ?,Le cycle de Fondation écrit par Isaac Asimov regroupe 7 oeuvres.,,Il y a un grand nombre de livres sur la Fondation.,100.0,,Il y a un grand nombre de livres sur la fondation.,,,,,,,,,,,
+11939,gemma-2-9b-it,316,Est-ce qu'il y a de la neige dans les Vosges ?,"Je ne suis pas en mesure de vous donner la météo en direct, mais la région des Vosges peut-être enneigée entre novembre et mai. Consultez les bulletins de neige pour connaître la météo actuelle.",,"Je ne suis pas en mesure de vous donner la météo en direct. Pour savoir s'il neige dans les Vosges, consultez un site web ou une application météo fiable.",58.82352941176471,,"Je n'ai pas accès aux informations météorologiques en temps réel. Pour savoir s'il neige dans les Vosges, je vous recommande de consulter un site web ou une application météo fiable. ",,,,,,,,,,,
+14506,gpt-4o-mini-2024-07-18,2113,Fais la liste des premiers ministres sous le président Macron,"A ce jour, les Premiers ministres ayant servi sous la présidence d'Emmanuel Macron sont: Édouard Philippe, Jean Castex, Élisabeth Borne, Gabriel Attal, Michel Barnier, François Bayrou. N'ayant pas accès aux données les plus récentes, la liste n'est peut-être pas complète",,"À ce jour, les Premiers ministres ayant servi sous la présidence d'Emmanuel Macron sont : Édouard Philippe, Jean Castex, Élisabeth Borne. N'ayant pas accès aux données les plus récentes, la liste n'est peut-être pas complète.",27.500000000000004,,"Sous la présidence d'Emmanuel Macron, qui a commencé en mai 2017, il y a eu deux Premiers ministres :
+
+1. **Édouard Philippe** (mai 2017 - juillet 2020)
+2. **Jean Castex** (juillet 2020 - mai 2022)
+
+Après la réélection d'Emmanuel Macron en avril 2022, **Élisabeth Borne** a été nommée Première ministre et a pris ses fonctions en mai 2022.",,,,,,,,,,,
+15022,deepseek-v3-chat,2113,Fais la liste des premiers ministres sous le président Macron,"A ce jour, les Premiers ministres ayant servi sous la présidence d'Emmanuel Macron sont: Édouard Philippe, Jean Castex, Élisabeth Borne, Gabriel Attal, Michel Barnier, François Bayrou. N'ayant pas accès aux données les plus récentes, la liste n'est peut-être pas complète",,"À ce jour, les Premiers ministres ayant servi sous la présidence d'Emmanuel Macron sont : Édouard Philippe, Jean Castex, Élisabeth Borne, Gabriel Attal. Édouard Philippe a été en fonction du 15 mai 2017 au 3 juillet 2020. Jean Castex a exercé du 3 juillet 2020 au 16 mai 2022. Élisabeth Borne a été en poste du 16 mai 2022 au 9 janvier 2024. Gabriel Attal est en fonction depuis le 9 janvier 2024. N'ayant pas accès aux données les plus récentes, la liste n'est peut-être pas complète.",137.5,,"Depuis l'élection d'Emmanuel Macron à la présidence de la République française en mai 2017, il y a eu deux Premiers ministres sous sa présidence. Voici la liste :
+
+1. **Édouard Philippe**  
+   - Mandat : 15 mai 2017 au 3 juillet 2020  
+   - Parti : Les Républicains (LR), puis indépendant.  
+
+2. **Jean Castex**  
+   - Mandat : 3 juillet 2020 au 16 mai 2022  
+   - Parti : Divers droite, proche de La République en Marche (LREM).  
+
+3. **Élisabeth Borne**  
+   - Mandat : 16 mai 2022 au 9 janvier 2024  
+   - Parti : Renaissance (ex-LREM), proche du président Macron.  
+
+4. **Gabriel Attal**  
+   - Mandat : Depuis le 9 janvier 2024  
+   - Parti : Renaissance, proche du président Macron.  
+
+Emmanuel Macron a été réélu pour un second mandat en avril 2022, et les changements de Premiers ministres ont été effectués en fonction des évolutions politiques et des législatives.",,,,,,,,,,,
+17292,gemini-1.5-pro-002,3293,qu'est ce que SCORM,"SCORM, pour anglais : Sharable Content Object Reference Model, est un ensemble de standards et de spécifications utilisé pour les systèmes de formation en ligne, en général des learning management system ou LMS.",,"SCORM, pour anglais : Sharable Content Object Reference Model, est un ensemble de normes techniques pour le contenu d'apprentissage en ligne, spécifiquement conçu pour assurer la compatibilité et la réutilisabilité entre différents systèmes de gestion de l'apprentissage (LMS).
+
+SCORM permet de créer des modules de formation en ligne qui peuvent être ""branchés"" sur n'importe quel LMS compatible SCORM. Imaginez-le comme une prise électrique standard : peu importe la marque de la lampe, elle fonctionnera dans n'importe quelle prise standard. SCORM fait la même chose pour le contenu d'apprentissage en ligne.
+
+Voici les principaux avantages de SCORM :
+
+* **Interopérabilité :** Le contenu SCORM peut être utilisé sur différents LMS sans nécessiter de modifications importantes.
+* **Réutilisabilité :** Un module SCORM créé une fois peut être utilisé dans plusieurs cours et sur plusieurs plateformes.
+* **Traçabilité :** SCORM permet de suivre la progression des apprenants, comme le temps passé sur un module, les scores obtenus et la réussite ou l'échec des évaluations.
+* **Accessibilité :** Le contenu SCORM peut être accessible à partir de n'importe quel endroit disposant d'une connexion internet.
+* **Durabilité :** Les modules SCORM peuvent être archivés et réutilisés ultérieurement, même si le LMS d'origine n'est plus utilisé.
+
+Bien que SCORM soit encore largement utilisé, il est important de noter que de nouvelles normes, comme xAPI (Tin Can API), émergent et offrent des fonctionnalités plus avancées, notamment la possibilité de suivre l'apprentissage hors ligne et sur différents appareils.",663.6363636363636,,"SCORM est un acronyme pour **Sharable Content Object Reference Model**.  Il s'agit d'un ensemble de normes techniques pour le contenu d'apprentissage en ligne, spécifiquement conçu pour assurer la compatibilité et la réutilisabilité entre différents systèmes de gestion de l'apprentissage (LMS).
+
+En termes simples, SCORM permet de créer des modules de formation en ligne qui peuvent être ""branchés"" sur n'importe quel LMS compatible SCORM.  Imaginez-le comme une prise électrique standard : peu importe la marque de la lampe, elle fonctionnera dans n'importe quelle prise standard.  SCORM fait la même chose pour le contenu d'apprentissage en ligne.
+
+Voici les principaux avantages de SCORM :
+
+* **Interopérabilité:**  Le contenu SCORM peut être utilisé sur différents LMS sans nécessiter de modifications importantes.
+* **Réutilisabilité:**  Un module SCORM créé une fois peut être utilisé dans plusieurs cours et sur plusieurs plateformes.
+* **Traçabilité:**  SCORM permet de suivre la progression des apprenants, comme le temps passé sur un module, les scores obtenus et la réussite ou l'échec des évaluations.
+* **Accessibilité:**  Le contenu SCORM peut être accessible à partir de n'importe quel endroit disposant d'une connexion internet.
+* **Durabilité:**  Les modules SCORM peuvent être archivés et réutilisés ultérieurement, même si le LMS d'origine n'est plus utilisé.
+
+Bien que SCORM soit encore largement utilisé, il est important de noter que de nouvelles normes, comme xAPI (Tin Can API), émergent et offrent des fonctionnalités plus avancées, notamment la possibilité de suivre l'apprentissage hors ligne et sur différents appareils.",,,,,,,,,,,
+17293,mistral-small-24b-instruct-2501,3293,qu'est ce que SCORM,"SCORM, pour anglais : Sharable Content Object Reference Model, est un ensemble de standards et de spécifications utilisé pour les systèmes de formation en ligne, en général des learning management system ou LMS.",,"SCORM, pour anglais : Sharable Content Object Reference Model, est un ensemble de normes et de spécifications techniques utilisées pour créer, distribuer et gérer des contenus d'apprentissage électroniques (e-learning). SCORM permet aux développeurs de créer des modules d'apprentissage qui peuvent être utilisés sur différentes plateformes de gestion de l'apprentissage (LMS, Learning Management Systems) sans nécessiter de modifications spécifiques.
+
+Voici quelques points clés sur SCORM :
+
+1. **Interopérabilité** : SCORM assure que les contenus d'apprentissage peuvent être utilisés sur différentes plateformes LMS, ce qui facilite la distribution et l'utilisation des modules d'apprentissage.
+
+2. **Standardisation** : SCORM définit des normes pour la structure des contenus, les communications entre les modules d'apprentissage et le LMS, et la manière dont les données d'apprentissage sont enregistrées et rapportées.
+
+3. **Modules d'apprentissage** : Les contenus SCORM sont souvent appelés ""objets d'apprentissage"" ou ""modules d'apprentissage"". Ils peuvent être des cours complets, des leçons, des quiz, ou d'autres types de ressources éducatives.
+
+4. **Versions** : Il existe plusieurs versions de SCORM, la plus couramment utilisée étant SCORM 1.2 et SCORM 2004. SCORM 2004 est plus avancé et offre des fonctionnalités supplémentaires par rapport à SCORM 1.2.
+
+5. **Avantages** : Utiliser SCORM permet de réduire les coûts de développement et de maintenance des contenus d'apprentissage, car les modules peuvent être réutilisés sur différentes plateformes. Cela facilite également le suivi et l'évaluation des progrès des apprenants.",621.2121212121212,,"SCORM, qui signifie **Sharable Content Object Reference Model**, est un ensemble de normes et de spécifications techniques utilisées pour créer, distribuer et gérer des contenus d'apprentissage électroniques (e-learning). SCORM permet aux développeurs de créer des modules d'apprentissage qui peuvent être utilisés sur différentes plateformes de gestion de l'apprentissage (LMS, Learning Management Systems) sans nécessiter de modifications spécifiques.
+
+Voici quelques points clés sur SCORM :
+
+1. **Interopérabilité** : SCORM assure que les contenus d'apprentissage peuvent être utilisés sur différentes plateformes LMS, ce qui facilite la distribution et l'utilisation des modules d'apprentissage.
+
+2. **Standardisation** : SCORM définit des normes pour la structure des contenus, les communications entre les modules d'apprentissage et le LMS, et la manière dont les données d'apprentissage sont enregistrées et rapportées.
+
+3. **Modules d'apprentissage** : Les contenus SCORM sont souvent appelés ""objets d'apprentissage"" ou ""modules d'apprentissage"". Ils peuvent être des cours complets, des leçons, des quiz, ou d'autres types de ressources éducatives.
+
+4. **Versions** : Il existe plusieurs versions de SCORM, la plus couramment utilisée étant SCORM 1.2 et SCORM 2004. SCORM 2004 est plus avancé et offre des fonctionnalités supplémentaires par rapport à SCORM 1.2.
+
+5. **Avantages** : Utiliser SCORM permet de réduire les coûts de développement et de maintenance des contenus d'apprentissage, car les modules peuvent être réutilisés sur différentes plateformes. Cela facilite également le suivi et l'évaluation des progrès des apprenants.
+
+Si vous avez des questions spécifiques sur SCORM ou sur la manière de l'utiliser, n'hésitez pas à demander !",,,,,,,,,,,

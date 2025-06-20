@@ -1,5 +1,5 @@
 from config import REFERENCES_CSV
-from metric.scorer import ScoringPipeline
+from src.metric.scorer import ScoringPipeline
 
 
 if __name__ == '__main__':

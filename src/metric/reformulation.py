@@ -6,25 +6,21 @@ from config import HYP_DS, REFORMULATION_PROMPT, MISTRAL_API_KEY
 
 model = "mistral-small-latest"
 
-def format_prompt(prompt, ref, hyp):
-    return prompt.format(ref=ref, hyp=hyp)
+def format_prompt(base_prompt, ref, hyp):
+    return base_prompt.format(ref=ref, hyp=hyp)
 
-def reformulate(client, prompt, ref, hyp):
-    prompt = format_prompt(ref, hyp)
+def reformulate(client, base_prompt, ref, hyp):
+    prompt = format_prompt(base_prompt, ref, hyp)
     return call_mistral_api(client, prompt, model=model)
 
-def create_reformulations(ref_csv):
-    ref_df = pd.read_csv(ref_csv, delimiter=",")
-    ref_df = ref_df[ref_df["reference"] != "X"]
-    valid_conv_ids = set(ref_df["request_id"])
-    hyp_df = load_from_hf(HYP_DS)
-    df = hyp_df[hyp_df["request_id"].isin(valid_conv_ids)]
-    merged_df = df.merge(ref_df, on="request_id", how="inner")
-    
-    prompt = load_prompt(REFORMULATION_PROMPT)
-    
-    client = Mistral(api_key=MISTRAL_API_KEY)
-    
-    merged_df["reformulation"] = merged_df.progress_apply(lambda row: reformulate(client, prompt, row['reference'], row['response']), axis=1)
-    merged_df.to_csv(ref_csv, index=False)
-    return
+def create_reformulations(df):
+    mask = df['reformulation'].isna()
+        
+    if mask.any():
+        base_prompt = load_prompt(REFORMULATION_PROMPT)
+        client = Mistral(api_key=MISTRAL_API_KEY)
+        for idx in df[mask].index:
+            ref, hyp = df.at[idx, 'reference'], df.at[idx, 'response']
+            df.at[idx, 'reformulation'] = reformulate(client, base_prompt, ref, hyp)
+
+    return df
