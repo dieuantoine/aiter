@@ -6,6 +6,8 @@ from src.metric.ter_computation import compute_scores
 from src.utils.utils import load_from_hf
 from config import REFERENCES_CSV, HYP_DS
 
+csv_cols = ["conv_id", "model_id", "request_id", "request", "reference", "response", "reformulation", "score"]
+
 class ScoringPipeline:
     def __init__(self, references_csv, version):
         self.references_csv = references_csv
@@ -15,7 +17,7 @@ class ScoringPipeline:
         try:
             self.df = pd.read_csv(self.filepath)
         except FileNotFoundError:
-            self.df = pd.DataFrame(columns=["conv_id", "model_id", "request_id", "request", "reference", "response", "reformulation", "score"])
+            self.df = pd.DataFrame(columns=csv_cols)
         
         self.references_df = pd.read_csv(REFERENCES_CSV)
         
@@ -40,7 +42,7 @@ class ScoringPipeline:
             new_df = pd.merge(hf_new, self.references_df, on='request_id', how='inner', suffixes=("", "_dup"))
             new_df['reformulation'] = None
             new_df['score'] = None
-            new_df = new_df[["conv_id", "model_id", "request_id", "request", "reference", "response", "reformulation", "score"]]
+            new_df = new_df[csv_cols]
             self.df = pd.concat([self.df, new_df], ignore_index=True)
             
     def reformulation(self):
@@ -58,4 +60,4 @@ class ScoringPipeline:
     
     def save(self):
         print(f"Enregistrement du fichier {self.filepath}")
-        self.df.to_csv(self.filepath, index=False)
+        self.df[csv_cols].to_csv(self.filepath, index=False)
