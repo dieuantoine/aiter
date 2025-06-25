@@ -49,17 +49,19 @@ for idx, resp in enumerate(responses, 1):
     st.markdown(f"**Réponse {idx} :** {resp}")
 
 st.subheader("Entrez votre référence :")
-reference = st.text_area("Votre texte ici", height=200)
+ref_key = f"ref_{current_request_id}"
+reference = st.text_area("Votre texte ici", value=st.session_state.get(ref_key, ""), height=200)
+st.session_state[ref_key] = reference
 
 col1, col2, col3 = st.columns([1, 1, 2])
 with col1:
-    if st.button("⬅️ Précédent") and st.session_state.current_index > 0:
+    if st.button("⬅️ Précédent", disabled=st.session_state.current_index == 0) and st.session_state.current_index > 0:
         st.session_state.current_index -= 1
-        st.experimental_rerun()
+        st.rerun()
 with col2:
-    if st.button("Suivant ➡️") and st.session_state.current_index < len(st.session_state.remaining_ids) - 1:
+    if st.button("Suivant ➡️", disabled=st.session_state.current_index == len(st.session_state.remaining_ids)) and st.session_state.current_index < len(st.session_state.remaining_ids) - 1:
         st.session_state.current_index += 1
-        st.experimental_rerun()
+        st.rerun()
 
 if st.button("Soumettre"):
     if reference.strip() == "":
@@ -71,6 +73,10 @@ if st.button("Soumettre"):
             "reference": reference.strip(),
             "reference_created": 1
         }
+        
+        existing = st.session_state.annotations_df['request_id'] == current_request_id
+        if existing.any():
+            st.session_state.annotations_df = st.session_state.annotations_df[~existing]
 
         st.session_state.annotations_df = pd.concat(
             [st.session_state.annotations_df, pd.DataFrame([new_entry])],
@@ -78,10 +84,10 @@ if st.button("Soumettre"):
         )
         st.session_state.annotations_df.to_csv(REFERENCES_CSV, index=False)
 
-        st.session_state.remaining_ids.pop(0)
+        st.session_state.remaining_ids.pop(st.session_state.current_index)
         
         if st.session_state.current_index >= len(st.session_state.remaining_ids):
             st.session_state.current_index = 0
 
         st.success("Référence enregistrée !")
-        st.experimental_rerun()
+        st.rerun()
