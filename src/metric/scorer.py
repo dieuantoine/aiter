@@ -21,6 +21,8 @@ class ScoringPipeline:
         
         self.references_df = pd.read_csv(REFERENCES_CSV)
         
+        self.version = version
+        
         self._synchronise_ids()
         
         self.pipeline = [
@@ -46,7 +48,7 @@ class ScoringPipeline:
             self.df = pd.concat([self.df, new_df], ignore_index=True)
             
     def reformulation(self):
-        self.df = create_reformulations(self.df)
+        self.df = create_reformulations(self.df, self.version)
         return
     
     def scoring(self):

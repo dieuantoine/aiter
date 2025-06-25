@@ -17,7 +17,8 @@ REFERENCES_CSV = DATA_DIR / "references.csv"
 
 PROMPTS_DIR = BASE_DIR / "src" / "metric" / "prompts"
 
-REFORMULATION_PROMPT = PROMPTS_DIR / "reformulation_prompt.txt"
+REF_REFORMULATION_PROMPT = PROMPTS_DIR / "ref_reformulation_prompt.txt"
+HYP_REFORMULATION_PROMPT = PROMPTS_DIR / "hyp_reformulation_prompt.txt"
 REFUSAL_CLASSIFIER_PROMPT = PROMPTS_DIR / "refusal_classifier_prompt.txt"
 
 # Secrets
