@@ -1,18 +1,20 @@
 import streamlit as st
 import pandas as pd
-from sacrebleu.metrics import TER
+import os, sys
+
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../')))
+from config import DATA_DIR
 
 # Charger le fichier CSV
-df = pd.read_csv("resultats_avec_ter.csv")
+df = pd.read_csv(DATA_DIR / "results_hyp_0.csv")
 
 # Filtrer les colonnes à afficher
 colonnes_affichees = [
-    "question_content",
-    "refers_to_model",
-    "response_content",
+    "request",
     "reference",
+    "response",
     "reformulation",
-    "TER"
+    "score"
 ]
 
 # Vérifier que les colonnes existent (au cas où)

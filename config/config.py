@@ -15,6 +15,8 @@ DATA_DIR = BASE_DIR / "data"
 SELECTED_IDS_CSV = DATA_DIR / "selected_req_ids.csv"
 REFERENCES_CSV = DATA_DIR / "references.csv"
 
+METADATA_CSV = DATA_DIR / "metadata.csv"
+
 PROMPTS_DIR = BASE_DIR / "src" / "metric" / "prompts"
 
 REF_REFORMULATION_PROMPT = PROMPTS_DIR / "ref_reformulation_prompt.txt"
