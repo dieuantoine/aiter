@@ -10,7 +10,7 @@ def compute_scores(df, reformulation_col):
     ter = TER()
     mask = df['score'].isna()
     if reformulation_col=="hyp":
-        ref_col, hyp_col = 'reference', 'reformulation'
+        ref_col, hyp_col = 'response', 'reformulation'
     elif reformulation_col=="ref":
         ref_col, hyp_col = 'reformulation', 'response'
     if mask.any():

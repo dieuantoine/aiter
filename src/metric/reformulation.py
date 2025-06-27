@@ -6,7 +6,7 @@ import pandas as pd
 from tqdm import tqdm
 from config import HYP_DS, REF_REFORMULATION_PROMPT, HYP_REFORMULATION_PROMPT, MISTRAL_API_KEY
 
-model = "mistral-small-latest"
+model = "mistral-medium-latest"
 
 def format_prompt(base_prompt, ref, hyp):
     return base_prompt.format(ref=ref, hyp=hyp)

@@ -6,7 +6,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../')))
 from config import DATA_DIR
 
 # Charger le fichier CSV
-df = pd.read_csv(DATA_DIR / "results_hyp_1.csv")
+df = pd.read_csv(DATA_DIR / "results_hyp_3.csv")
 
 # Filtrer les colonnes à afficher
 colonnes_affichees = [
