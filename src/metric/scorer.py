@@ -2,7 +2,7 @@ import pandas as pd
 from datetime import datetime
 import os
 
-from src.metric.reformulation import create_reformulations
+from src.metric.reformulation import create_reformulations, create_batch_reformulation
 from src.metric.ter_computation import compute_scores
 
 from src.utils.utils import load_from_hf

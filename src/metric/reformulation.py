@@ -1,4 +1,5 @@
 from src.llm_api.mistral_api import call_mistral_api
+from src.llm_api.mistral_batch_api import create_input_file, run_batch_job, download_file
 from src.utils.utils import load_from_hf, load_prompt
 from mistralai import Mistral
 import pandas as pd
@@ -12,15 +13,13 @@ def format_prompt(base_prompt, ref, hyp):
 
 def reformulate(client, base_prompt, ref, hyp):
     prompt = format_prompt(base_prompt, ref, hyp)
-    return call_mistral_api(client, prompt, model=model)
+    return call_mistral_api(client, prompt, model=model, call_delay=3.0)
 
 def create_reformulations(df, reformulation_col):
     
     if reformulation_col=="hyp":
-        ref_col, hyp_col = "reference", "reformulation"
         reformulation_prompt = HYP_REFORMULATION_PROMPT
-    else:
-        ref_col, hyp_col = "reformulation", "response"
+    elif reformulation_col=="ref":
         reformulation_prompt = REF_REFORMULATION_PROMPT
     
     mask = df['reformulation'].isna()
@@ -29,7 +28,27 @@ def create_reformulations(df, reformulation_col):
         base_prompt = load_prompt(reformulation_prompt)
         client = Mistral(api_key=MISTRAL_API_KEY)
         for idx in tqdm(df[mask].index, desc="Calcul des reformulations"):
-            ref, hyp = df.at[idx, ref_col], df.at[idx, hyp_col]
+            ref, hyp = df.at[idx, "reference"], df.at[idx, "response"]
             df.at[idx, 'reformulation'] = reformulate(client, base_prompt, ref, hyp)
 
     return df
+
+def create_batch_reformulation(df, reformulation_col):
+    #Pas possible avec le free trial
+    if reformulation_col=="hyp":
+        reformulation_prompt = HYP_REFORMULATION_PROMPT
+    elif reformulation_col=="ref":
+        reformulation_prompt = REF_REFORMULATION_PROMPT
+    base_prompt = load_prompt(reformulation_prompt)
+    prompts = []
+    for idx in tqdm(df.index, desc="Calcul des reformulations"):
+        ref, hyp = df.at[idx, "reference"], df.at[idx, "response"]
+        prompts.append(format_prompt(base_prompt, ref, hyp))
+    client = Mistral(api_key=MISTRAL_API_KEY)
+    input_file = create_input_file(client, prompts)
+    print(f"Created input file {input_file}")
+
+    batch_job = run_batch_job(client, input_file, model)
+    print(f"Job duration: {batch_job.completed_at - batch_job.created_at} seconds")
+    download_file(client, batch_job.error_file, "error.jsonl")
+    download_file(client, batch_job.output_file, "output.jsonl")
