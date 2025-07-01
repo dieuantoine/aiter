@@ -34,7 +34,6 @@ REFORMULATION_MODEL = "mistral-medium-latest"
 DATA_DIR = BASE_DIR / "data"
 
 SELECTED_IDS_CSV = DATA_DIR / "selected_req_ids.csv"
-print(VERSION["REFERENCES_VERSION"])
 REFERENCES_CSV = DATA_DIR / f"references_{VERSION['REFERENCES_VERSION']}.csv"
 
 METADATA_CSV = DATA_DIR / "metadata.csv"

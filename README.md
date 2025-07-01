@@ -25,11 +25,11 @@ Create a <code>.env</code> file at the root of the project and add <code>MISTRAL
 
 ### Run the requests selection app
 
-    streamlit run src/annotation/selection/app.py
+    ./sh/run_selection_app.sh
 
 ### Run the reference creation app
 
-    streamlit run src/annotation/reference_creation/app.py
+    ./sh/run_reference_app.sh
 
 ### Compute the evaluation scores
 Once everything is set up, you can compute the evaluation scores using the following command:
