@@ -6,16 +6,14 @@ import pandas as pd
 from tqdm import tqdm
 from config import HYP_DS, REF_REFORMULATION_PROMPT, HYP_REFORMULATION_PROMPT, MISTRAL_API_KEY
 
-model = "mistral-medium-latest"
-
 def format_prompt(base_prompt, ref, hyp):
     return base_prompt.format(ref=ref, hyp=hyp)
 
-def reformulate(client, base_prompt, ref, hyp):
+def reformulate(client, base_prompt, ref, hyp, reformulation_model):
     prompt = format_prompt(base_prompt, ref, hyp)
-    return call_mistral_api(client, prompt, model=model, call_delay=3.0)
+    return call_mistral_api(client, prompt, model=reformulation_model, call_delay=3.0)
 
-def create_reformulations(df, reformulation_col):
+def create_reformulations(df, reformulation_col, reformulation_model):
     
     if reformulation_col=="hyp":
         reformulation_prompt = HYP_REFORMULATION_PROMPT
@@ -29,11 +27,11 @@ def create_reformulations(df, reformulation_col):
         client = Mistral(api_key=MISTRAL_API_KEY)
         for idx in tqdm(df[mask].index, desc="Calcul des reformulations"):
             ref, hyp = df.at[idx, "reference"], df.at[idx, "response"]
-            df.at[idx, 'reformulation'] = reformulate(client, base_prompt, ref, hyp)
+            df.at[idx, 'reformulation'] = reformulate(client, base_prompt, ref, hyp, reformulation_model)
 
     return df
 
-def create_batch_reformulation(df, reformulation_col):
+def create_batch_reformulation(df, reformulation_col, reformulation_model):
     #Pas possible avec le free trial
     if reformulation_col=="hyp":
         reformulation_prompt = HYP_REFORMULATION_PROMPT
@@ -48,7 +46,7 @@ def create_batch_reformulation(df, reformulation_col):
     input_file = create_input_file(client, prompts)
     print(f"Created input file {input_file}")
 
-    batch_job = run_batch_job(client, input_file, model)
+    batch_job = run_batch_job(client, input_file, reformulation_model)
     print(f"Job duration: {batch_job.completed_at - batch_job.created_at} seconds")
     download_file(client, batch_job.error_file, "error.jsonl")
     download_file(client, batch_job.output_file, "output.jsonl")

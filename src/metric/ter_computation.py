@@ -7,7 +7,7 @@ def compute_ter(ter, ref, hyp):
     return ter.sentence_score(hyp, [ref]).score
 
 def compute_scores(df, reformulation_col):
-    ter = TER()
+    ter = TER(no_punct=True)
     mask = df['score'].isna()
     if reformulation_col=="hyp":
         ref_col, hyp_col = 'response', 'reformulation'
