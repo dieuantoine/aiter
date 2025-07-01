@@ -34,12 +34,13 @@ REFORMULATION_MODEL = "mistral-medium-latest"
 DATA_DIR = BASE_DIR / "data"
 
 SELECTED_IDS_CSV = DATA_DIR / "selected_req_ids.csv"
-REFERENCES_CSV = DATA_DIR / f"references_{VERSION["REFERENCES_VERSION"]}.csv"
+print(VERSION["REFERENCES_VERSION"])
+REFERENCES_CSV = DATA_DIR / f"references_{VERSION['REFERENCES_VERSION']}.csv"
 
 METADATA_CSV = DATA_DIR / "metadata.csv"
 
 PROMPTS_DIR = BASE_DIR / "src" / "metric" / "prompts"
 
-REF_REFORMULATION_PROMPT = PROMPTS_DIR / f"ref_reformulation_prompt_{VERSION["PROMPT_VERSION"]}.txt"
-HYP_REFORMULATION_PROMPT = PROMPTS_DIR / f"hyp_reformulation_prompt_{VERSION["PROMPT_VERSION"]}.txt"
+REF_REFORMULATION_PROMPT = PROMPTS_DIR / f"ref_reformulation_prompt_{VERSION['PROMPT_VERSION']}.txt"
+HYP_REFORMULATION_PROMPT = PROMPTS_DIR / f"hyp_reformulation_prompt_{VERSION['PROMPT_VERSION']}.txt"
 REFUSAL_CLASSIFIER_PROMPT = PROMPTS_DIR / "refusal_classifier_prompt.txt"
