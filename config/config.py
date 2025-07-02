@@ -19,6 +19,8 @@ CONV_DS = ds['CONV_DS']
 REAC_DS = ds['REAC_DS']
 REQ_DS = ds['REQ_DS']
 HYP_DS = ds['HYP_DS']
+MKQA_DS = ds['MKQA_DS']
+MKQA_REQ_DS = ds['MKQA_REQ_DS']
 
 #French Question Words
 question_words = ['quoi', 'quand', 'comment', 'pourquoi', 'où', 'qui', 'quel', 'quelle', 'quels', 'quelles', 'lequel', 'combien']

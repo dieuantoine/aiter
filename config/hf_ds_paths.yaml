@@ -3,3 +3,5 @@ datasets:
   REAC_DS: "ministere-culture/comparia-reactions"
   REQ_DS: "dieuant/requests-dataset"
   HYP_DS: "dieuant/hypothesis-dataset"
+  MKQA_DS: "apple/mkqa"
+  MKQA_REQ_DS: "dieuant/mkqa_requests"

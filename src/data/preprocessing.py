@@ -21,14 +21,14 @@ def reduce_dataset(ds, columns, valid_msg):
     col_to_remove = [x for x in ds.column_names if x not in columns]
     return ds.filter(lambda x: x['opening_msg'] in valid_msg).remove_columns(col_to_remove)
 
-def calc_msg_length(df):
-    df['msg_length'] = df['opening_msg'].apply(
+def calc_msg_length(df, col):
+    df['msg_length'] = df[col].apply(
         lambda x: len(str(x).split())
     )
     return df
 
-def calc_qw(df):
-    df['question_words'] = df['opening_msg'].apply(
+def calc_qw(df, col):
+    df['question_words'] = df[col].apply(
         lambda x: list({w for w in question_words if w in x.lower().split()})
     )
     return df
@@ -38,10 +38,10 @@ def arrange_req_ds(conv_dataset, valid_msg):
     df = reduce_dataset(conv_dataset, req_col, valid_msg).to_pandas()
     df = df.drop_duplicates(subset='opening_msg')
     df['request_id'] = range(len(df))
-    df = calc_msg_length(df)
-    df = calc_qw(df)
+    df = calc_msg_length(df, 'opening_msg')
+    df = calc_qw(df, 'opening_msg')
     df = df.rename(columns={
-        'opening_msg': 'request',
+        'opening_msg': 'request'
     })
     df = df[['request_id', 'request', 'categories', 'msg_length', 'question_words']]
     req_ds = Dataset.from_pandas(df)
@@ -72,4 +72,22 @@ def create_req_and_hyp_ds(conv_ds_path, reac_ds_path, req_ds_path, hyp_ds_path):
     hyp_ds = arrange_hyp_ds(reac_dataset, valid_msg, req_ds)
     req_ds.push_to_hub(req_ds_path)
     hyp_ds.push_to_hub(hyp_ds_path)
-    return 
+    return
+
+def select_fr(x):
+    return x['fr']
+
+def create_mkqa_ds(mkqa_ds_path, mkqa_req_ds_path):
+    login(HF_TOKEN)
+    mkqa_df = load_dataset(mkqa_ds_path)['train'].to_pandas()
+    mkqa_df["request"] = mkqa_df['queries'].apply(select_fr)
+    mkqa_df["reference_annotation"] = mkqa_df['answers'].apply(select_fr)
+    mkqa_df = calc_msg_length(mkqa_df, 'request')
+    mkqa_df = calc_qw(mkqa_df, 'request')
+    mkqa_df = mkqa_df.rename(columns={
+        'example_id': 'request_id'
+    })
+    mkqa_df = mkqa_df[['request_id', 'request', 'reference_annotation', 'msg_length', 'question_words']]
+    mkqa_ds = Dataset.from_pandas(mkqa_df)
+    mkqa_ds.push_to_hub(mkqa_req_ds_path)
+    return

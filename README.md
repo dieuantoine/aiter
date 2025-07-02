@@ -34,13 +34,41 @@ Create a <code>.env</code> file at the root of the project and add <code>MISTRAL
 ### Compute the evaluation scores
 Once everything is set up, you can compute the evaluation scores using the following command:
 
-    python -m scripts.score_calculation --col [COL] --version [VERSION]
-Arguments:
-- <code>--col</code>: The name of the column to reformulate (hyp or ref)
+    ./sh/run_scores_calculation.sh
 
-- <code>--version</code>: The version of the scoring metric or evaluation logic used (will be in the name of the results file)
+This internally runs:
+
+    python -m scripts.score_calculation --col [COL] [--overwrite OUTPUT_FILENAME]
+
+Arguments:
+- <code>--col</code> (required): The name of the column to reformulate (hyp or ref)
+
+- <code>--overwrite</code> (optional): If omitted, a new results file will be created (auto-named). 
+If a filename is provided, the new scores will be appended to that file.
 
 The results will then be stored in the <code>data/</code> folder
+
+## Metadata and Versioning
+
+Each time a score file is generated, its associated metadata is automatically saved in <code>data/metadata.csv</code>.
+
+This metadata includes:
+- The version of the references
+- The prompt version used
+- The code version or scoring logic
+
+This allows for transparent tracking and reproducibility of all evaluations.
+
+### Updating a Component Version
+If you want to update any component (e.g. prompt, reference, or logic) follow these steps:
+
+1. Create a new file with the updated content and incremented version number in the filename.
+For example, if you're updating the prompt <code>hyp_reformulation_prompt_4.txt</code>, create <code>hyp_reformulation_prompt_5.txt</code>
+2. Update the <code>config/version.yaml</code> file accordingly to reflect the new version:
+<code yaml>PROMPT_VERSION: 5</code>
+
+This ensures that the system records and uses the correct version, and that the metadata stays consistent.
+
 
 
 ## Project Structure
