@@ -84,10 +84,11 @@ def create_mkqa_ds(mkqa_ds_path, mkqa_req_ds_path):
     mkqa_df["reference_annotation"] = mkqa_df['answers'].apply(select_fr)
     mkqa_df = calc_msg_length(mkqa_df, 'request')
     mkqa_df = calc_qw(mkqa_df, 'request')
+    mkqa_df['categories'] = [[] for _ in range(len(mkqa_df))]
     mkqa_df = mkqa_df.rename(columns={
         'example_id': 'request_id'
     })
-    mkqa_df = mkqa_df[['request_id', 'request', 'reference_annotation', 'msg_length', 'question_words']]
+    mkqa_df = mkqa_df[['request_id', 'request', 'categories', 'reference_annotation', 'msg_length', 'question_words']]
     mkqa_ds = Dataset.from_pandas(mkqa_df)
     mkqa_ds.push_to_hub(mkqa_req_ds_path)
     return
