@@ -19,13 +19,32 @@ Create a <code>.env</code> file at the root of the project and add <code>MISTRAL
 
 ## Usage
 
+### Set the correct version in the version file
+
+Modify the <code>config/version.yaml</code> file with the correct dataset. 
+
 ### Pre-process the data
 
-    python -m scripts.prepare_data
+    ./sh/run_datasets_creation.sh
+
 
 ### Run the requests selection app
 
     ./sh/run_selection_app.sh
+
+### Create the hypotheses dataset (only for MKQA)
+
+Create the hypotheses csv file
+
+    python -m scripts.create_hypotheses_ds.py --action c
+
+Run the hypotheses creation interface
+
+    ./sh/run_hypotheses_creation.sh
+
+When all the hypotheses have been created, push the dataset to HuggingFace
+
+    python -m scripts.create_hypotheses_ds.py --action p
 
 ### Run the reference creation app
 
