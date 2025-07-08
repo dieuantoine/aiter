@@ -41,7 +41,8 @@ ds_config = load_yaml(BASE_DIR / "config" / "hf_ds_paths.yaml")
 ds = ds_config['datasets']
 CONV_DS = ds['CONV_DS']
 REAC_DS = ds['REAC_DS']
-MKQA_REQ_DS = ds['MKQA_DS']
+MKQA_DS = ds['MKQA_DS']
+MKQA_REQ_DS = ds['MKQA_REQ_DS']
 COMPARIA_REQ_DS = ds['REQ_DS']
 HYP_DS = ds['HYP_DS']
 if VERSION["DATASET_VERSION"] == "mkqa":

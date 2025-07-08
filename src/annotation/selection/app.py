@@ -15,6 +15,7 @@ if "selected_conv_ids" not in st.session_state:
 @st.cache_data
 def load_data():
     df = load_from_hf(REQ_DS)
+    print(df.columns)
     return df
 
 df = load_data()
