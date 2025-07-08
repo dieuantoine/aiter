@@ -1,53 +1,41 @@
-import streamlit as st
+from src.utils.utils import load_from_hf
+from datasets import load_dataset, Dataset
+from huggingface_hub import login
 import pandas as pd
-import os, sys
 
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../')))
-from config import DATA_DIR
+from config import HF_TOKEN, MKQA_REQ_DS, MKQA_HYP_DS, SELECTED_IDS_CSV, TEMP_HYP_CSV
 
-DATA_PATH = DATA_DIR / "hyp_1.csv"
+tested_models = ["GPT-4o", "Le Chat", "DeepSeek"]
 
-st.title("📝 Annotation des réponses par modèle")
+def expand_data(df_requests):
+    expanded_rows = []
+    for _, row in df_requests.iterrows():
+        for model in tested_models:
+            expanded_rows.append({
+                "request_id": row["request_id"],
+                "request": row["request"],
+                "model": model,
+                "response": ""
+            })
+    df_expanded = pd.DataFrame(expanded_rows)
+    return df_expanded
 
-if "df" not in st.session_state:
-    if os.path.exists(DATA_PATH):
-        st.session_state.df = pd.read_csv(DATA_PATH)
-    else:
-        st.error("Le fichier annoté n'existe pas.")
-        st.stop()
+def create_temp_hyp_csv():
+    req_df = load_from_hf(MKQA_REQ_DS)
+    selected_ids_df = pd.read_csv(SELECTED_IDS_CSV)
+    req_df["request_id"] = req_df["request_id"].astype(str)
+    selected_ids_df["request_id"] = selected_ids_df["request_id"].astype(str)
+    df = req_df[req_df["request_id"].isin(selected_ids_df["request_id"])].copy()
+    print(len(df))
+    df = df[["request_id", "request"]]
+    expand_data(df).to_csv(TEMP_HYP_CSV)
+    return
 
-df = st.session_state.df
-
-df_todo = df[df["response"].isna()]
-
-if df_todo.empty:
-    st.success("Toutes les requêtes ont été annotées pour tous les modèles.")
-    st.stop()
-
-selected_index = st.selectbox(
-    "Sélectionnez une requête/modèle à annoter :",
-    df_todo.index,
-    format_func=lambda i: f"ID {df_todo.at[i, 'request_id']} | {df_todo.at[i, 'model']} | {df_todo.at[i, 'request'][:60]}...",
-    key="selected_index"
-)
-
-selected_row = df_todo.loc[selected_index]
-
-st.markdown(f"### Requête ID : `{selected_row['request_id']}`")
-st.markdown(f"**Modèle :** `{selected_row['model']}`")
-st.info(selected_row["request"])
-
-response_key = f"response_text_{selected_index}"
-response_text = st.text_area("Entrez la réponse du modèle :", height=200, key=response_key)
-
-if st.button("Enregistrer la réponse"):
-    if not response_text.strip():
-        st.warning("La réponse ne peut pas être vide.")
-    else:
-        st.session_state.df.at[selected_index, "response"] = response_text.strip()
-        st.session_state.df.to_csv(DATA_PATH, index=False)
-        st.success("Réponse enregistrée.")
-        del st.session_state["selected_index"]
-        del st.session_state[response_key]
-
-st.markdown(f"**Requêtes restantes :** {len(df_todo)}")
+def push_hyp_csv():
+    login(HF_TOKEN)
+    hyp_df = pd.read_csv(TEMP_HYP_CSV)
+    hyp_ds = Dataset.from_pandas(hyp_df)
+    hyp_ds.push_to_hub(MKQA_HYP_DS)
+    
+if __name__ == '__main__':
+    create_temp_hyp_csv()

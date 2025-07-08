@@ -25,10 +25,16 @@ REFORMULATION_MODEL = "mistral-medium-latest"
 
 DATA_DIR = BASE_DIR / "data"
 
-SELECTED_IDS_CSV = DATA_DIR / f"selected_req_ids_{VERSION['REFERENCES_VERSION']}.csv"
-REFERENCES_CSV = DATA_DIR / f"references_{VERSION['REFERENCES_VERSION']}.csv"
+INTERIM_DIR = DATA_DIR / "interim" / VERSION["DATASET_VERSION"]
 
-METADATA_CSV = DATA_DIR / "metadata.csv"
+SELECTED_IDS_CSV = INTERIM_DIR / f"selected_req_ids_{VERSION['REFERENCES_VERSION']}.csv"
+REFERENCES_CSV = INTERIM_DIR / f"references_{VERSION['REFERENCES_VERSION']}.csv"
+
+TEMP_HYP_CSV = INTERIM_DIR / f"hypotheses_{VERSION['REFERENCES_VERSION']}.csv"
+
+RESULTS_DIR = BASE_DIR / "results"
+
+METADATA_CSV = RESULTS_DIR / "metadata.csv"
 
 PROMPTS_DIR = BASE_DIR / "src" / "metric" / "prompts"
 
