@@ -36,7 +36,7 @@ Modify the <code>config/version.yaml</code> file with the correct dataset.
 
 Create the hypotheses csv file
 
-    python -m scripts.create_hypotheses_ds.py --action c
+    python -m scripts.create_hypotheses_ds --action c
 
 Run the hypotheses creation interface
 
@@ -44,7 +44,7 @@ Run the hypotheses creation interface
 
 When all the hypotheses have been created, push the dataset to HuggingFace
 
-    python -m scripts.create_hypotheses_ds.py --action p
+    python -m scripts.create_hypotheses_ds --action p
 
 ### Run the reference creation app
 

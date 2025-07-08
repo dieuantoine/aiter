@@ -41,7 +41,7 @@ class ScoringPipeline:
             return self.overwrite
         i = 1
         while True:
-            filepath = f'data/results_{self.reformulation_col}_{i}.csv'
+            filepath = f'data/results/results_{self.reformulation_col}_{i}.csv'
             if not os.path.exists(filepath):
                 return filepath
             i += 1

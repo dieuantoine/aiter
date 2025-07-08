@@ -4,16 +4,20 @@ import os, sys
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../../')))
 from src.utils.utils import load_from_hf
-from config import SELECTED_IDS_CSV, REFERENCES_CSV, HYP_DS
+from config import SELECTED_IDS_CSV, REFERENCES_CSV, HYP_DS, REQ_DS, VERSION
 
 @st.cache_data
 def load_data():
     ids_df = pd.read_csv(SELECTED_IDS_CSV)
     df = load_from_hf(HYP_DS)
+    if VERSION['DATASET_VERSION'] == "mkqa":
+        resp_df = load_from_hf(REQ_DS)
+    else:
+        resp_df = None
     request_ids = set(ids_df['request_id'].tolist())
-    return df, request_ids
+    return df, request_ids, resp_df
 
-df, request_ids = load_data()
+df, request_ids, resp_df = load_data()
 
 if "current_index" not in st.session_state:
     st.session_state.current_index = 0
@@ -44,7 +48,13 @@ st.title("Interface d'annotation")
 st.subheader("Requête :")
 st.markdown(f"> {request_text}")
 
-st.subheader("Réponses :")
+if VERSION['DATASET_VERSION'] == "mkqa":
+    st.subheader("Elements de réponse MKQA:")
+    ref_text_df = resp_df[resp_df['request_id'] == str(current_request_id)]
+    ref_text = ref_text_df['reference_annotation'].iloc[0] if not ref_text_df.empty else None
+    st.markdown(ref_text)
+
+st.subheader("Hypothèses des modèles testés:")
 for idx, resp in enumerate(responses, 1):
     st.markdown(f"**Réponse {idx} :** {resp}")
 

@@ -1,10 +1,10 @@
 from src.llm_api.mistral_api import call_mistral_api
 from src.llm_api.mistral_batch_api import create_input_file, run_batch_job, download_file
-from src.utils.utils import load_from_hf, load_prompt
+from src.utils.utils import load_prompt
 from mistralai import Mistral
 import pandas as pd
 from tqdm import tqdm
-from config import HYP_DS, REF_REFORMULATION_PROMPT, HYP_REFORMULATION_PROMPT, MISTRAL_API_KEY
+from config import REF_REFORMULATION_PROMPT, HYP_REFORMULATION_PROMPT, MISTRAL_API_KEY
 
 def format_prompt(base_prompt, ref, hyp):
     return base_prompt.format(ref=ref, hyp=hyp)
