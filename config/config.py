@@ -43,8 +43,9 @@ CONV_DS = ds['CONV_DS']
 REAC_DS = ds['REAC_DS']
 MKQA_DS = ds['MKQA_DS']
 MKQA_REQ_DS = ds['MKQA_REQ_DS']
+MKQA_HYP_DS = ds['MKQA_HYP_DS']
 COMPARIA_REQ_DS = ds['REQ_DS']
-HYP_DS = ds['HYP_DS']
+COMPARIA_HYP_DS = ds['HYP_DS']
 if VERSION["DATASET_VERSION"] == "mkqa":
     REQ_DS = MKQA_REQ_DS
 else:

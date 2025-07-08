@@ -3,6 +3,8 @@ from huggingface_hub import login
 
 from config import HF_TOKEN, question_words
 
+### COMPARIA 
+
 def select_valid_msg(conv_dataset, reac_dataset):
     conv_valid_msg = set(
         x['opening_msg'] for x in conv_dataset 
@@ -74,14 +76,13 @@ def create_req_and_hyp_ds(conv_ds_path, reac_ds_path, req_ds_path, hyp_ds_path):
     hyp_ds.push_to_hub(hyp_ds_path)
     return
 
-def select_fr(x):
-    return x['fr']
+### MKQA
 
-def create_mkqa_ds(mkqa_ds_path, mkqa_req_ds_path):
+def create_mkqa_ds(mkqa_ds_path, mkqa_req_ds_path, lang):
     login(HF_TOKEN)
     mkqa_df = load_dataset(mkqa_ds_path)['train'].to_pandas()
-    mkqa_df["request"] = mkqa_df['queries'].apply(select_fr)
-    mkqa_df["reference_annotation"] = mkqa_df['answers'].apply(select_fr)
+    mkqa_df["request"] = mkqa_df['queries'].apply(lambda x: x[lang])
+    mkqa_df["reference_annotation"] = mkqa_df['answers'].apply(lambda x: x[lang])
     mkqa_df = calc_msg_length(mkqa_df, 'request')
     mkqa_df = calc_qw(mkqa_df, 'request')
     mkqa_df['categories'] = [[] for _ in range(len(mkqa_df))]
