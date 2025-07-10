@@ -25,14 +25,14 @@ if df_todo.empty:
 selected_index = st.selectbox(
     "Sélectionnez une requête/modèle à annoter :",
     df_todo.index,
-    format_func=lambda i: f"ID {df_todo.at[i, 'request_id']} | {df_todo.at[i, 'model']} | {df_todo.at[i, 'request'][:60]}...",
+    format_func=lambda i: f"ID {df_todo.at[i, 'request_id']} | {df_todo.at[i, 'model_id']} | {df_todo.at[i, 'request'][:60]}...",
     key="selected_index"
 )
 
 selected_row = df_todo.loc[selected_index]
 
 st.markdown(f"### Requête ID : `{selected_row['request_id']}`")
-st.markdown(f"**Modèle :** `{selected_row['model']}`")
+st.markdown(f"**Modèle :** `{selected_row['model_id']}`")
 st.info(selected_row["request"])
 
 response_key = f"response_text_{selected_index}"

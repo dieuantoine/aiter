@@ -8,6 +8,7 @@ from config import DATA_DIR
 df = pd.read_csv(DATA_DIR / "results_hyp_3.csv")
 
 colonnes_affichees = [
+    "model_id"
     "request",
     "reference",
     "response",

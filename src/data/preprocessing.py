@@ -82,7 +82,7 @@ def create_mkqa_ds(mkqa_ds_path, mkqa_req_ds_path, lang):
     login(HF_TOKEN)
     mkqa_df = load_dataset(mkqa_ds_path)['train'].to_pandas()
     mkqa_df["request"] = mkqa_df['queries'].apply(lambda x: x[lang])
-    mkqa_df["reference_annotation"] = mkqa_df['answers'].apply(lambda x: x[lang])
+    mkqa_df["reference_annotation"] = mkqa_df['answers'].apply(lambda x: x[lang][0]["text"])
     mkqa_df = calc_msg_length(mkqa_df, 'request')
     mkqa_df = calc_qw(mkqa_df, 'request')
     mkqa_df['categories'] = [[] for _ in range(len(mkqa_df))]

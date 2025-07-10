@@ -1,8 +1,9 @@
 datasets:
   CONV_DS: "ministere-culture/comparia-conversations"
   REAC_DS: "ministere-culture/comparia-reactions"
-  REQ_DS: "dieuant/requests-dataset"
-  HYP_DS: "dieuant/hypothesis-dataset"
+  COMPARIA_REQ_DS: "/comparia-requests"
+  COMPARIA_HYP_DS: "/comparia-hypotheses"
   MKQA_DS: "apple/mkqa"
-  MKQA_REQ_DS: "dieuant/mkqa_requests"
-  MKQA_HYP_DS: "dieuant/mkqa_hypotheses"
+  MKQA_REQ_DS: "/mkqa_requests"
+  MKQA_HYP_DS: "/mkqa_hypotheses"
+username : "dieuant"

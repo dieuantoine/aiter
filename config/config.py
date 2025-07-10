@@ -32,7 +32,7 @@ REFERENCES_CSV = INTERIM_DIR / f"references_{VERSION['REFERENCES_VERSION']}.csv"
 
 TEMP_HYP_CSV = INTERIM_DIR / f"hypotheses_{VERSION['REFERENCES_VERSION']}.csv"
 
-RESULTS_DIR = BASE_DIR / "results"
+RESULTS_DIR = DATA_DIR / "results"
 
 METADATA_CSV = RESULTS_DIR / "metadata.csv"
 
@@ -45,13 +45,14 @@ REFUSAL_CLASSIFIER_PROMPT = PROMPTS_DIR / "refusal_classifier_prompt.txt"
 #Huggingface datasets
 ds_config = load_yaml(BASE_DIR / "config" / "hf_ds_paths.yaml")
 ds = ds_config['datasets']
+username = ds_config['username']
 CONV_DS = ds['CONV_DS']
 REAC_DS = ds['REAC_DS']
 MKQA_DS = ds['MKQA_DS']
-MKQA_REQ_DS = ds['MKQA_REQ_DS']
-MKQA_HYP_DS = ds['MKQA_HYP_DS']
-COMPARIA_REQ_DS = ds['REQ_DS']
-COMPARIA_HYP_DS = ds['HYP_DS']
+MKQA_REQ_DS = username + ds['MKQA_REQ_DS']
+MKQA_HYP_DS = username + ds['MKQA_HYP_DS']
+COMPARIA_REQ_DS = username + ds['COMPARIA_REQ_DS']
+COMPARIA_HYP_DS = username + ds['COMPARIA_HYP_DS']
 if VERSION["DATASET_VERSION"] == "mkqa":
     REQ_DS = MKQA_REQ_DS
     HYP_DS = MKQA_HYP_DS
