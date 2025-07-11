@@ -513,14 +513,24 @@ En recherchant les dates de Pâques, on trouve que Pâques est tombé un 12 avri
 **Réponse :** La dernière fois que Pâques a eu lieu un **12 avril** était le **dimanche 12 avril 2020**.  
 
 *(Source : Calculs basés sur les tables de dates pascales publiées par les observatoires astronomiques.)*"
-54,GPT-4o,-3557268865091350602,quand est-ce que le samsung galaxy s8 est sorti,
+54,GPT-4o,-3557268865091350602,quand est-ce que le samsung galaxy s8 est sorti,"Le **Samsung Galaxy S8** est sorti le **21 avril 2017** dans la plupart des pays, dont les États-Unis et le Canada. En France et en Europe, il a été officiellement lancé à la fin du mois d’avril 2017.
+
+Il avait été **annoncé le 29 mars 2017** lors d’un événement à New York."
 55,Le Chat,-3557268865091350602,quand est-ce que le samsung galaxy s8 est sorti,Le Samsung Galaxy S8 est sorti le 21 avril 2017.
 56,DeepSeek,-3557268865091350602,quand est-ce que le samsung galaxy s8 est sorti,"Le **Samsung Galaxy S8** est sorti le **21 avril 2017**.  
 
 Il a été officiellement dévoilé le **29 mars 2017** lors d'un événement Samsung, et les précommandes ont commencé peu après. Le modèle **Galaxy S8+**, avec un écran plus grand, est également sorti à la même date.  
 
 Si tu cherches d'autres infos sur ce modèle, n'hésite pas à demander ! 😊"
-57,GPT-4o,-2988239614127773899,Quel âge doit-on avoir pour boire en Angleterre ?,
+57,GPT-4o,-2988239614127773899,Quel âge doit-on avoir pour boire en Angleterre ?,"En Angleterre, l'âge légal pour acheter de l'alcool est de **18 ans**. Cela signifie qu’il faut avoir **au moins 18 ans** pour acheter de l’alcool dans un magasin, un pub, un bar ou un restaurant.
+
+Cependant, il existe quelques exceptions :
+
+* **À 16 ou 17 ans**, une personne peut boire **du vin, de la bière ou du cidre** avec **un repas** dans un restaurant ou un pub, **si elle est accompagnée d’un adulte**. Mais elle ne peut pas acheter l’alcool elle-même — c’est l’adulte qui doit le faire.
+
+* **Moins de 5 ans** : Il est illégal de donner de l’alcool à un enfant de moins de 5 ans, sauf dans certaines situations médicales encadrées.
+
+Souhaitez-vous aussi connaître les règles en Écosse, au Pays de Galles ou en Irlande du Nord ?"
 58,Le Chat,-2988239614127773899,Quel âge doit-on avoir pour boire en Angleterre ?,"En Angleterre, l'âge légal pour acheter et consommer de l'alcool est de 18 ans. Cela s'applique à la consommation dans les bars, les restaurants, et pour l'achat d'alcool dans les magasins."
 59,DeepSeek,-2988239614127773899,Quel âge doit-on avoir pour boire en Angleterre ?,"En Angleterre, l'âge légal pour acheter et consommer de l'alcool dans un lieu public est **18 ans**.  
 
@@ -533,7 +543,45 @@ Il est interdit de vendre ou d'offrir de l'alcool à des **moins de 18 ans** dan
 Ces règles s'appliquent à l'**Angleterre et au pays de Galles**. En **Écosse**, les lois sont légèrement différentes : un mineur de **16 ou 17 ans** peut consommer de l'alcool uniquement à domicile, avec l'autorisation d'un adulte.  
 
 Si vous prévoyez un voyage, vérifiez bien les lois locales pour éviter tout problème ! 🍷🍺"
-60,GPT-4o,5064534131928384032,d'où part le Danube et jusqu'ou va-t'il,
+60,GPT-4o,5064534131928384032,d'où part le Danube et jusqu'ou va-t'il,"Le Danube est le deuxième plus long fleuve d'Europe, après la Volga. Voici ses principales caractéristiques :
+
+🌊 Source
+Le Danube prend sa source en Allemagne, dans la Forêt-Noire (Schwarzwald), plus précisément à Donaueschingen, là où les rivières Brigach et Breg se rejoignent pour former le fleuve.
+
+🌍 Parcours
+Il traverse ou longe 10 pays, un record en Europe :
+
+Allemagne
+
+Autriche
+
+Slovaquie
+
+Hongrie
+
+Croatie
+
+Serbie
+
+Bulgarie
+
+Roumanie
+
+Moldavie (très court segment)
+
+Ukraine
+
+🌊 Embouchure
+Le Danube se jette dans la mer Noire, en formant un vaste delta, le delta du Danube, situé principalement en Roumanie et en partie en Ukraine.
+
+📏 En résumé :
+Longueur : environ 2 850 km
+
+Source : Donaueschingen, Allemagne (Forêt-Noire)
+
+Embouchure : Mer Noire, via le delta du Danube
+
+Souhaites-tu une carte ou un schéma de son parcours ?"
 61,Le Chat,5064534131928384032,d'où part le Danube et jusqu'ou va-t'il,"Le Danube prend sa source dans la Forêt-Noire en Allemagne et se jette dans la mer Noire. Il traverse plusieurs pays d'Europe centrale et orientale, ce qui en fait le deuxième plus long fleuve d'Europe après la Volga."
 62,DeepSeek,5064534131928384032,d'où part le Danube et jusqu'ou va-t'il,"Le **Danube**, le deuxième plus long fleuve d'Europe après la Volga, prend sa source en **Allemagne** et se jette dans la **mer Noire**. Voici son parcours en détail :
 
@@ -568,7 +616,64 @@ Il arrose des villes importantes comme :
 Environ **2 850 km** (les estimations varient selon les sources).  
 
 Le Danube est une voie navigable majeure en Europe et joue un rôle économique et écologique important. 🚢🌍"
-63,GPT-4o,-1623829653595228960,quels pays ne passent pas à l'heure d'été dans le monde ?,
+63,GPT-4o,-1623829653595228960,quels pays ne passent pas à l'heure d'été dans le monde ?,"La majorité des pays dans le monde **ne passent pas à l'heure d'été (DST, Daylight Saving Time)**. Voici une vue d’ensemble des **pays ou territoires qui ne pratiquent pas l'heure d'été** :
+
+---
+
+### 🌍 **Continents et pays qui ne passent généralement pas à l'heure d'été :**
+
+#### **🌴 Afrique**
+
+La quasi-totalité de l'Afrique **n’utilise pas l’heure d’été**, sauf quelques exceptions historiques :
+
+* **Pas d’heure d’été** : Algérie, Maroc (sauf pendant le Ramadan), Tunisie, Égypte, Sénégal, Afrique du Sud, etc.
+
+#### **🌏 Asie**
+
+L’Asie dans son ensemble **n’adopte pas** l’heure d’été :
+
+* **Pas d’heure d’été** : Chine, Japon, Inde, Indonésie, Thaïlande, Vietnam, Philippines, Corée du Sud, Singapour, Arabie saoudite, Iran (supprimé en 2022), etc.
+
+#### **🌎 Amérique latine et Caraïbes**
+
+La plupart des pays ont abandonné l’heure d’été :
+
+* **Pas d’heure d’été** : Argentine, Pérou, Colombie, Venezuela, Équateur, Brésil (supprimé en 2019), Chili (majoritairement), etc.
+* **Exceptions partielles** : Certaines régions du Mexique ou du Paraguay peuvent l’utiliser encore.
+
+#### **🌍 Océanie**
+
+* **Pas d’heure d’été** : La majorité de l’Indonésie, de la Papouasie-Nouvelle-Guinée, des Fidji (suspendu), etc.
+* **Exceptions** : Certaines parties de l’Australie (Nouvelle-Galles du Sud, Victoria…) utilisent l’heure d’été, mais d’autres non (Queensland, Territoire du Nord…).
+
+#### **🌍 Europe**
+
+* **Tous les pays de l’Union européenne appliquent encore l’heure d’été**, bien qu’une abolition ait été discutée.
+* **Exceptions** en Eurasie : Russie, Turquie, Biélorussie, Arménie, Azerbaïdjan, Kazakhstan… ont **aboli l'heure d'été**.
+
+#### **🇺🇸 Amérique du Nord**
+
+* **États-Unis et Canada** appliquent l’heure d’été, mais :
+
+  * **Exemptions** :
+
+    * **Arizona (sauf la Nation Navajo)** n’applique pas l’heure d’été.
+    * **Hawaï** n’utilise pas l’heure d’été.
+    * Certaines provinces canadiennes du nord également.
+
+---
+
+### ✅ En résumé :
+
+**Les grandes régions qui ne pratiquent PAS l’heure d’été** sont :
+
+* **Asie**
+* **Afrique**
+* **La majeure partie de l’Amérique latine**
+* **Certains États ou provinces en Amérique du Nord**
+* **Russie, Turquie et pays de l’ex-URSS**
+
+Souhaites-tu une **carte visuelle** ou une **liste complète par pays** ?"
 64,Le Chat,-1623829653595228960,quels pays ne passent pas à l'heure d'été dans le monde ?,"Les pays qui ne passent pas à l'heure d'été sont nombreux et se trouvent principalement autour de l'équateur, où les variations de lumière du jour sont moins prononcées tout au long de l'année. Voici quelques exemples de pays qui n'observent pas l'heure d'été :
 
 La plupart des pays d'Afrique, comme le Maroc (qui a abandonné l'heure d'été), l'Algérie, la Tunisie, et d'autres.
@@ -622,7 +727,12 @@ La plupart des pays asiatiques ne changent pas d'heure :
 - **L'Égypte et le Maroc**, qui utilisaient l'heure d'été, l'ont récemment abandonnée.  
 
 Si vous cherchez un pays en particulier, je peux vérifier s'il applique ou non l'heure d'été !"
-66,GPT-4o,2024670146411870673,les sols gonflants s’étendent et se contractent en raison de changements dans quoi,
+66,GPT-4o,2024670146411870673,les sols gonflants s’étendent et se contractent en raison de changements dans quoi,"Les **sols gonflants** (aussi appelés **sols argileux expansifs**) s’étendent (se gonflent) et se contractent (se rétractent) **en raison des changements de teneur en eau**. Plus précisément :
+
+* **Lorsqu'ils absorbent de l'eau** (par exemple après des pluies abondantes), les particules d’argile se gonflent, ce qui provoque un **soulèvement** du sol.
+* **Lorsqu'ils perdent de l’eau** (en période de sécheresse), ces particules se contractent, entraînant un **retrait** du sol.
+
+Ce phénomène est causé par certains types d’argiles, notamment la **smectite** (comme la montmorillonite), qui ont une forte capacité de rétention d'eau et de gonflement. Ce comportement peut causer des **dégâts importants aux bâtiments et infrastructures** s’ils ne sont pas conçus pour y résister."
 67,Le Chat,2024670146411870673,les sols gonflants s’étendent et se contractent en raison de changements dans quoi,"Les sols gonflants, également connus sous le nom de sols argileux expansifs, s'étendent et se contractent principalement en raison des changements dans la teneur en eau. Ces sols contiennent des minéraux argileux qui absorbent l'eau, ce qui provoque un gonflement, et perdent de l'eau, ce qui entraîne une contraction. Ces variations de volume peuvent causer des mouvements du sol et potentiellement endommager les structures construites sur ces sols."
 68,DeepSeek,2024670146411870673,les sols gonflants s’étendent et se contractent en raison de changements dans quoi,"Les **sols gonflants** (ou sols expansifs) s'étendent et se contractent principalement en raison des **changements dans leur teneur en eau**.  
 
@@ -643,14 +753,20 @@ Si vous cherchez un pays en particulier, je peux vérifier s'il applique ou non 
 Ces sols posent des problèmes majeurs en **géotechnique** (fissures dans les bâtiments, déformation des routes). Des techniques comme le **traitement chimique** (chaux, ciment) ou des **fondations adaptées** (pieux, radiers) sont utilisées pour limiter les risques.  
 
 En résumé, **l’eau est le facteur clé** responsable du gonflement et de la contraction des sols expansifs."
-69,GPT-4o,-721170466207849824,quand a été vue pour la dernière fois la comète de halley,
+69,GPT-4o,-721170466207849824,quand a été vue pour la dernière fois la comète de halley,"La comète de Halley a été vue pour la **dernière fois en 1986** lors de son dernier passage au plus près du Soleil (le **périhélie**), qui a eu lieu le **9 février 1986**.
+
+Elle revient environ tous les **75 à 76 ans**, ce qui signifie que son **prochain passage** est attendu **vers juillet 2061**.
+
+Lors du passage de 1986, bien que moins spectaculaire que celui de 1910 à cause de sa position défavorable par rapport à la Terre, elle a été largement étudiée par plusieurs sondes spatiales, dont **Giotto** (Agence spatiale européenne) et des sondes soviétiques, japonaises et américaines."
 70,Le Chat,-721170466207849824,quand a été vue pour la dernière fois la comète de halley,La comète de Halley a été observée pour la dernière fois en 1986. Elle est visible depuis la Terre environ tous les 76 ans. Sa prochaine apparition est prévue pour 2061.
 71,DeepSeek,-721170466207849824,quand a été vue pour la dernière fois la comète de halley,"La comète de Halley a été vue pour la dernière fois depuis la Terre en **1986**.  
 
 Prochaine apparition prévue : **juillet 2061** (elle revient environ tous les **76 ans**).  
 
 Si tu veux l'observer, il va falloir patienter encore quelques décennies ! 😊"
-72,GPT-4o,5540701807690820559,nommez un pays voisin de l'inde qui est une république,
+72,GPT-4o,5540701807690820559,nommez un pays voisin de l'inde qui est une république,"Un pays voisin de l’Inde qui est une république est **le Népal**.
+
+Le Népal est une république fédérale démocratique et partage une longue frontière avec l’Inde."
 73,Le Chat,5540701807690820559,nommez un pays voisin de l'inde qui est une république,Le Népal est un pays voisin de l'Inde qui est une république.
 74,DeepSeek,5540701807690820559,nommez un pays voisin de l'inde qui est une république,"Un pays voisin de l'Inde qui est une république est le **Népal**.  
 

@@ -1,6 +1,6 @@
 from src.llm_api.mistral_api import call_mistral_api
 from src.llm_api.mistral_batch_api import create_input_file, run_batch_job, download_file
-from src.utils.utils import load_prompt
+from src.utils.utils import load_prompt, not_non_empty_str
 from mistralai import Mistral
 import pandas as pd
 from tqdm import tqdm
@@ -10,6 +10,8 @@ def format_prompt(base_prompt, ref, hyp):
     return base_prompt.format(ref=ref, hyp=hyp)
 
 def reformulate(client, base_prompt, ref, hyp, reformulation_model):
+    if not_non_empty_str(ref) or not_non_empty_str(hyp):
+        return None
     prompt = format_prompt(base_prompt, ref, hyp)
     return call_mistral_api(client, prompt, model=reformulation_model, call_delay=3.0)
 

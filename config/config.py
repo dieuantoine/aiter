@@ -12,12 +12,10 @@ BASE_DIR = Path(__file__).resolve().parents[1]
 MISTRAL_API_KEY = os.getenv("MISTRAL_API_KEY")
 HF_TOKEN = os.getenv("HF_TOKEN")
 
-#French Question Words
-question_words = ['quoi', 'quand', 'comment', 'pourquoi', 'où', 'qui', 'quel', 'quelle', 'quels', 'quelles', 'lequel', 'combien']
-
 # Version du code
 version_config = load_yaml(BASE_DIR / "config" / "version.yaml")
 VERSION = version_config['VERSION']
+LANG = VERSION["LANG"]
 
 REFORMULATION_MODEL = "mistral-medium-latest"
 
@@ -59,3 +57,7 @@ if VERSION["DATASET_VERSION"] == "mkqa":
 else:
     REQ_DS = COMPARIA_REQ_DS
     HYP_DS = COMPARIA_HYP_DS
+    
+# Question Words
+qw_config = load_yaml(BASE_DIR / "config" / "question_words.yaml")
+question_words = qw_config['QUESTION_WORDS'][LANG]

@@ -1,10 +1,9 @@
 import pandas as pd
 from sacrebleu.metrics import TER
 
-from tqdm import tqdm
+from src.utils.utils import not_non_empty_str
 
-def not_non_empty_str(obj):
-    return not isinstance(obj, str) or len(obj)==0
+from tqdm import tqdm
 
 def compute_ter(ter, ref, hyp):
     if not_non_empty_str(ref) or not_non_empty_str(hyp):
