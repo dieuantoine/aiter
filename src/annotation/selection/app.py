@@ -4,18 +4,18 @@ import pandas as pd
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../../')))
 from src.utils.utils import load_from_hf
-from config import REQ_DS, SELECTED_IDS_CSV
+from config import REQ_DS, SELECTED_IDS_CSV, VERSION
 
 if "selected_conv_ids" not in st.session_state:
     if os.path.exists(SELECTED_IDS_CSV):
-        st.session_state.selected_conv_ids = set(pd.read_csv(SELECTED_IDS_CSV)["request_id"].tolist())
+        st.session_state.selected_conv_ids = set(pd.read_csv(SELECTED_IDS_CSV)["request_id"].astype(str).tolist())
     else:
         st.session_state.selected_conv_ids = set()
 
 @st.cache_data
 def load_data():
     df = load_from_hf(REQ_DS)
-    print(df.columns)
+    df["request_id"] = df["request_id"].astype(str)
     return df
 
 df = load_data()
@@ -88,6 +88,8 @@ if total_results > 0:
                 st.markdown(f"**Thématiques :** {', '.join(row['categories'])}")
                 st.markdown(f"**Mot(s) interrogatif(s) :** {', '.join(row['question_words'])}")
                 st.markdown(f"**Requête ({row['msg_length']}) :** {row['request']}")
+                if VERSION['DATASET_VERSION']=="mkqa":
+                    st.markdown(f"**Annotations :** {row['reference_annotation']}")
     
         with cols[1]:
             conv_id = row['request_id']
