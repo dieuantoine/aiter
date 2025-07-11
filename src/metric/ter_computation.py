@@ -3,7 +3,12 @@ from sacrebleu.metrics import TER
 
 from tqdm import tqdm
 
+def not_non_empty_str(obj):
+    return not isinstance(obj, str) or len(obj)==0
+
 def compute_ter(ter, ref, hyp):
+    if not_non_empty_str(ref) or not_non_empty_str(hyp):
+        return 100
     return ter.sentence_score(hyp, [ref]).score
 
 def compute_scores(df, reformulation_col):
