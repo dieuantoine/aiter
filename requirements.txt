@@ -1,16 +1,17 @@
 python-dotenv
 tqdm==4.67.1
 
-pandas==2.0.3
+numpy
+pandas
 
-huggingface-hub==0.26.3
-datasets==3.1.0
-mistralai==1.5.2
+huggingface-hub
+datasets
+mistralai
 
-matplotlib==3.7.5
+matplotlib
 seaborn
-streamlit==1.40.1
+streamlit
 
 nltk
-wordcloud==1.9.4
-sacrebleu==2.5.1
+wordcloud
+sacrebleu
