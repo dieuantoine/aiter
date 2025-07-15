@@ -1,0 +1,55 @@
+requests:
+  - request: qui a gagné america's got talent en 2015
+    reference: Le gagnant d'America's Got Talent en 2015 était Paul Zerdin.
+    context: Paul Zerdin est un ventriloque britannique qui a remporté la dixième saison de l'émission America's Got Talent en 2015.
+    response: |
+      Le gagnant de **America's Got Talent** en **2015** (saison 10) est **Paul Zerdin**, un **ventriloque** britannique.
+      Son style mêlait **humour**, **maîtrise technique** et **personnages de marionnettes** très expressifs, ce qui lui a permis de séduire à la fois le public et les juges. Il est devenu le deuxième ventriloque à remporter l’émission, après **Terry Fator** (saison 2).
+      Finalistes notables cette saison-là :
+      * Drew Lynch (humoriste bègue, très apprécié du public)
+      * Oz Pearlman (mentaliste)
+      Souhaites-tu un résumé de sa performance gagnante ou des infos sur ce qu'il est devenu ?
+  - request: qui a gagné america's got talent en 2015
+    reference: Le gagnant d'America's Got Talent en 2015 était Paul Zerdin.
+    context: Paul Zerdin est un ventriloque britannique qui a remporté la dixième saison de l'émission America's Got Talent en 2015.
+    response: |
+      En **2015**, le gagnant d'**America's Got Talent (saison 10)** était **Paul Zerdin**, un ventriloque et comédien britannique. Il a remporté le concours avec son numéro mettant en scène ses marionnettes, notamment le personnage de **Sam**.  
+      Sa victoire lui a valu **1 million de dollars** et une émission à Las Vegas. 🎤🎭
+  - request: Quel est l'immeuble le plus haut des États-Unis ?
+    reference: L'immeuble le plus haut des États-Unis est le One World Trade Center.
+    context: Le One World Trade Center, situé à New York, est le plus haut gratte-ciel des États-Unis. Inauguré en 2014, il culmine à 1 776 pieds (541 mètres) de hauteur.
+    response: |
+      L'immeuble le plus haut des **États-Unis** est le **One World Trade Center**, situé à **New York City**.  ### Caractéristiques principales :  * **Hauteur totale (avec flèche)** : **541,3 mètres** (1 776 pieds, en référence à l’année de l’indépendance des États-Unis) * **Hauteur du toit** : Environ **417 mètres** * **Nombre d'étages** : **104** * **Achèvement** : 2014 * **Emplacement** : Lower Manhattan, à l’emplacement du World Trade Center détruit lors des attentats du 11 septembre 2001.  C’est non seulement le plus haut des États-Unis, mais aussi le plus haut gratte-ciel de l’hémisphère occidental.
+  - request: d'où part le Danube et jusqu'ou va-t'il
+    reference: Le Danube prend sa source en Allemagne et se jette dans la mer Noire en Roumanie
+    context: |
+      Le Danube est un fleuve qui traverse ou longe dix pays d'Europe. Il prend sa source dans la Forêt-Noire en Allemagne lorsque deux cours d’eau, la Brigach et la Breg, se rencontrent à Donaueschingen où le fleuve prend le nom de Danube. Le delta du Danube s'ouvre sur la mer Noire : partagé entre la Roumanie et l'Ukraine.
+    response: |
+      Le Danube est le deuxième plus long fleuve d'Europe, après la Volga. Voici ses principales caractéristiques :
+      🌊 Source
+      Le Danube prend sa source en Allemagne, dans la Forêt-Noire (Schwarzwald), plus précisément à Donaueschingen, là où les rivières Brigach et Breg se rejoignent pour former le fleuve.
+      🌍 Parcours
+      Il traverse ou longe 10 pays, un record en Europe :
+      Allemagne
+      Autriche
+      Slovaquie
+      Hongrie
+      Croatie
+      Serbie
+      Bulgarie
+      Roumanie
+      Moldavie (très court segment)
+      Ukraine
+      🌊 Embouchure
+      Le Danube se jette dans la mer Noire, en formant un vaste delta, le delta du Danube, situé principalement en Roumanie et en partie en Ukraine.
+      📏 En résumé :
+      Longueur : environ 2 850 km
+      Source : Donaueschingen, Allemagne (Forêt-Noire)
+      Embouchure : Mer Noire, via le delta du Danube
+      Souhaites-tu une carte ou un schéma de son parcours ?
+  - request: d'où part le Danube et jusqu'ou va-t'il
+    reference: Le Danube prend sa source en Allemagne et se jette dans la mer Noire en Roumanie
+    context: |
+      Le Danube est un fleuve qui traverse ou longe dix pays d'Europe. Il prend sa source dans la Forêt-Noire en Allemagne lorsque deux cours d’eau, la Brigach et la Breg, se rencontrent à Donaueschingen où le fleuve prend le nom de Danube. Le delta du Danube s'ouvre sur la mer Noire : partagé entre la Roumanie et l'Ukraine.
+    response: |
+      Le Danube prend sa source dans la Forêt-Noire en Allemagne et se jette dans la mer Noire. Il traverse plusieurs pays d'Europe centrale et orientale, ce qui en fait le deuxième plus long fleuve d'Europe après la Volga.
