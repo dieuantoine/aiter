@@ -8,7 +8,7 @@ from src.metric.ter_computation import compute_scores
 from src.utils.utils import load_from_hf
 from config import HYP_DS, METADATA_CSV, VERSION, REFORMULATION_MODEL, REFERENCES_CSV
 
-csv_cols = ["conv_id", "model_id", "request_id", "request", "reference", "response", "reformulation", "score"]
+csv_cols = ["conv_id", "model_id", "request_id", "request", "reference", "context", "hypothesis", "filtered_hypothesis", "corrected_hypothesis", "score", "ot_score", "global_score"]
 
 class ScoringPipeline:
     def __init__(self, reformulation_col, overwrite=None, steps=range(3)):
@@ -65,11 +65,11 @@ class ScoringPipeline:
             self.df = pd.concat([self.df, new_df], ignore_index=True)
             
     def reformulation(self):
-        self.df = create_reformulations(self.df, self.reformulation_col, self.model)
+        self.df = create_reformulations(self.df, self.model)
         return
     
     def scoring(self):
-        self.df = compute_scores(self.df, self.reformulation_col)
+        self.df = compute_scores(self.df)
         return
     
     def metadata_creation(self):

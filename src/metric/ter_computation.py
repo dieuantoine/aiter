@@ -1,24 +1,17 @@
 import pandas as pd
 from sacrebleu.metrics import TER
 
-from src.utils.utils import not_non_empty_str
-
 from tqdm import tqdm
 
 def compute_ter(ter, ref, hyp):
-    if not_non_empty_str(ref) or not_non_empty_str(hyp):
-        return 100
     return ter.sentence_score(hyp, [ref]).score
 
-def compute_scores(df, reformulation_col):
+def compute_scores(df):
     ter = TER(no_punct=True)
-    mask = df['score'].isna()
-    if reformulation_col=="hyp":
-        ref_col, hyp_col = 'response', 'reformulation'
-    elif reformulation_col=="ref":
-        ref_col, hyp_col = 'reformulation', 'response'
+    mask = df['score'].isna() & df['corrected_hypothesis'].notna()
     if mask.any():
         for idx in tqdm(df[mask].index, desc="Calcul des scores TER"):
-            df.at[idx, 'score'] = compute_ter(ter, df.at[idx, ref_col], df.at[idx, hyp_col])
-
+            df.at[idx, 'score'] = compute_ter(ter, df.at[idx, 'corrected_hypothesis'], df.at[idx, 'filtered_hypothesis'])
+            df.at[idx, 'ot_score'] = compute_ter(ter, df.at[idx, 'filtered_hypothesis'], df.at[idx, 'hypothesis'])
+            df.at[idx, 'global_score'] = compute_ter(ter, df.at[idx, 'corrected_hypothesis'], df.at[idx, 'hypothesis'])
     return df

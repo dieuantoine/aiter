@@ -18,6 +18,3 @@ def clean_text(text):
     text = re.sub(r"[ç]", "c", text)
     text = re.sub(r"[^a-zA-Z0-9\s]", "", text)
     return text
-
-def not_non_empty_str(obj):
-    return not isinstance(obj, str) or len(obj)==0

@@ -38,6 +38,7 @@ PROMPTS_DIR = BASE_DIR / "src" / "metric" / "prompts"
 
 REF_REFORMULATION_PROMPT = PROMPTS_DIR / f"ref_reformulation_prompt_{VERSION['PROMPT_VERSION']}.txt"
 HYP_REFORMULATION_PROMPT = PROMPTS_DIR / f"hyp_reformulation_prompt_{VERSION['PROMPT_VERSION']}.txt"
+OFF_TOPIC_FILTERING_PROMPT = PROMPTS_DIR / f"hyp_off_topic_prompt_{VERSION['PROMPT_VERSION']}.txt"
 REFUSAL_CLASSIFIER_PROMPT = PROMPTS_DIR / "refusal_classifier_prompt.txt"
 
 #Huggingface datasets

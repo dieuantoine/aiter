@@ -43,7 +43,7 @@ Tu dois fournir uniquement la **CORRECTION**, sans justification ni commentaire.
 ---
 
 **CONTEXTE:**
-{context}
+{con}
 
 ---
 
