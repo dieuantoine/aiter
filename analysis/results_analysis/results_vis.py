@@ -16,7 +16,7 @@ from config import DATA_DIR
 #     "score"
 # ]
 
-df = pd.read_csv("tests/results.csv")
+df = pd.read_csv("temp_tests/results.csv")
 
 colonnes_affichees = [
     "Request",
@@ -24,7 +24,9 @@ colonnes_affichees = [
     "Context",
     "Hypothesis",
     "Filtered Hypothesis",
-    "Response"
+    "Response",
+    "Score",
+    "Off-topic score"
 ]
 
 colonnes_existantes = [col for col in colonnes_affichees if col in df.columns]
