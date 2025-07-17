@@ -75,23 +75,3 @@ def create_reformulations(df, reformulation_model):
                 df.at[idx, 'filtered_hypothesis'] = response.filtered
                 df.at[idx, 'corrected_hypothesis'] = response.corrected
     return df
-
-def create_batch_reformulation(df, reformulation_col, reformulation_model):
-    #Pas possible avec le free trial
-    if reformulation_col=="hyp":
-        reformulation_prompt = HYP_REFORMULATION_PROMPT
-    elif reformulation_col=="ref":
-        reformulation_prompt = REF_REFORMULATION_PROMPT
-    base_prompt = load_prompt(reformulation_prompt)
-    prompts = []
-    for idx in tqdm(df.index, desc="Calcul des reformulations"):
-        ref, hyp = df.at[idx, "reference"], df.at[idx, "response"]
-        prompts.append(format_prompt(base_prompt, ref, hyp))
-    client = Mistral(api_key=MISTRAL_API_KEY)
-    input_file = create_input_file(client, prompts)
-    print(f"Created input file {input_file}")
-
-    batch_job = run_batch_job(client, input_file, reformulation_model)
-    print(f"Job duration: {batch_job.completed_at - batch_job.created_at} seconds")
-    download_file(client, batch_job.error_file, "error.jsonl")
-    download_file(client, batch_job.output_file, "output.jsonl")
