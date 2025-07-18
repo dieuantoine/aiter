@@ -36,7 +36,7 @@ class Response:
         return cls(
             conv_id=row.get("conv_id"),
             model=row.get("model_id"),
-            request=row.get("request_id"),
+            req_id=row.get("request_id"),
             req=row.get("request", ""),
             ref=row.get("reference", ""),
             con=row.get("context", ""),
@@ -56,7 +56,7 @@ def reformulate(client, base_prompt: str, reformulation_model: str, response: Re
     return call_mistral_api(client, prompt, model=reformulation_model, call_delay=3.0)
 
 def create_reformulations(df, reformulation_model):
-    mask = df['reformulation'].isna()
+    mask = df['filtered_hypothesis'].isna()
     if mask.any():
         client = create_client()
         ot_base_prompt = load_prompt(OFF_TOPIC_FILTERING_PROMPT)
