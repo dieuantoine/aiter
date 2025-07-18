@@ -5,28 +5,18 @@ import os, sys
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../')))
 from config import DATA_DIR
 
-# df = pd.read_csv(DATA_DIR / "results/results_hyp_3.csv")
-
-# colonnes_affichees = [
-#     "model_id",
-#     "request",
-#     "reference",
-#     "response",
-#     "reformulation",
-#     "score"
-# ]
-
-df = pd.read_csv("temp_tests/results.csv")
+df = pd.read_csv(DATA_DIR / "results/results_1.csv")
 
 colonnes_affichees = [
-    "Request",
-    "Reference",
-    "Context",
-    "Hypothesis",
-    "Filtered Hypothesis",
-    "Response",
-    "Score",
-    "Off-topic score"
+    "model_id",
+    "request",
+    "reference",
+    "hypothesis",
+    "filtered_hypothesis",
+    "corrected_hypothesis",
+    "score",
+    "ot_score",
+    "global_score"
 ]
 
 colonnes_existantes = [col for col in colonnes_affichees if col in df.columns]
