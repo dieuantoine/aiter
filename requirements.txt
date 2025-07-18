@@ -15,3 +15,5 @@ streamlit
 nltk
 wordcloud
 sacrebleu
+
+lighteval
