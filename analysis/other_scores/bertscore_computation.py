@@ -8,7 +8,9 @@ from config import DATA_DIR
 
 bertscore = load("bertscore")
 
-df = pd.read_csv(DATA_DIR / "results/results_1.csv")
+filepath = DATA_DIR / "results/results_1.csv"
+
+df = pd.read_csv(filepath)
 
 recall_ref = []
 f1_ref = []
