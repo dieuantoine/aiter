@@ -1,4 +1,4 @@
-conv_id,model_id,request,hypothesis,reference,context,score_1,score_2,ot_score,global_score,bertscore_recall_ref,bertscore_f1_ref,bertscore_precision_ctx,bertscore_f1_ctx,hyp_len,ref_len,ctx_len
+conv_id,model_id,request,hypothesis,reference,context,score_1,score_2_cor,score_2_fil,score_2_global,bertrecall_ref,bertf1_ref,bertprecision_ctx,bertf1_ctx),hyp_len,ref_len,ctx_len
 0,GPT-4o,d'où vient la phrase great scott,"La phrase **""Great Scott!""** est une exclamation anglaise qui exprime la surprise, la stupéfaction ou l'indignation. Elle est surtout connue aujourd’hui grâce au personnage du **Dr. Emmett Brown** (Doc) dans les films *Retour vers le futur* (*Back to the Future*), où il l’utilise fréquemment.
 
 ### Origine de ""Great Scott""
