@@ -4,6 +4,6 @@ datasets:
   COMPARIA_REQ_DS: "/comparia-requests"
   COMPARIA_HYP_DS: "/comparia-hypotheses"
   MKQA_DS: "apple/mkqa"
-  MKQA_REQ_DS: "/mkqa_requests"
-  MKQA_HYP_DS: "/mkqa_hypotheses"
+  MKQA_REQ_DS: "/mkqa-requests"
+  MKQA_HYP_DS: "/mkqa-hypotheses"
 username : "dieuant"
