@@ -1,5 +1,5 @@
 import argparse
-from src.metric.scorer import ScoringPipeline
+from src.process.metric.scorer import ScoringPipeline
 
 if __name__ == '__main__':
    parser = argparse.ArgumentParser(description="Run the scoring pipeline.")
