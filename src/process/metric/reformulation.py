@@ -3,7 +3,7 @@ from src.llm_api.mistral_batch_api import create_input_file, run_batch_job, down
 from src.utils.utils import load_prompt
 import pandas as pd
 from tqdm import tqdm
-from config import OFF_TOPIC_FILTERING_PROMPT, HYP_REFORMULATION_PROMPT
+from config import OT_PROMPT, COR_PROMPT
 
 class Response:
     def __init__(self, conv_id: str = "", model: str = "", req_id: str = "", req: str = "", ref: str = "", con: str = "", hyp: str = ""):
@@ -59,8 +59,8 @@ def create_reformulations(df, reformulation_model):
     mask = df['filtered_hypothesis'].isna()
     if mask.any():
         client = create_client()
-        ot_base_prompt = load_prompt(OFF_TOPIC_FILTERING_PROMPT)
-        cor_base_prompt = load_prompt(HYP_REFORMULATION_PROMPT)
+        ot_base_prompt = load_prompt(OT_PROMPT)
+        cor_base_prompt = load_prompt(COR_PROMPT)
         for idx in tqdm(df[mask].index, desc="Off-topic filtering"):
             response = Response.from_series(df.loc[idx])
             if response.is_valid():

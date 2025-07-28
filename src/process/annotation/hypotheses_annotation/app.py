@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import os, sys
 
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../../')))
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../../../')))
 from config import TEMP_HYP_CSV
 
 st.title("📝 Annotation des réponses par modèle")

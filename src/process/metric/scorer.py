@@ -2,11 +2,11 @@ import pandas as pd
 from datetime import datetime
 import os
 
-from src.metric.reformulation import create_reformulations
-from src.metric.ter_computation import compute_scores
+from src.process.metric.reformulation import create_reformulations
+from src.process.metric.ter_computation import compute_scores
 
 from src.utils.utils import load_from_hf
-from config import HYP_DS, METADATA_CSV, VERSION, REFORMULATION_MODEL, REFERENCES_CSV
+from config import HYP_DS, VERSION, REFORMULATION_MODEL, RESULTS_DIR, REFERENCES_CSV, METADATA_CSV
 
 csv_cols = ["conv_id", "model_id", "request_id", "request", "reference", "context", "hypothesis", "filtered_hypothesis", "corrected_hypothesis", "score", "ot_score", "global_score"]
 
@@ -16,6 +16,8 @@ class ScoringPipeline:
         self.overwrite = overwrite
         self.model = REFORMULATION_MODEL
         self.filepath = self._get_filepath()
+        
+        self.start_time = None
         
         try:
             self.df = pd.read_csv(self.filepath)
@@ -40,12 +42,11 @@ class ScoringPipeline:
             return self.overwrite
         i = 1
         while True:
-            filepath = f'data/results/results_{i}.csv'
+            filepath = RESULTS_DIR / f'results_{i}.csv'
             if not os.path.exists(filepath):
                 return filepath
             i += 1
 
-    
     def _synchronise_ids(self):
         present_ids = set(self.df['request_id']) if 'request_id' in self.df.columns else set()
         new_ids = set(self.references_df[
@@ -78,6 +79,8 @@ class ScoringPipeline:
         return
     
     def metadata_creation(self):
+        end_time = datetime.now()
+        duration = (end_time - self.start_time).total_seconds()
         metadata_row = {
             "filepath": self.filepath,
             "reformulation_col": "",
@@ -85,7 +88,8 @@ class ScoringPipeline:
             "code_version": self.version["CODE_VERSION"],
             "prompt_version": self.version["PROMPT_VERSION"],
             "references_version": self.version["REFERENCES_VERSION"],
-            "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+            "timestamp": self.start_time.strftime("%Y-%m-%d %H:%M:%S"),
+            "duration": f"{duration} seconds",
             "new_ids_count": len(self.new_ids),
             "new_ids": ";".join(str(i) for i in self.new_ids)
         }
@@ -100,7 +104,8 @@ class ScoringPipeline:
         self.metadata_creation()
     
     def exec_pipeline(self):
+        self.start_time = datetime.now()
         for i in self.steps:
             step = self.pipeline[i]
-            print(f"Etape {step.__name__}")
+            print(f"Step {i}: {step.__name__}")
             step()

@@ -32,14 +32,18 @@ TEMP_HYP_CSV = INTERIM_DIR / f"hypotheses_{VERSION['REFERENCES_VERSION']}.csv"
 
 RESULTS_DIR = DATA_DIR / "results"
 
-METADATA_CSV = RESULTS_DIR / "metadata.csv"
+ANALYSIS_DIR = DATA_DIR / "analysis"
 
-PROMPTS_DIR = BASE_DIR / "src" / "metric" / "prompts"
+DS_ANALYSIS_DIR = ANALYSIS_DIR / "datasets_analysis"
 
-REF_REFORMULATION_PROMPT = PROMPTS_DIR / f"ref_reformulation_prompt_{VERSION['PROMPT_VERSION']}.txt"
-HYP_REFORMULATION_PROMPT = PROMPTS_DIR / f"hyp_reformulation_prompt_{VERSION['PROMPT_VERSION']}.txt"
-OFF_TOPIC_FILTERING_PROMPT = PROMPTS_DIR / f"hyp_off_topic_prompt_{VERSION['PROMPT_VERSION']}.txt"
-REFUSAL_CLASSIFIER_PROMPT = PROMPTS_DIR / "refusal_classifier_prompt.txt"
+RESULTS_ANALYSIS_DIR = ANALYSIS_DIR / "results_analysis"
+
+METADATA_CSV = RESULTS_ANALYSIS_DIR / "metadata.csv"
+
+PROMPTS_DIR = BASE_DIR / "src" / "process" / "metric" / "prompts"
+
+COR_PROMPT = PROMPTS_DIR / f"correction_prompt_{VERSION['PROMPT_VERSION']}.txt"
+OT_PROMPT = PROMPTS_DIR / f"off_topic_prompt_{VERSION['PROMPT_VERSION']}.txt"
 
 #Huggingface datasets
 ds_config = load_yaml(BASE_DIR / "config" / "hf_ds_paths.yaml")
@@ -62,3 +66,7 @@ else:
 # Question Words
 qw_config = load_yaml(BASE_DIR / "config" / "question_words.yaml")
 question_words = qw_config['QUESTION_WORDS'][LANG]
+
+# Tested Model names
+model_config = load_yaml(BASE_DIR / "config" / "tested_model_names.yaml")
+TESTED_MODELS = model_config['TESTED_MODELS']

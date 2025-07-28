@@ -25,12 +25,14 @@ Modify the <code>config/version.yaml</code> file with the correct dataset.
 
 ### Pre-process the data
 
-    ./sh/run_datasets_creation.sh
+Preprocesses the data and uploads the request dataset to Hugging Face, and the hypothesis dataset if working with comparIA data.
+
+    ./sh/0_run_datasets_creation.sh
 
 
 ### Run the requests selection app
 
-    ./sh/run_selection_app.sh
+    ./sh/1_run_selection_app.sh
 
 ### Create the hypotheses dataset (only for MKQA)
 
@@ -40,7 +42,7 @@ Create the hypotheses csv file
 
 Run the hypotheses creation interface
 
-    ./sh/run_hypotheses_creation.sh
+    ./sh/1b_run_hypotheses_creation.sh
 
 When all the hypotheses have been created, push the dataset to HuggingFace
 
@@ -48,12 +50,12 @@ When all the hypotheses have been created, push the dataset to HuggingFace
 
 ### Run the reference creation app
 
-    ./sh/run_reference_app.sh
+    ./sh/2_run_reference_app.sh
 
 ### Compute the evaluation scores
 Once everything is set up, you can compute the evaluation scores using the following command:
 
-    ./sh/run_scores_calculation.sh
+    ./sh/3_run_scores_calculation.sh
 
 This internally runs:
 
@@ -82,7 +84,7 @@ This allows for transparent tracking and reproducibility of all evaluations.
 If you want to update any component (e.g. prompt, reference, or logic) follow these steps:
 
 1. Create a new file with the updated content and incremented version number in the filename.
-For example, if you're updating the prompt <code>hyp_reformulation_prompt_4.txt</code>, create <code>hyp_reformulation_prompt_5.txt</code>
+For example, if you're updating the prompt <code>correction_prompt_4.txt</code>, create <code>correction_prompt_5.txt</code>
 2. Update the <code>config/version.yaml</code> file accordingly to reflect the new version:
 <code yaml>PROMPT_VERSION: 5</code>
 
@@ -94,11 +96,11 @@ This ensures that the system records and uses the correct version, and that the 
 
 The project is divided into several modules:
 
-- <code>analysis/</code> for data and results analyses
-- <code>src/data/</code> scripts to process raw data and prepare working datasets
-- <code>src/annotation/</code> Streamlit applications for human annotation (requests selection and reference creation)
+- <code>src/analysis/</code> for data and results analyses
+- <code>src/process/data/</code> scripts to process raw data and prepare working datasets
+- <code>src/process/annotation/</code> Streamlit applications for human annotation (requests selection and reference creation)
 - <code>src/llm_api/</code> scripts for Mistral API calls for the metric
-- <code>src/metric/</code> Metric implementation and score computation logic
+- <code>src/process/metric/</code> Metric implementation and score computation logic
 
 ## Author
 - Antoine Dieu (ALT-EDIC) - dieu.antoine92@gmail.com

@@ -3,15 +3,13 @@ from datasets import Dataset
 from huggingface_hub import login
 import pandas as pd
 
-from config import HF_TOKEN
-
-tested_models = ["GPT-4o", "Le Chat", "DeepSeek"]
+from config import HF_TOKEN, TESTED_MODELS
 
 def expand_data(df_requests):
     expanded_rows = []
     conv_id = 0
     for _, row in df_requests.iterrows():
-        for model in tested_models:
+        for model in TESTED_MODELS:
             expanded_rows.append({
                 "conv_id": conv_id,
                 "request_id": str(row["request_id"]),

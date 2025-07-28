@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import os, sys
 
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../../')))
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../../../')))
 from src.utils.utils import load_from_hf
 from config import SELECTED_IDS_CSV, REFERENCES_CSV, HYP_DS, REQ_DS, VERSION
 

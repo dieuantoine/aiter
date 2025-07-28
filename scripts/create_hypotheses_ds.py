@@ -1,6 +1,6 @@
 import argparse
 
-from src.data.hypotheses_creation import create_temp_hyp_csv, push_hyp_csv
+from src.process.data.hypotheses_creation import create_temp_hyp_csv, push_hyp_csv
 
 from config import MKQA_REQ_DS, MKQA_HYP_DS, SELECTED_IDS_CSV, TEMP_HYP_CSV
 
