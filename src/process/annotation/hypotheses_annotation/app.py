@@ -16,7 +16,7 @@ if "df" not in st.session_state:
 
 df = st.session_state.df
 
-df_todo = df[df["response"].isna()]
+df_todo = df[df["hypothesis"].isna()]
 
 if df_todo.empty:
     st.success("Toutes les requêtes ont été annotées pour tous les modèles.")
@@ -42,7 +42,7 @@ if st.button("Enregistrer la réponse"):
     if not response_text.strip():
         st.warning("La réponse ne peut pas être vide.")
     else:
-        st.session_state.df.at[selected_index, "response"] = response_text.strip()
+        st.session_state.df.at[selected_index, "hypothesis"] = response_text.strip()
         st.session_state.df.to_csv(TEMP_HYP_CSV, index=False)
         st.success("Réponse enregistrée.")
         del st.session_state["selected_index"]

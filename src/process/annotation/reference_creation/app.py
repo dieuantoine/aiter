@@ -42,7 +42,7 @@ if st.session_state.current_index >= len(st.session_state.remaining_ids):
 current_request_id = st.session_state.remaining_ids[st.session_state.current_index]
 request_group = df[df['request_id'] == current_request_id]
 request_text = request_group['request'].iloc[0]
-responses = request_group['response'].tolist()
+responses = request_group['hypothesis'].tolist()
 
 st.title("Interface d'annotation")
 
