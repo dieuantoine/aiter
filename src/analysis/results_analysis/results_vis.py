@@ -2,16 +2,15 @@ import streamlit as st
 import pandas as pd
 import os, sys
 
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../')))
-from config import DATA_DIR
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../../')))
+from config import RESULTS_DIR
 
-df = pd.read_csv(DATA_DIR / "results/results_1.csv")
+df = pd.read_csv(RESULTS_DIR / "results_1.csv")
 
 colonnes_affichees = [
     "model_id",
     "request",
     "reference",
-    "response",
     "hypothesis",
     "filtered_hypothesis",
     "corrected_hypothesis",
