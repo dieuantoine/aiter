@@ -3,7 +3,7 @@ from src.llm_api.mistral_batch_api import create_input_file, run_batch_job, down
 from src.utils.utils import load_prompt
 import pandas as pd
 from tqdm import tqdm
-from config import OT_PROMPT, COR_PROMPT
+from config import OT_PROMPT, COR_PROMPT, REF_PROMPT
 
 class Response:
     def __init__(self, conv_id: str = "", model: str = "", req_id: str = "", req: str = "", ref: str = "", con: str = "", hyp: str = ""):
@@ -73,5 +73,17 @@ def create_reformulations(df, reformulation_model):
                 )
                 response.corrected = reformulate(client, cor_base_prompt, reformulation_model, filtered_input)
                 df.at[idx, 'filtered_hypothesis'] = response.filtered
+                df.at[idx, 'corrected_hypothesis'] = response.corrected
+    return df
+
+def create_reformulations_1(df, reformulation_model):
+    mask = df['corrected_hypothesis'].isna()
+    if mask.any():
+        client = create_client()
+        base_prompt = load_prompt(REF_PROMPT)
+        for idx in tqdm(df[mask].index, desc="Reformulation"):
+            response = Response.from_series(df.loc[idx])
+            if response.is_valid():
+                response.corrected = reformulate(client, base_prompt, reformulation_model, response)
                 df.at[idx, 'corrected_hypothesis'] = response.corrected
     return df

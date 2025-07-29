@@ -2,13 +2,15 @@ import pandas as pd
 from datetime import datetime
 import os
 
-from src.process.metric.reformulation import create_reformulations
+from src.process.metric.reformulation import create_reformulations, create_reformulations_1
 from src.process.metric.ter_computation import compute_scores
 
 from src.utils.utils import load_from_hf
 from config import HYP_DS, VERSION, REFORMULATION_MODEL, RESULTS_DIR, REFERENCES_CSV, METADATA_CSV
 
-csv_cols = ["conv_id", "model_id", "request_id", "request", "reference", "context", "hypothesis", "filtered_hypothesis", "corrected_hypothesis", "score", "ot_score", "global_score"]
+cols_base = ["conv_id", "model_id", "request_id", "request", "reference", "context", "hypothesis"]
+cols = {"1": ["corrected_hypothesis", "score"], 
+        "2": ["filtered_hypothesis", "corrected_hypothesis", "cor_score", "ot_score", "score"]}
 
 class ScoringPipeline:
     def __init__(self, overwrite=None, steps=range(3)):
@@ -22,6 +24,7 @@ class ScoringPipeline:
         try:
             self.df = pd.read_csv(self.filepath)
         except FileNotFoundError:
+            csv_cols = cols_base + cols[self.version["CODE_VERSION"]]
             self.df = pd.DataFrame(columns=csv_cols)
         
         self.references_csv = REFERENCES_CSV
@@ -58,24 +61,21 @@ class ScoringPipeline:
             self.new_ids = new_ids
             hyp_df = load_from_hf(HYP_DS)
             hf_new = hyp_df[hyp_df['request_id'].isin(new_ids)].copy()
-            hf_new = hf_new.rename(columns={
-                'response': 'hypothesis'
-            })
             new_df = pd.merge(hf_new, self.references_df, on='request_id', how='inner', suffixes=("", "_dup"))
-            new_df["filtered_hypothesis"] = None
-            new_df["corrected_hypothesis"] = None
-            new_df["score"] = None
-            new_df["ot_score"] = None
-            new_df["global_score"] = None
-            new_df = new_df[csv_cols]
+            for col in cols[self.version["CODE_VERSION"]]:
+                new_df[col] = None
+            new_df = new_df[cols_base + cols[self.version["CODE_VERSION"]]]
             self.df = pd.concat([self.df, new_df], ignore_index=True)
             
     def reformulation(self):
-        self.df = create_reformulations(self.df, self.model)
+        if self.version["CODE_VERSION"] == "1":
+            self.df = create_reformulations_1(self.df, self.model)
+        elif self.version["CODE_VERSION"] == "2":
+            self.df = create_reformulations(self.df, self.model)
         return
     
     def scoring(self):
-        self.df = compute_scores(self.df)
+        self.df = compute_scores(self.df, method=self.version["CODE_VERSION"])
         return
     
     def metadata_creation(self):

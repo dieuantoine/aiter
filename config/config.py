@@ -44,6 +44,7 @@ PROMPTS_DIR = BASE_DIR / "src" / "process" / "metric" / "prompts"
 
 COR_PROMPT = PROMPTS_DIR / f"correction_prompt_{VERSION['PROMPT_VERSION']}.txt"
 OT_PROMPT = PROMPTS_DIR / f"off_topic_prompt_{VERSION['PROMPT_VERSION']}.txt"
+REF_PROMPT = PROMPTS_DIR / f"reformulation_prompt_{VERSION['PROMPT_VERSION']}.txt"
 
 #Huggingface datasets
 ds_config = load_yaml(BASE_DIR / "config" / "hf_ds_paths.yaml")
