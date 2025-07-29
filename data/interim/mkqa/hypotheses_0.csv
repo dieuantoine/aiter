@@ -1,4 +1,4 @@
-conv_id,model_id,request_id,request,response
+conv_id,model_id,request_id,request,hypothesis
 0,GPT-4o,6277735658261425592,d'où vient la phrase great scott,"La phrase **""Great Scott!""** est une exclamation anglaise qui exprime la surprise, la stupéfaction ou l'indignation. Elle est surtout connue aujourd’hui grâce au personnage du **Dr. Emmett Brown** (Doc) dans les films *Retour vers le futur* (*Back to the Future*), où il l’utilise fréquemment.
 
 ### Origine de ""Great Scott""
@@ -779,3 +779,18 @@ D'autres républiques voisines de l'Inde incluent :
 - **La Chine** (république populaire, bien que son système politique soit très différent des autres républiques).  
 
 Mais le Népal est un exemple clair ! 🇳🇵"
+75,GPT-4o,-4766029169354683727,Qui interprète la chanson Love you like there's no tomorrow,
+76,Le Chat,-4766029169354683727,Qui interprète la chanson Love you like there's no tomorrow,
+77,DeepSeek,-4766029169354683727,Qui interprète la chanson Love you like there's no tomorrow,
+78,GPT-4o,8201177426304478596,Quel est l'origine du logo starbucks,
+79,Le Chat,8201177426304478596,Quel est l'origine du logo starbucks,
+80,DeepSeek,8201177426304478596,Quel est l'origine du logo starbucks,
+81,GPT-4o,-4205700322029949198,Combien y a-t-il de pintes dans un fût de bière?,
+82,Le Chat,-4205700322029949198,Combien y a-t-il de pintes dans un fût de bière?,
+83,DeepSeek,-4205700322029949198,Combien y a-t-il de pintes dans un fût de bière?,
+84,GPT-4o,1473472112489240672,qui est le visage sur le billet d'un dollar,
+85,Le Chat,1473472112489240672,qui est le visage sur le billet d'un dollar,
+86,DeepSeek,1473472112489240672,qui est le visage sur le billet d'un dollar,
+87,GPT-4o,-7841128731892324098,quel est le point le plus bas sur terre,
+88,Le Chat,-7841128731892324098,quel est le point le plus bas sur terre,
+89,DeepSeek,-7841128731892324098,quel est le point le plus bas sur terre,
