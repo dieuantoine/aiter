@@ -20,12 +20,13 @@ class ScoringPipeline:
         self.filepath = self._get_filepath()
         
         self.start_time = None
+
+        self.csv_cols = cols_base + cols[self.version["CODE_VERSION"]]
         
         try:
             self.df = pd.read_csv(self.filepath)
         except FileNotFoundError:
-            csv_cols = cols_base + cols[self.version["CODE_VERSION"]]
-            self.df = pd.DataFrame(columns=csv_cols)
+            self.df = pd.DataFrame(columns=self.csv_cols)
         
         self.references_csv = REFERENCES_CSV
         self.references_df = pd.read_csv(self.references_csv)
@@ -83,7 +84,6 @@ class ScoringPipeline:
         duration = (end_time - self.start_time).total_seconds()
         metadata_row = {
             "filepath": self.filepath,
-            "reformulation_col": "",
             "reformulation_model": self.model,
             "code_version": self.version["CODE_VERSION"],
             "prompt_version": self.version["PROMPT_VERSION"],
@@ -100,7 +100,7 @@ class ScoringPipeline:
         metadata_df.to_csv(METADATA_CSV, mode='a', index=False, header=not file_exists)
     
     def save(self):
-        self.df[csv_cols].to_csv(self.filepath, index=False)
+        self.df[self.csv_cols].to_csv(self.filepath, index=False)
         self.metadata_creation()
     
     def exec_pipeline(self):

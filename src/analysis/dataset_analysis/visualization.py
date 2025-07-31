@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from wordcloud import WordCloud
 
-def plot_msg_length(df, cap=True):
+def plot_msg_length(df, output_path, cap=True):
     if cap:
         word_95 = df['msg_length'].quantile(0.95)
         char_95 = df['char_length'].quantile(0.95)
@@ -27,18 +27,36 @@ def plot_msg_length(df, cap=True):
     axes[1].set_ylabel("Frequency")
     axes[1].grid(True)
     plt.tight_layout()
-    plt.show()
+    plt.savefig(output_path, dpi=300)
+    plt.close(fig)
     return
 
-def create_wc(counts):
+def compare_msg_length(df1, df2, labels, output_path, cap=100):
+    data1 = df1['msg_length'].apply(lambda x: min(x, cap))
+    data2 = df2['msg_length'].apply(lambda x: min(x, cap))
+    plt.figure(figsize=(10, 6))
+    sns.kdeplot(data1, label=labels[0], fill=True, alpha=0.5, color='skyblue')
+    sns.kdeplot(data2, label=labels[1], fill=True, alpha=0.5, color='salmon')
+    plt.title("Smoothed Comparison of Message Lengths (KDE) - Capped")
+    plt.xlabel("Message Length (Words)")
+    plt.ylabel("Density")
+    plt.legend()
+    plt.grid(True)
+    plt.tight_layout()
+    plt.savefig(output_path, dpi=300)
+    plt.close()
+    return
+
+def create_wc(counts, output_path):
     wordcloud = WordCloud(width=800, height=400, background_color='white').generate_from_frequencies(counts)
     plt.figure(figsize=(12,6))
     plt.imshow(wordcloud, interpolation='bilinear')
     plt.axis('off')
-    plt.show()
+    plt.savefig(output_path, dpi=300)
+    plt.close()
     return
 
-def create_pie(counts):
+def create_pie(counts, output_path):
     sorted_items = sorted(counts.items(), key=lambda x: x[1])
     labels = [item[0] for item in sorted_items]
     sizes = [item[1] for item in sorted_items]
@@ -52,7 +70,8 @@ def create_pie(counts):
     plt.pie(sizes, labels=labels, autopct=make_autopct(sizes), startangle=140)
     plt.title("Répartition")
     plt.axis('equal')
-    plt.show()
+    plt.savefig(output_path, dpi=300)
+    plt.close()
     return
 
 def weekly_occurence_counts(conv_df):

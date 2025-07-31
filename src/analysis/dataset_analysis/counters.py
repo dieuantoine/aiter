@@ -1,6 +1,8 @@
 import numpy as np
+import pandas as pd
 from collections import Counter
-from utils.utils import clean_text
+from src.utils.utils import clean_text
+import ast
 
 import nltk
 from nltk.corpus import stopwords
@@ -25,8 +27,17 @@ def words_counter(df):
         word_counts.update(filtered_words)
     return word_counts
 
+def convert_to_list(val):
+    if isinstance(val, str):
+        try:
+            return ast.literal_eval(val)
+        except:
+            return [np.nan]
+    return val
+
 def list_features_counter(df, feature):
-    all_feature = df[feature].explode()
-    counts = Counter(all_feature)
-    counts.pop(np.nan, None)
+    col = df[feature].apply(convert_to_list)
+    exploded = col.explode()
+    exploded = exploded[~pd.isnull(exploded)]
+    counts = Counter(exploded)
     return counts
