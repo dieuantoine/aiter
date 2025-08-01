@@ -47,6 +47,20 @@ def compare_msg_length(df1, df2, labels, output_path, cap=100):
     plt.close()
     return
 
+def compare_hyp_length(df, cols, labels, output_path):
+    plt.figure(figsize=(10, 6))
+    for col, label in zip(cols, labels):
+        sns.kdeplot(df[col], label=label, fill=True, alpha=0.5)
+    plt.title("Smoothed Comparison of Hypothesis Lengths (KDE)")
+    plt.xlabel("Hypothesis Length (Words)")
+    plt.ylabel("Density")
+    plt.legend()
+    plt.grid(True)
+    plt.tight_layout()
+    plt.savefig(output_path, dpi=300)
+    plt.close()
+    return
+
 def create_wc(counts, output_path):
     wordcloud = WordCloud(width=800, height=400, background_color='white').generate_from_frequencies(counts)
     plt.figure(figsize=(12,6))
