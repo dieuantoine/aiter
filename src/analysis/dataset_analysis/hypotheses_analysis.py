@@ -15,8 +15,8 @@ def ref_len_stats_tab(input_df):
     input_df['ctx_length'] = input_df['context'].apply(lambda x: len(x.split()))
     ref_row = input_df["ref_length"].describe().to_frame().T
     ctx_row = input_df["ctx_length"].describe().to_frame().T
-    ref_row['source'] = ["reference"]
-    ctx_row['source'] = ["context"]
+    ref_row['source'] = ["Reference"]
+    ctx_row['source'] = ["Context"]
     stats_df = pd.concat([ref_row, ctx_row])
     return stats_df
 
