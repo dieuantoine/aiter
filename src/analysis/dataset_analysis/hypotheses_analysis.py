@@ -1,6 +1,8 @@
 import pandas as pd
 from config import MKQA_HYP_DS, REFERENCES_CSV
 from src.utils.utils import load_from_hf
+import matplotlib.pyplot as plt
+import seaborn as sns
 
 def hyp_len_stats_tab(input_df):
     #len_mean_tab(input_df).to_csv(output_csv, index=False)
@@ -26,4 +28,23 @@ def merge_stats_tab(output_csv):
     cols = ['source', 'mean', 'std', 'min', '25%', '50%', '75%', 'max']
     merged_df = pd.concat([hyp_df[cols], ref_df[cols]])
     merged_df.to_csv(output_csv, index=False)
+    return
+
+def len_correlations(input_df, output_path):
+    input_df['ref_length'] = input_df['reference'].apply(lambda x: len(x.split()))
+    input_df['ctx_length'] = input_df['context'].apply(lambda x: len(x.split()))
+    input_df['hyp_length'] = input_df['hypothesis'].apply(lambda x: len(x.split()))
+    def correlation_reference_hypothese(group):
+        corr_ref = group['ref_length'].corr(group['hyp_length'])
+        corr_ctx = group['ctx_length'].corr(group['hyp_length'])
+        corr = pd.Series({
+            'Reference': corr_ref,
+            'Context': corr_ctx
+        })
+        return corr
+    correlation_matrix = input_df.groupby('model_id', group_keys=False).apply(correlation_reference_hypothese).T
+    plt.figure(figsize=(10, 8))
+    sns.heatmap(correlation_matrix, annot=True, cmap='coolwarm', fmt='.2f', cbar=False)
+    plt.title('Correlation matrix')
+    plt.savefig(output_path, dpi=300, bbox_inches='tight')
     return
