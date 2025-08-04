@@ -2,8 +2,6 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-from config import DATA_DIR
-
 def scores_mean_tab(df, score_cols, output_path):
     stats = df.groupby("model_id")[score_cols].agg(['mean', 'std'])
     stats.columns = [f"{col}_{stat}" for col, stat in stats.columns]

@@ -18,14 +18,14 @@ if __name__ == "__main__":
     bertscore_cols = ["BERTRecall (ref)", "BERTPrecision (ctx)"]
     cols = score_cols + bertscore_cols + ["Hypothesis Length"]
     
-    # results_path = RESULTS_ANALYSIS_DIR / "scores_analysis.csv"
-    # scores_mean_tab(df, score_cols, results_path)
+    results_path = RESULTS_ANALYSIS_DIR / "scores_analysis.csv"
+    scores_mean_tab(df, score_cols+bertscore_cols, results_path)
 
-    bertscore_boxplot_path = RESULTS_ANALYSIS_DIR / "bertscore_boxplot.png"
-    boxplot(df, bertscore_cols, bertscore_boxplot_path)
+    # bertscore_boxplot_path = RESULTS_ANALYSIS_DIR / "bertscore_boxplot.png"
+    # boxplot(df, bertscore_cols, bertscore_boxplot_path)
 
-    score_boxplot_path = RESULTS_ANALYSIS_DIR / "aiter_boxplot.png"
-    boxplot(df, score_cols, score_boxplot_path)
+    # score_boxplot_path = RESULTS_ANALYSIS_DIR / "aiter_boxplot.png"
+    # boxplot(df, score_cols, score_boxplot_path)
     
     # corr_matrix_path = RESULTS_ANALYSIS_DIR / "correlation_matrix.png"
     # correlation_matrix(df, cols, corr_matrix_path)
