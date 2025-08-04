@@ -1,4 +1,4 @@
-conv_id,model_id,request_id,request,reference,context,hypothesis,filtered_hypothesis,corrected_hypothesis,score,ot_score,global_score
+conv_id,model_id,request_id,request,reference,context,hypothesis,filtered_hypothesis,corrected_hypothesis,cor_score,ot_score,score
 0,GPT-4o,6277735658261425592,d'où vient la phrase great scott,"L'origine de l'expression ""Great Scott"" n'est pas clairement établie.","L'origine exacte de l'expression ""Great Scott!"", interjection qui exprime la surprise, l'étonnement ou la consternation, n'est pas connue, mais plusieurs hypothèses existent:
 - elle pourrait faire référence à Sir Walter Scott, écrivain écossais du 19e siècle.
 - elle pourrait aussi faire référence à Winfield Scott, général de l'armée américaine.
