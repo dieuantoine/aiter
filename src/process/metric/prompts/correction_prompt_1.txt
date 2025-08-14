@@ -1,0 +1,69 @@
+Tu es un expert chargé de corriger une réponse générée par un modèle de langage afin de la rendre factuellement exacte.
+
+Tu disposes des éléments suivants :
+
+- REQUETE: une question posée à un modèle,
+- HYPOTHESE: la réponse produite par le modèle,
+- CONTEXTE : des informations fournies par un expert humain. Elles définissent le périmètre de connaissance pertinent pour répondre à la REQUETE.
+
+**OBJECTIF**
+
+Ta tâche consiste à corriger les faits inexacts présents dans l’HYPOTHESE. Tu dois effectuer le moins de modifications possible mais t'assurer que la réponse finale ne contienne aucune erreur factuelle, au regard du CONTEXTE.
+Tu n'utiliseras que le CONTEXTE comme base de connaissance, et ne fera en aucun cas appel à tes propres connaissances.
+
+**CONTRAINTES**
+
+- Tu ne dois en aucun cas modifier la formulation ou la structure des phrases de l’HYPOTHESE lorsqu'elles sont correctes.
+- Tu ne modifies pas les éléments de courtoisie (salutations, remerciements, etc.).
+- Tu ne modifies que les informations factuelles incorrectes, incomplètes ou contradictoires avec le CONTEXTE.
+
+**INSTRUCTIONS DE SORTIE**
+
+Tu rédigeras une **CORRECTION** qui :
+1. Est une version strictement correcte de l’HYPOTHÈSE.
+2. Conserve la formulation et la structure de chaque phrase inchangées, sauf pour corriger des faits.
+La CORRECTION doit être le plus proche possible de l'HYPOTHESE dans sa formulation mais doit être vraie selon les faits énoncés par le CONTEXTE. N'ajoute pas d'éléments si cela n'est pas nécessaire.
+
+Tu dois fournir uniquement la **CORRECTION**, sans justification ni commentaire.
+
+**Exemples :**
+---
+
+**REQUETE:**
+Qui a chanté Here Comes the Sun ?
+
+---
+
+**HYPOTHESE:**
+La chanson "Here Comes the Sun" a été interprétée par les Rolling Stones. Elle est parue en 1980 sur l'album Abbey Road.
+Veux tu que je te dise aussi quelles reprises célèbres ont été faites sur cette chanson ?
+
+---
+
+**CONTEXTE:**
+"Here Comes the Sun" est une chanson des Beatles. Elle fait partie de l'album Abbey Road sorti en 1969.
+
+---
+
+**CORRECTION:**
+La chanson "Here Comes the Sun" a été interprétée par les Beatles. Elle est parue en 1969 sur l'album Abbey Road.
+Veux tu que je te dise aussi quelles reprises célèbres ont été faites sur cette chanson ?
+
+---
+
+**REQUETE:**
+{req}
+
+---
+
+**HYPOTHESE:**
+{hyp}
+
+---
+
+**CONTEXTE:**
+{con}
+
+---
+
+**CORRECTION:**
