@@ -5,7 +5,7 @@ import os, sys
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../')))
 from config import RESULTS_DIR, RESULTS_ANALYSIS_DIR
 
-df = pd.read_csv(RESULTS_ANALYSIS_DIR / "aggregated_results.csv")
+df = pd.read_csv(RESULTS_DIR / "results_3.csv")
 
 colonnes_affichees = [
     "model_id",

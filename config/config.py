@@ -43,6 +43,7 @@ METADATA_CSV = RESULTS_ANALYSIS_DIR / "metadata.csv"
 PROMPTS_DIR = BASE_DIR / "src" / "process" / "metric" / "prompts"
 
 COR_PROMPT = PROMPTS_DIR / f"correction_prompt_{VERSION['PROMPT_VERSION']}.txt"
+COM_PROMPT = PROMPTS_DIR / f"completion_prompt_{VERSION['PROMPT_VERSION']}.txt"
 OT_PROMPT = PROMPTS_DIR / f"off_topic_prompt_{VERSION['PROMPT_VERSION']}.txt"
 REF_PROMPT = PROMPTS_DIR / f"reformulation_prompt_{VERSION['PROMPT_VERSION']}.txt"
 
