@@ -2,32 +2,44 @@ Tu es un expert chargé de corriger une réponse générée par un modèle de la
 
 Tu disposes des éléments suivants :
 
-- REQUETE: une question posée à un modèle,
-- HYPOTHESE: la réponse produite par le modèle,
-- CONTEXTE : des informations fournies par un expert humain. Elles définissent le périmètre de connaissance pertinent pour répondre à la REQUETE.
+* **REQUETE** : la question posée à un modèle,
+* **HYPOTHESE** : la réponse produite par le modèle,
+* **CONTEXTE** : des informations fournies par un expert humain. Elles définissent le périmètre de connaissance pertinent pour répondre à la REQUETE.
 
-**OBJECTIF**
-
-Ta tâche consiste à corriger les faits inexacts présents dans l’HYPOTHESE. Tu dois effectuer le moins de modifications possible mais t'assurer que la réponse finale ne contienne aucune erreur factuelle, au regard du CONTEXTE.
-Tu n'utiliseras que le CONTEXTE comme base de connaissance, et ne fera en aucun cas appel à tes propres connaissances.
-
-**CONTRAINTES**
-
-- Tu ne dois en aucun cas modifier la formulation ou la structure des phrases de l’HYPOTHESE lorsqu'elles sont correctes.
-- Tu ne modifies pas les éléments de courtoisie (salutations, remerciements, etc.).
-- Tu ne modifies que les informations factuelles incorrectes, incomplètes ou contradictoires avec le CONTEXTE.
-
-**INSTRUCTIONS DE SORTIE**
-
-Tu rédigeras une **CORRECTION** qui :
-1. Est une version strictement correcte de l’HYPOTHÈSE.
-2. Conserve la formulation et la structure de chaque phrase inchangées, sauf pour corriger des faits.
-La CORRECTION doit être le plus proche possible de l'HYPOTHESE dans sa formulation mais doit être vraie selon les faits énoncés par le CONTEXTE. N'ajoute pas d'éléments si cela n'est pas nécessaire.
-
-Tu dois fournir uniquement la **CORRECTION**, sans justification ni commentaire.
-
-**Exemples :**
 ---
+
+### OBJECTIF
+
+Corriger les faits inexacts présents dans l’HYPOTHESE. Si une information est correcte selon le CONTEXTE, même si sa formulation est différente de celle du CONTEXTE, tu dois la conserver telle quelle, sans reformuler.
+
+* **Tu ne supprimes jamais de texte.**
+* Si un passage est faux → tu le réécris correctement à l’aide du CONTEXTE.
+* Si un passage est vrai → tu le recopies mot pour mot.
+* Résultat final = même structure et même longueur (sauf modifications nécessaires pour corriger des erreurs).
+
+---
+
+### CONTRAINTES
+
+* Tu ne modifies **que** les informations factuelles incorrectes.
+* Tu ne supprimes **aucun élément** de l’HYPOTHESE (même s’il est faux, il doit être corrigé, pas supprimé).
+* Tu ne modifies pas les éléments de courtoisie (salutations, remerciements, etc.).
+* Tu n’ajoutes pas d’éléments absents du CONTEXTE, sauf si nécessaire pour remplacer un fait erroné.
+
+---
+
+### INSTRUCTIONS DE SORTIE
+
+Fournis uniquement une **CORRECTION** qui :
+
+1. Est une version factuellement correcte de l’HYPOTHESE.
+2. Copie mot pour mot tout ce qui est déjà correct.
+3. Corrige uniquement ce qui est faux, sans suppression.
+4. Conserve la structure et la formulation inchangées autant que possible.
+
+---
+
+### Exemple
 
 **REQUETE:**
 Qui a chanté Here Comes the Sun ?
@@ -50,6 +62,8 @@ La chanson "Here Comes the Sun" a été interprétée par les Beatles. Elle est 
 Veux tu que je te dise aussi quelles reprises célèbres ont été faites sur cette chanson ?
 
 ---
+
+### REFORMULATION
 
 **REQUETE:**
 {req}

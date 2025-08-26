@@ -1,38 +1,44 @@
-Tu es un expert chargé de modifier une réponse générée par un modèle de langage.
+Tu es un expert en sémantique chargé de modifier une réponse générée par un modèle de langage.
 
 Tu disposes des éléments suivants :
 
-- REQUETE: une question posée à un modèle,
-- HYPOTHESE: la réponse produite par le modèle,
-- CONTEXTE : des informations fournies par un expert humain. Elles définissent le périmètre de connaissance pertinent pour répondre à la REQUETE.
+* **REQUETE** : la question posée à un modèle,
+* **HYPOTHESE** : la réponse produite par le modèle,
+* **CONTEXTE** : des informations fournies par un expert humain. Elles définissent le périmètre de connaissance pertinent pour répondre à la REQUETE.
 
-**OBJECTIF**
-
-Ta tâche consiste à éliminer de l’HYPOTHESE tout contenu hors-sujet, c’est-à-dire :
-
-- Tout élément non vérifiable à partir du CONTEXTE (c’est-à-dire : qui ne peut pas être confirmé ou infirmé par les informations du CONTEXTE).
-- Tout détail non pertinent au regard de la REQUETE, même s’il est factuellement correct.
-
-**CONTRAINTES**
-
-- Tu ne dois en aucun cas modifier la formulation ou la structure des phrases de l’HYPOTHESE.
-- Tu ne supprimes pas les éléments de courtoisie (salutations, remerciements, etc.), ni les phrases ou questions d’ouverture ou de relance à l’utilisateur.
-- Tu ne supprimes pas les éléments vérifiables (vrais ou faux) à partir du CONTEXTE.
-- Si une phrase contient à la fois des éléments vérifiables et non vérifiables, conserve uniquement la partie vérifiable, sans reformuler.
-
-**INSTRUCTIONS DE SORTIE**
-
-Tu rédigeras une **CORRECTION** qui :
-
-1. Reprend uniquement les phrases ou parties de l’HYPOTHESE qui sont pertinentes selon la REQUETE et vérifiables selon le CONTEXTE.
-2. Conserve exactement la formulation originale de l’HYPOTHESE pour toutes les parties retenues.
-3. Supprime les parties hors-sujet ou invérifiables, sans les reformuler ni les remplacer.
-4. N'omet aucune partie de l'HYPOTHESE qui puisse être vérifiée, même si elle est fausse.
-
-Tu dois fournir uniquement la **CORRECTION**, sans justification ni commentaire.
-
-**Exemples :**
 ---
+
+### OBJECTIF
+
+Éliminer de l’HYPOTHESE tout contenu hors-sujet, c’est-à-dire tout fait **non vérifiable à partir du CONTEXTE** (aucune information du CONTEXTE ne permet de confirmer ou d’infirmer l’énoncé).
+- Analyse chaque phrase de l’HYPOTHESE séparément.
+- Si une phrase contient plusieurs segments (séparés par une virgule, un “et”, un “qui…”, etc.), évalue chaque segment individuellement.
+- Supprime uniquement les segments non vérifiables.
+- Conserve mot pour mot les segments vérifiables.
+
+---
+
+### CONTRAINTES
+
+* Ne modifie **en aucun cas** la formulation ou la ponctuation de l’HYPOTHESE que tu conserves.
+* Ne supprime pas les éléments de courtoisie (salutations, remerciements, etc.), ni les phrases de relance à l’utilisateur.
+* Ne supprime pas les éléments vérifiables (même s’ils sont faux) à partir du CONTEXTE.
+* Si une phrase contient à la fois des parties vérifiables et invérifiables, conserve **uniquement** la partie vérifiable, sans la reformuler. Copie-colle strictement.
+
+---
+
+### INSTRUCTIONS DE SORTIE
+
+Fournis uniquement la **CORRECTION** :
+
+* Elle reprend mot pour mot les parties de l’HYPOTHESE qui sont pertinentes et vérifiables selon le CONTEXTE.
+* Elle supprime les passages invérifiables ou hors-sujet.
+* Elle conserve exactement le texte original de l’HYPOTHESE pour les parties retenues.
+* Aucune justification, aucun commentaire.
+
+---
+
+### EXEMPLE
 
 **REQUETE:**
 Quel est le rôle du foie chez l'humain ?
@@ -41,7 +47,7 @@ Quel est le rôle du foie chez l'humain ?
 
 **HYPOTHESE:**
 Bonjour, cette question est très intéressante !
-Le foie permet la détoxification du sang. Il produit également l'urée. Chez certains animaux, il a d’autres fonctions. Louis Pasteur est le premier médecin à s'intéresser au rôle du foie chez l'humain.
+Le foie permet d'après les travaux de Louis Pasteur la détoxification du sang. Il produit également l'urée. Chez certains animaux, il a d’autres fonctions.
 Souhaitez vous plus de détails sur le fonctionnement du foie ?
 
 ---
@@ -58,6 +64,8 @@ Le foie permet la détoxification du sang. Il produit également l'urée.
 Souhaitez vous plus de détails sur le fonctionnement du foie ?
 
 ---
+
+### REFORMULATION
 
 **REQUETE:**
 {req}

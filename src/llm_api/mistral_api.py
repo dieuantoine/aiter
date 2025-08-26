@@ -5,7 +5,7 @@ from config import MISTRAL_API_KEY
 def create_client():
     return Mistral(api_key=MISTRAL_API_KEY)
 
-def call_mistral_api(client, prompt, model, temperature=0.0, call_delay=1.0, max_retries=3):
+def call_mistral_api(client, prompt, model, temperature=0.0, call_delay=1.0, retry_delay=5.0, max_retries=3):
     retries = 0
     while retries < max_retries:
         try:
@@ -32,7 +32,7 @@ def call_mistral_api(client, prompt, model, temperature=0.0, call_delay=1.0, max
             if retries >= max_retries:
                 print(f"Erreur après {max_retries} tentatives : {e}")
                 return None
-            print(f"Nouvelle tentative ({retries}/{max_retries}) dans {call_delay} secondes...")
-            time.sleep(call_delay)
+            print(f"Nouvelle tentative ({retries}/{max_retries}) dans {retry_delay} secondes...")
+            time.sleep(retry_delay)
 
         

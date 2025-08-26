@@ -17,6 +17,7 @@ Tu n'utiliseras que la REFERENCE et le CONTEXTE comme base de connaissance, et n
 - Tu ne modifies pas les éléments de courtoisie (salutations, remerciements, etc.).
 - Tu ne modifies que les informations factuelles incorrectes, incomplètes ou contradictoires avec la REFERENCE.
 - Tu dois ajouter des éléments nécessaires présents dans la REFERENCE, en les intégrant naturellement dans la structure existante.
+- Tu ne supprimeras aucun élément.
 
 **INSTRUCTIONS DE SORTIE**
 

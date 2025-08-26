@@ -10,6 +10,7 @@ BASE_DIR = Path(__file__).resolve().parents[1]
 
 # Secrets
 MISTRAL_API_KEY = os.getenv("MISTRAL_API_KEY")
+GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 HF_TOKEN = os.getenv("HF_TOKEN")
 
 # Version du code
@@ -17,7 +18,8 @@ version_config = load_yaml(BASE_DIR / "config" / "version.yaml")
 VERSION = version_config['VERSION']
 LANG = VERSION["LANG"]
 
-REFORMULATION_MODEL = "mistral-medium-latest"
+# REFORMULATION_MODEL = "mistral-small-latest"
+REFORMULATION_MODEL = "gemini-2.5-pro"
 
 # Chemins importants
 
