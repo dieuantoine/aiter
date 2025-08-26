@@ -19,7 +19,7 @@ VERSION = version_config['VERSION']
 LANG = VERSION["LANG"]
 
 # REFORMULATION_MODEL = "mistral-small-latest"
-REFORMULATION_MODEL = "gemini-2.5-pro"
+REFORMULATION_MODEL = "gemini-2.5-flash"
 
 # Chemins importants
 

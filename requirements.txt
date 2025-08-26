@@ -8,6 +8,7 @@ huggingface-hub
 datasets
 mistralai
 google
+google-genai
 
 matplotlib
 seaborn

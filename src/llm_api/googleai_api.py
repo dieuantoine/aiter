@@ -6,7 +6,7 @@ from config import GOOGLE_API_KEY
 def create_googleai_client():
     return genai.Client()
 
-def call_googleai_api(client, prompt, model, temperature=0.0, call_delay=1.0, retry_delay=5.0, max_retries=3):
+def call_googleai_api(client, prompt, model, temperature=0.0, call_delay=15.0, retry_delay=20.0, max_retries=3):
     retries = 0
     while retries < max_retries:
         try:
