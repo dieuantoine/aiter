@@ -1,4 +1,5 @@
 from src.llm_api.mistral_api import call_mistral_api, create_client
+from src.llm_api.googleai_api import call_googleai_api, create_googleai_client
 from src.llm_api.mistral_batch_api import create_input_file, run_batch_job, download_file
 from src.utils.utils import load_prompt
 import pandas as pd
@@ -29,12 +30,12 @@ def format_prompt(base_prompt: str, request: Request, hypothesis: str) -> str:
 
 def reformulate(client, base_prompt: str, reformulation_model: str, request: Request, hypothesis: str) -> str:
     prompt = format_prompt(base_prompt, request, hypothesis)
-    return call_mistral_api(client, prompt, model=reformulation_model, call_delay=2.0)
+    return call_googleai_api(client, prompt, model=reformulation_model, call_delay=15.0, retry_delay=20.0)
 
 def create_reformulations(df, reformulation_model):
     mask = df['filtered_hypothesis'].isna()
     if mask.any():
-        client = create_client()
+        client = create_googleai_client()
         ot_base_prompt = load_prompt(OT_PROMPT)
         cor_base_prompt = load_prompt(COR_PROMPT)
         com_base_prompt = load_prompt(COM_PROMPT)
