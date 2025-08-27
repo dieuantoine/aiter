@@ -1,12 +1,12 @@
 import time
 from google import genai
 from google.genai import types
-from config import GOOGLE_API_KEY
+from config import GOOGLE_API_KEY, MODEL_CONFIG
 
 def create_googleai_client():
     return genai.Client()
 
-def call_googleai_api(client, prompt, model, temperature=0.0, call_delay=15.0, retry_delay=20.0, max_retries=3):
+def call_googleai_api(client, prompt, model, temperature=0.0, call_delay=MODEL_CONFIG["call_delay"], retry_delay=MODEL_CONFIG["retry_delay"], max_retries=3):
     retries = 0
     while retries < max_retries:
         try:

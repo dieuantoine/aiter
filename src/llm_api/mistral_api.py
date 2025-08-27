@@ -1,11 +1,11 @@
 import time
 from mistralai import Mistral
-from config import MISTRAL_API_KEY
+from config import MISTRAL_API_KEY, MODEL_CONFIG
 
 def create_mistral_client():
     return Mistral(api_key=MISTRAL_API_KEY)
 
-def call_mistral_api(client, prompt, model, temperature=0.0, call_delay=1.0, retry_delay=5.0, max_retries=3):
+def call_mistral_api(client, prompt, model, temperature=0.0, call_delay=MODEL_CONFIG["call_delay"], retry_delay=MODEL_CONFIG["retry_delay"], max_retries=3):
     retries = 0
     while retries < max_retries:
         try:
