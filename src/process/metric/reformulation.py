@@ -33,7 +33,7 @@ def reformulate(client, base_prompt: str, reformulation_model: str, request: Req
 def create_reformulations(df, reformulation_model):
     mask = df['filtered_hypothesis'].isna()
     if mask.any():
-        client = create_client(reformulation_model)
+        client = create_client()
         ot_base_prompt = load_prompt(OT_PROMPT)
         cor_base_prompt = load_prompt(COR_PROMPT)
         com_base_prompt = load_prompt(COM_PROMPT)
