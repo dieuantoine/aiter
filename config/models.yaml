@@ -8,6 +8,11 @@ gemini-2.5-flash:
   call_delay: 10.0
   retry_delay: 15.0
 
+mistral-large-latest:
+  api: mistral
+  call_delay: 2.0
+  retry_delay: 20.0
+
 mistral-medium-latest:
   api: mistral
   call_delay: 2.0
