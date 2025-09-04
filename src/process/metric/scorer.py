@@ -2,7 +2,7 @@ import pandas as pd
 from datetime import datetime
 import os
 
-from src.process.metric.reformulation import create_reformulations, create_reformulations_1
+from src.process.metric.reformulation import create_reformulations
 from src.process.metric.ter_computation import compute_scores
 
 from src.utils.utils import load_from_hf
@@ -69,10 +69,11 @@ class ScoringPipeline:
             self.df = pd.concat([self.df, new_df], ignore_index=True)
             
     def reformulation(self):
-        if self.version["CODE_VERSION"] == "1":
-            self.df = create_reformulations_1(self.df, self.model)
-        elif self.version["CODE_VERSION"] == "2":
-            self.df = create_reformulations(self.df, self.model)
+        # if self.version["CODE_VERSION"] == "1":
+        #     self.df = create_reformulations_1(self.df, self.model)
+        # elif self.version["CODE_VERSION"] == "2":
+        #     self.df = create_reformulations(self.df, self.model)
+        self.df = create_reformulations(self.df, self.model)
         return
     
     def scoring(self):

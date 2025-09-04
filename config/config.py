@@ -19,7 +19,7 @@ VERSION = version_config['VERSION']
 LANG = VERSION["LANG"]
 
 # REFORMULATION_MODEL = "mistral-medium-latest"
-REFORMULATION_MODEL = "gemini-2.5-pro"
+REFORMULATION_MODEL = "gemini-2.5-flash"
 
 models_config = load_yaml(BASE_DIR / "config" / "models.yaml")
 MODEL_CONFIG = models_config[REFORMULATION_MODEL]

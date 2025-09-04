@@ -2,23 +2,23 @@ import pandas as pd
 from config import RESULTS_DIR, RESULTS_ANALYSIS_DIR
 from src.analysis.results_analysis.results_aggregation.bertscore_computation import calculate_bertscore
 
-def results_aggregation(df1, df2):
+def results_aggregation(df1, df2, version1="v1", version2="v2"):
     base_cols = ["conv_id", "model_id", "request", "reference", "context", "hypothesis"]
 
     merged = pd.merge(
         df1,
         df2,
         on=["conv_id", 'model_id'],
-        suffixes=('_v1', '_v2'),
+        suffixes=('_'+version1, '_'+version2),
         how='outer'
     )
 
     merged.rename(
         columns={
-            "request_v1": "request",
-            "hypothesis_v1": "hypothesis",
-            "reference_v1": "reference",
-            "context_v1": "context"
+            "request_"+version1: "request",
+            "hypothesis_"+version1: "hypothesis",
+            "reference_"+version1: "reference",
+            "context_"+version1: "context"
         },
         inplace=True
     )
@@ -35,10 +35,10 @@ def results_aggregation(df1, df2):
 
 if __name__ == "__main__":
     results_v1 = RESULTS_DIR / "results_2.csv"
-    results_v2 = RESULTS_DIR / "results_1.csv"
+    results_v2 = RESULTS_DIR / "results_4.csv"
     df1 = pd.read_csv(results_v1)
     df2 = pd.read_csv(results_v2)
     
-    aggregated_results = results_aggregation(df1, df2)
+    aggregated_results = results_aggregation(df1, df2, 'v1', 'v3')
     results_wbert = calculate_bertscore(aggregated_results)
-    results_wbert.to_csv(RESULTS_ANALYSIS_DIR / "aggregated_results.csv", index=False)
+    results_wbert.to_csv(RESULTS_ANALYSIS_DIR / "aggregated_results_v13.csv", index=False)
