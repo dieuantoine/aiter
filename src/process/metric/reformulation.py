@@ -53,7 +53,7 @@ def create_reformulations(df, reformulation_model):
 #         client = create_client()
 #         base_prompt = load_prompt(REF_PROMPT)
 #         for idx in tqdm(df[mask].index, desc="Reformulation"):
-#             response = Response.from_series(df.loc[idx])
+#             response = Request.from_series(df.loc[idx])
 #             if response.is_valid():
 #                 response.corrected = reformulate(client, base_prompt, reformulation_model, response)
 #                 df.at[idx, 'corrected_hypothesis'] = response.corrected
