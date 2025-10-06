@@ -22,3 +22,8 @@ mistral-small-latest:
   api: mistral
   call_delay: 2.0
   retry_delay: 20.0
+
+magistral-medium-latest:
+  api: mistral
+  call_delay: 2.0
+  retry_delay: 20.0
