@@ -1,7 +1,7 @@
 import time
 from google import genai
 from google.genai import types
-from config import GOOGLE_API_KEY, MODEL_CONFIG
+from config import MODEL_CONFIG
 
 def create_googleai_client():
     return genai.Client()

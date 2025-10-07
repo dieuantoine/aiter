@@ -5,7 +5,12 @@ from config import MISTRAL_API_KEY, MODEL_CONFIG
 def create_mistral_client():
     return Mistral(api_key=MISTRAL_API_KEY)
 
-def call_mistral_api(client, prompt, model, temperature=0.0, call_delay=MODEL_CONFIG["call_delay"], retry_delay=MODEL_CONFIG["retry_delay"], max_retries=3):
+def call_mistral_api(client, prompt, model_config, temperature=0.0, call_delay=False, retry_delay=False, max_retries=3):
+    if not call_delay:
+        call_delay = model_config['call_delay']
+    if not retry_delay:
+        retry_delay = model_config['retry_delay']
+    model = model_config['name']
     retries = 0
     while retries < max_retries:
         try:
