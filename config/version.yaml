@@ -4,6 +4,7 @@ VERSION:
   DATA_VERSION: "1"
 # DATASET: "comparia"
   LANG: "fr"
+  REFORMULATION_MODEL: "gemini-2.5-flash"
   TESTED_MODELS:
     - "GPT-4o"
     - "Le Chat"

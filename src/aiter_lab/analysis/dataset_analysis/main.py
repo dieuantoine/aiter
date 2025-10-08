@@ -1,5 +1,3 @@
-from huggingface_hub import login
-import matplotlib.pyplot as plt
 import pandas as pd
 from .counters import words_counter, list_features_counter
 from .visualization import plot_msg_length, create_pie, compare_msg_length, compare_hyp_length

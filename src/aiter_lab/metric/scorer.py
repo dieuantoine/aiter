@@ -5,7 +5,7 @@ import os
 from aiter import Scorer
 
 from ..utils import load_from_hf
-from ..config import HYP_DS, VERSION, REFORMULATION_MODEL, RESULTS_DIR, REFERENCES_CSV, METADATA_CSV
+from ..config import HYP_DS, VERSION, RESULTS_DIR, REFERENCES_CSV, METADATA_CSV
 
 cols_base = ["conv_id", "model_id", "request_id", "request", "reference", "context", "hypothesis"]
 cols = {"1": ["corrected_hypothesis", "score"], 
@@ -14,8 +14,8 @@ cols = {"1": ["corrected_hypothesis", "score"],
 class ScoringPipeline:
     def __init__(self, overwrite=None, steps=range(3)):
         self.version = VERSION
+        self.model = VERSION["REFORMULATION_MODEL"]
         self.overwrite = overwrite
-        self.model = REFORMULATION_MODEL
         self.filepath = self._get_filepath()
         
         self.start_time = None
@@ -34,7 +34,6 @@ class ScoringPipeline:
         self._synchronise_ids()
         
         self.pipeline = [
-            self.reformulation,
             self.scoring,
             self.save
         ]
@@ -66,7 +65,14 @@ class ScoringPipeline:
                 new_df[col] = None
             new_df = new_df[cols_base + cols[self.version["CODE_VERSION"]]]
             self.df = pd.concat([self.df, new_df], ignore_index=True)
-    
+            
+    def scoring(self):
+        scorer = Scorer(self.df, self.model, self.version["CODE_VERSION"])
+        scorer.reformulation()
+        scorer.scoring()
+        self.df = scorer.df
+        return
+
     def metadata_creation(self):
         end_time = datetime.now()
         duration = (end_time - self.start_time).total_seconds()
