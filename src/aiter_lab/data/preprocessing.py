@@ -1,7 +1,7 @@
 from datasets import load_dataset, Dataset
 from huggingface_hub import login
 
-from config import HF_TOKEN, question_words
+from ..config import HF_TOKEN, question_words
 
 ### COMPARIA 
 

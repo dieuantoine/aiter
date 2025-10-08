@@ -1,5 +1,5 @@
-from src.analysis.results_analysis.results_analysis import scores_mean_tab, boxplot, correlation_matrix
-from config import DATA_DIR, RESULTS_ANALYSIS_DIR
+from .results_analysis import scores_mean_tab, boxplot, correlation_matrix
+from ...config import DATA_DIR, RESULTS_ANALYSIS_DIR
 import pandas as pd
 
 if __name__ == "__main__":

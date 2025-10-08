@@ -1,7 +1,10 @@
 VERSION:
   CODE_VERSION: "2"
-  DATASET_VERSION: "mkqa"
-# DATASET_VERSION: "comparia"
-  PROMPT_VERSION: 1
-  REFERENCES_VERSION: 0
+  DATASET: "mkqa"
+  DATA_VERSION: "1"
+# DATASET: "comparia"
   LANG: "fr"
+  TESTED_MODELS:
+    - "GPT-4o"
+    - "Le Chat"
+    - "DeepSeek"

@@ -1,4 +1,4 @@
-from src.utils.utils import load_from_hf
+from ..utils import load_from_hf
 from datasets import Dataset
 from huggingface_hub import login
 import pandas as pd

@@ -4,8 +4,8 @@ import os
 
 from aiter import Scorer
 
-from src.utils.utils import load_from_hf
-from config import HYP_DS, VERSION, REFORMULATION_MODEL, RESULTS_DIR, REFERENCES_CSV, METADATA_CSV
+from ..utils import load_from_hf
+from ..config import HYP_DS, VERSION, REFORMULATION_MODEL, RESULTS_DIR, REFERENCES_CSV, METADATA_CSV
 
 cols_base = ["conv_id", "model_id", "request_id", "request", "reference", "context", "hypothesis"]
 cols = {"1": ["corrected_hypothesis", "score"], 
@@ -66,18 +66,6 @@ class ScoringPipeline:
                 new_df[col] = None
             new_df = new_df[cols_base + cols[self.version["CODE_VERSION"]]]
             self.df = pd.concat([self.df, new_df], ignore_index=True)
-            
-    def reformulation(self):
-        # if self.version["CODE_VERSION"] == "1":
-        #     self.df = create_reformulations_1(self.df, self.model)
-        # elif self.version["CODE_VERSION"] == "2":
-        #     self.df = create_reformulations(self.df, self.model)
-        self.df = create_reformulations(self.df, self.model)
-        return
-    
-    def scoring(self):
-        self.df = compute_scores(self.df, method=self.version["CODE_VERSION"])
-        return
     
     def metadata_creation(self):
         end_time = datetime.now()

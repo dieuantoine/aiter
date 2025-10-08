@@ -1,6 +1,6 @@
 from datasets import load_dataset, Dataset
 from huggingface_hub import login
-from config import HF_TOKEN
+from ..config import HF_TOKEN
 
 import re
 

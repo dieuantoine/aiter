@@ -1,6 +1,6 @@
 import pandas as pd
 from config import RESULTS_DIR, RESULTS_ANALYSIS_DIR
-from src.analysis.results_analysis.results_aggregation.bertscore_computation import calculate_bertscore
+from .bertscore_computation import calculate_bertscore
 
 def results_aggregation(df1, df2, version1="v1", version2="v2"):
     base_cols = ["conv_id", "model_id", "request", "reference", "context", "hypothesis"]

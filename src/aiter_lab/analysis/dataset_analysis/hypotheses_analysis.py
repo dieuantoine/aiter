@@ -1,6 +1,6 @@
 import pandas as pd
 from config import MKQA_HYP_DS, REFERENCES_CSV
-from src.utils.utils import load_from_hf
+from ...utils import load_from_hf
 import matplotlib.pyplot as plt
 import seaborn as sns
 

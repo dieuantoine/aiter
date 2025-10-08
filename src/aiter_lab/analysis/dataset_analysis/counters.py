@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 from collections import Counter
-from src.utils.utils import clean_text
+from ...utils import clean_text
 import ast
 
 import nltk
