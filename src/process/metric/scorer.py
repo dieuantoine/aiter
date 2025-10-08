@@ -2,8 +2,7 @@ import pandas as pd
 from datetime import datetime
 import os
 
-from src.process.metric.reformulation import create_reformulations
-from src.process.metric.ter_computation import compute_scores
+from aiter import Scorer
 
 from src.utils.utils import load_from_hf
 from config import HYP_DS, VERSION, REFORMULATION_MODEL, RESULTS_DIR, REFERENCES_CSV, METADATA_CSV
