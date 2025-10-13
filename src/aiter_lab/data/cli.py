@@ -3,7 +3,7 @@ import pandas as pd
 
 from ingest_comparia_data import create_comparia_df
 from ingest_mkqa_data import create_mkqa_df
-from hypotheses_creation import init_temp_hyp_csv
+from hypotheses_creation import init_temp_hyp_csv, push_temp_hyp_csv
 
 from ..utils import push_to_hf
 
@@ -18,7 +18,9 @@ def create_req_and_hyp_ds():
         req_df, hyp_df = None, None
     if req_df is not None and hyp_df is not None:
         push_to_hf(req_df, REQ_DS)
+        print(f"Requests dataset pushed to {REQ_DS}")
         push_to_hf(hyp_df, HYP_DS)
+        print(f"Hypotheses dataset pushed to {HYP_DS}")
     else:
         print("No dataset created. Check the dataset version and language.")
     return
@@ -30,10 +32,9 @@ def create_temp_hyp_csv():
         print("Temporary hypotheses CSV is only implemented for the MKQA dataset.")
     return
 
-def push_temp_hyp_csv():
+def push_hyp_to_hf():
     if DATASET == "mkqa":
-        temp_hyp_df = pd.read_csv(TEMP_HYP_CSV)
-        push_to_hf(temp_hyp_df, HYP_DS)
+        push_temp_hyp_csv(HYP_DS, TEMP_HYP_CSV)
     else:
         print("Temporary hypotheses CSV is only implemented for the MKQA dataset.")
     return
