@@ -2,10 +2,7 @@ import os, sys
 import streamlit as st
 import pandas as pd
 
-
-project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../'))
-if project_root not in sys.path:
-    sys.path.append(project_root)
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../')))
 from src.aiter_lab.config import REQ_DS, SELECTED_IDS_CSV, VERSION
 from src.aiter_lab.utils import load_from_hf
 
