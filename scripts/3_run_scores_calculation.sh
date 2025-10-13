@@ -1,4 +1,4 @@
 #!/bin/bash
 
-echo "Exécution du scorer"
-python -m scripts.scores_calculation
+echo "Scores calculation"
+python -m src.aiter_lab.metric.scorer
