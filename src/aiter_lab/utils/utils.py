@@ -8,6 +8,12 @@ def load_from_hf(path):
     login(HF_TOKEN)
     return load_dataset(path)['train'].to_pandas()
 
+def push_to_hf(df, path):
+    login(HF_TOKEN)
+    ds = Dataset.from_pandas(df)
+    ds.push_to_hub(path)
+    return
+
 def load_prompt(file_path):
     with open(file_path, 'r', encoding='utf-8') as f:
         return f.read()

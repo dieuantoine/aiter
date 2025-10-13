@@ -19,6 +19,7 @@ version_config = load_yaml(CONFIG_DIR / "version.yaml")
 VERSION = version_config['VERSION']
 LANG = VERSION["LANG"]
 TESTED_MODELS = VERSION['TESTED_MODELS']
+DATASET = VERSION['DATASET']
 
 # Chemins importants
 
@@ -48,16 +49,8 @@ username = ds_config['username']
 CONV_DS = ds['CONV_DS']
 REAC_DS = ds['REAC_DS']
 MKQA_DS = ds['MKQA_DS']
-MKQA_REQ_DS = username + ds['MKQA_REQ_DS']
-MKQA_HYP_DS = username + ds['MKQA_HYP_DS']
-COMPARIA_REQ_DS = username + ds['COMPARIA_REQ_DS']
-COMPARIA_HYP_DS = username + ds['COMPARIA_HYP_DS']
-if VERSION["DATASET"] == "mkqa":
-    REQ_DS = MKQA_REQ_DS
-    HYP_DS = MKQA_HYP_DS
-else:
-    REQ_DS = COMPARIA_REQ_DS
-    HYP_DS = COMPARIA_HYP_DS
+REQ_DS = f'{username}/{DATASET}-requests-{LANG}'
+HYP_DS = f'{username}/{DATASET}-hypotheses-{LANG}'
     
 # Question Words
 qw_config = load_yaml(CONFIG_DIR / "question_words.yaml")

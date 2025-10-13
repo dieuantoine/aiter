@@ -67,7 +67,7 @@ class ScoringPipeline:
             self.df = pd.concat([self.df, new_df], ignore_index=True)
             
     def scoring(self):
-        scorer = Scorer(self.df, self.model, self.version["CODE_VERSION"])
+        scorer = Scorer(self.df, self.version)
         scorer.reformulation()
         scorer.scoring()
         self.df = scorer.df
