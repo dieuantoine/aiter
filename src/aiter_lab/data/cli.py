@@ -1,7 +1,9 @@
+import argparse
+import pandas as pd
+
 from ingest_comparia_data import create_comparia_df
 from ingest_mkqa_data import create_mkqa_df
 from hypotheses_creation import init_temp_hyp_csv
-import pandas as pd
 
 from ..utils import push_to_hf
 
@@ -35,3 +37,19 @@ def push_temp_hyp_csv():
     else:
         print("Temporary hypotheses CSV is only implemented for the MKQA dataset.")
     return
+
+def main():
+    parser = argparse.ArgumentParser(description="CLI for datasets creation")
+    parser.add_argument("action", choices=["create_ds", "create_temp_csv", "push_temp_csv"], help="Action to perform")
+    args = parser.parse_args()
+    if args.action == "create_ds":
+        create_req_and_hyp_ds()
+    elif args.action == "create_temp_csv":
+        create_temp_hyp_csv()
+    elif args.action == "push_temp_csv":
+        push_temp_hyp_csv()
+    else:
+        print("Invalid action. Choose from 'create_ds', 'create_temp_csv', or 'push_temp_csv'.")
+
+if __name__ == "__main__":
+    main()

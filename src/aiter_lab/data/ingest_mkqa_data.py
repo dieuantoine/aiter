@@ -1,7 +1,5 @@
 import pandas as pd
 
-from ..config import HF_TOKEN
-
 from .utils import calc_msg_length, calc_qw
 
 from ..utils import load_from_hf
