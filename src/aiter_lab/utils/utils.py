@@ -1,0 +1,29 @@
+from datasets import load_dataset, Dataset
+from huggingface_hub import login
+from ..config import HF_TOKEN
+
+import re
+
+def load_from_hf(path):
+    login(HF_TOKEN)
+    return load_dataset(path, split="train").to_pandas()
+
+def load_from_local(file_path):
+    return load_dataset("json", data_files=str(file_path), split="train").to_pandas()
+
+def push_to_hf(df, path):
+    login(HF_TOKEN)
+    ds = Dataset.from_pandas(df)
+    ds.push_to_hub(path)
+    return
+
+def load_prompt(file_path):
+    with open(file_path, 'r', encoding='utf-8') as f:
+        return f.read()
+
+def clean_text(text):
+    text = text.lower()
+    text = re.sub(r"[éèê]", "e", text)
+    text = re.sub(r"[ç]", "c", text)
+    text = re.sub(r"[^a-zA-Z0-9\s]", "", text)
+    return text

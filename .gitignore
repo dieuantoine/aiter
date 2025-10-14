@@ -1,5 +1,17 @@
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+*.eggs/
+.eggs/
+MANIFEST
+.installed.cfg
+
+# Virtual environments
 .env
-.venv/
+.venv
+
 tests/
 **/__pycache__
 **/deprecated/

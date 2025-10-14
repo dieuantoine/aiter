@@ -19,3 +19,5 @@ wordcloud
 sacrebleu
 
 lighteval
+
+aiter-metric

@@ -1,7 +1,11 @@
 VERSION:
-  CODE_VERSION: "2"
-  DATASET_VERSION: "mkqa"
-# DATASET_VERSION: "comparia"
-  PROMPT_VERSION: 1
-  REFERENCES_VERSION: 0
-  LANG: "fr"
+  CODE_VERSION: "3"
+  DATASET: "mkqa"
+  DATA_VERSION: "1"
+# DATASET: "comparia"
+  LANG: "en"
+  REFORMULATION_MODEL: "gemini-2.5-flash"
+  TESTED_MODELS:
+    - "GPT-4o"
+    - "Le Chat"
+    - "DeepSeek"
