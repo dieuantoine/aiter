@@ -40,7 +40,7 @@ DS_ANALYSIS_DIR = ANALYSIS_DIR / "datasets_analysis"
 
 RESULTS_ANALYSIS_DIR = ANALYSIS_DIR / "results_analysis"
 
-METADATA_CSV = RESULTS_ANALYSIS_DIR / "metadata.csv"
+METADATA_CSV = RESULTS_DIR / "metadata.csv"
 
 #Datasets
 ds_config = load_yaml(CONFIG_DIR / "hf_ds_paths.yaml")
