@@ -2,7 +2,7 @@ import pandas as pd
 
 from .utils import calc_msg_length, calc_qw
 
-from ..utils import load_from_hf
+from ..utils import load_from_hf, load_from_local
 
 def arrange_mkqa_req(mkqa_df, lang):
     mkqa_df["request"] = mkqa_df['queries'].apply(lambda x: x[lang])
@@ -32,7 +32,7 @@ def arrange_mkqa_hyp(req_df, models):
     return hyp_df
 
 def create_mkqa_df(mkqa_ds_path, models, lang):
-    mkqa_df = load_from_hf(mkqa_ds_path)
+    mkqa_df = load_from_local(mkqa_ds_path)
     req_df = arrange_mkqa_req(mkqa_df, lang)
     hyp_df = arrange_mkqa_hyp(req_df, models)
     return req_df, hyp_df

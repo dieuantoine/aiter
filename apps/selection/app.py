@@ -88,7 +88,7 @@ if total_results > 0:
                 st.markdown(f"**Thématiques :** {', '.join(row['categories'])}")
                 st.markdown(f"**Mot(s) interrogatif(s) :** {', '.join(row['question_words'])}")
                 st.markdown(f"**Requête ({row['msg_length']}) :** {row['request']}")
-                if VERSION['DATASET_VERSION']=="mkqa":
+                if VERSION['DATASET']=="mkqa":
                     st.markdown(f"**Annotations :** {row['reference_annotation']}")
     
         with cols[1]:

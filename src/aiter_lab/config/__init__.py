@@ -42,13 +42,14 @@ RESULTS_ANALYSIS_DIR = ANALYSIS_DIR / "results_analysis"
 
 METADATA_CSV = RESULTS_ANALYSIS_DIR / "metadata.csv"
 
-#Huggingface datasets
+#Datasets
 ds_config = load_yaml(CONFIG_DIR / "hf_ds_paths.yaml")
 ds = ds_config['datasets']
 username = ds_config['username']
 CONV_DS = ds['CONV_DS']
 REAC_DS = ds['REAC_DS']
 MKQA_DS = ds['MKQA_DS']
+LOCAL_MKQA_PATH = DATA_DIR / "raw" / "mkqa.jsonl.gz"
 REQ_DS = f'{username}/{DATASET}-requests-{LANG}'
 HYP_DS = f'{username}/{DATASET}-hypotheses-{LANG}'
     

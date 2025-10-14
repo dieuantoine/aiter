@@ -3,7 +3,7 @@ VERSION:
   DATASET: "mkqa"
   DATA_VERSION: "1"
 # DATASET: "comparia"
-  LANG: "fr"
+  LANG: "en"
   REFORMULATION_MODEL: "gemini-2.5-flash"
   TESTED_MODELS:
     - "GPT-4o"

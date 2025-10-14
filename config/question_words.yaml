@@ -12,3 +12,11 @@ QUESTION_WORDS:
     - quelles
     - lequel
     - combien
+  en:
+    - what
+    - when
+    - how
+    - why
+    - where
+    - who
+    - which

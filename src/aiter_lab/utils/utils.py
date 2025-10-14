@@ -6,7 +6,10 @@ import re
 
 def load_from_hf(path):
     login(HF_TOKEN)
-    return load_dataset(path)['train'].to_pandas()
+    return load_dataset(path, split="train").to_pandas()
+
+def load_from_local(file_path):
+    return load_dataset("json", data_files=str(file_path), split="train").to_pandas()
 
 def push_to_hf(df, path):
     login(HF_TOKEN)
