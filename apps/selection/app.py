@@ -23,7 +23,7 @@ df = load_data()
 if "local_selection_updates" not in st.session_state:
     st.session_state.local_selection_updates = {}
 
-st.title("Exploration des requêtes")
+st.title("Request exploration and Selection")
 
 all_thematics = sorted(set(t for sublist in df["categories"] for t in sublist))
 all_mots = sorted(set(m for sublist in df["question_words"] for m in sublist))
@@ -32,14 +32,14 @@ min_len, max_len = int(df["msg_length"].min()), int(df["msg_length"].max())
 
 col1, col2 = st.columns(2)
 with col1:
-    msg_len_min = st.number_input("Longueur minimale du message", min_value=min_len, max_value=max_len, value=min_len, step=1)
-    selected_thematiques = st.multiselect("Sélectionner une ou plusieurs thématiques", options=all_thematics)
+    msg_len_min = st.number_input("Minimum message length", min_value=min_len, max_value=max_len, value=min_len, step=1)
+    selected_thematiques = st.multiselect("Select one or more topics", options=all_thematics)
 with col2:
-    msg_len_max = st.number_input("Longueur maximale du message", min_value=min_len, max_value=max_len, value=max_len, step=1)
-    selected_mots = st.multiselect("Sélectionner un ou plusieurs mots interrogatifs", options=all_mots)
+    msg_len_max = st.number_input("Maximum message length", min_value=min_len, max_value=max_len, value=max_len, step=1)
+    selected_mots = st.multiselect("Select one or more question words", options=all_mots)
 
-search_text = st.text_input("Recherche par mot-clé (optionnelle)")
-show_selected_only = st.checkbox("Afficher uniquement les requêtes sélectionnées")
+search_text = st.text_input("Keyword search (optional)")
+show_selected_only = st.checkbox("Show only selected requests")
 
 filtered_df = df
 
@@ -56,7 +56,7 @@ if show_selected_only:
     filtered_df = filtered_df[filtered_df['request_id'].isin(st.session_state.selected_conv_ids)]
 
 if msg_len_min > msg_len_max:
-    st.warning("La longueur minimale est supérieure à la longueur maximale.")
+    st.warning("The minimum length is greater than the maximum length.")
 else:
     filtered_df = filtered_df[
         (filtered_df["msg_length"] >= msg_len_min) &
@@ -72,7 +72,7 @@ if total_results > 0:
     start_idx = (page - 1) * items_per_page
     end_idx = start_idx + items_per_page
 
-    st.write(f"Résultats {start_idx + 1} à {min(end_idx, total_results)} sur {total_results}")
+    st.write(f"Results {start_idx + 1} à {min(end_idx, total_results)} sur {total_results}")
     for idx, row in filtered_df.iloc[start_idx:end_idx].iterrows():
         cols = st.columns([10, 2])
         with cols[0]:
@@ -83,13 +83,13 @@ if total_results > 0:
                 short_msg = row['request']
             st.markdown(short_msg)
 
-            with st.expander("➕ Plus d'informations"):
+            with st.expander("➕ More information"):
                 st.markdown(f"id: {row['request_id']}")
-                st.markdown(f"**Thématiques :** {', '.join(row['categories'])}")
-                st.markdown(f"**Mot(s) interrogatif(s) :** {', '.join(row['question_words'])}")
-                st.markdown(f"**Requête ({row['msg_length']}) :** {row['request']}")
+                st.markdown(f"**Topics:** {', '.join(row['categories'])}")
+                st.markdown(f"**Question word(s):** {', '.join(row['question_words'])}")
+                st.markdown(f"**Request ({row['msg_length']}):** {row['request']}")
                 if VERSION['DATASET']=="mkqa":
-                    st.markdown(f"**Annotations :** {row['reference_annotation']}")
+                    st.markdown(f"**Annotations:** {row['reference_annotation']}")
     
         with cols[1]:
             conv_id = row['request_id']
@@ -97,15 +97,15 @@ if total_results > 0:
             base_state = conv_id in st.session_state.selected_conv_ids
             updated_state = st.session_state.local_selection_updates.get(conv_id, base_state)
 
-            btn_label = "➖ Retirer" if updated_state else "➕ Ajouter"
+            btn_label = "➖ Remove" if updated_state else "➕ Add"
 
             if st.button(btn_label, key=f"toggle_{conv_id}_{updated_state}"):
                 st.session_state.local_selection_updates[conv_id] = not updated_state
                 st.rerun()
 else:
-    st.warning("Aucune requête ne correspond à ces critères.")
+    st.warning("No requests match these criteria.")
 
-if st.button("💾 Enregistrer les modifications"):
+if st.button("💾 Save changes"):
     if os.path.exists(SELECTED_IDS_CSV):
         all_ids = set(pd.read_csv(SELECTED_IDS_CSV)["request_id"].tolist())
     else:
@@ -126,4 +126,4 @@ if st.button("💾 Enregistrer les modifications"):
     
     st.session_state.selected_conv_ids = all_ids
     st.session_state.local_selection_updates = {}
-    st.success(f"Sélection mise à jour : {added} entrée(s) ajoutée(s), {removed} retirée(s).")
+    st.success(f"Selection updated: {added} entry(ies) added, {removed} removed.")

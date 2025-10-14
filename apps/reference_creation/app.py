@@ -35,7 +35,7 @@ if "remaining_ids" not in st.session_state:
     st.session_state.remaining_ids = list(request_ids - annotated_ids)
 
 if not st.session_state.remaining_ids:
-    st.success("Toutes les données ont été annotées !")
+    st.success("All data have been annotated.")
     st.stop()
 
 if st.session_state.current_index >= len(st.session_state.remaining_ids):
@@ -46,18 +46,18 @@ request_group = df[df['request_id'] == current_request_id]
 request_text = request_group['request'].iloc[0]
 responses = request_group['hypothesis'].tolist()
 
-st.title("Interface d'annotation")
+st.title("Annotation Interface")
 
-st.subheader("Requête :")
+st.subheader("Request :")
 st.markdown(f"> {request_text}")
 
 if VERSION['DATASET'] == "mkqa":
-    st.subheader("Elements de réponse MKQA:")
+    st.subheader("MKQA Reference Elements:")
     ref_text_df = resp_df[resp_df['request_id'] == str(current_request_id)]
     ref_text = ref_text_df['reference_annotation'].iloc[0] if not ref_text_df.empty else None
     st.markdown(ref_text)
 
-st.subheader("Hypothèses des modèles testés:")
+st.subheader("Model Hypotheses:")
 for idx, resp in enumerate(responses, 1):
     st.markdown(f"**Réponse {idx} :** {resp}")
 
@@ -73,29 +73,29 @@ else:
     existing_ref = ""
     existing_ctx = ""
 
-st.subheader("Entrez votre référence :")
-reference = st.text_area("Votre texte ici", value=st.session_state.get(ref_key, existing_ref), height=200)
+st.subheader("Enter your reference:")
+reference = st.text_area("Your text here", value=st.session_state.get(ref_key, existing_ref), height=200)
 st.session_state[ref_key] = reference
 
-st.subheader("Entrez le contexte associé :")
-context = st.text_area("Contexte", value=st.session_state.get(ctx_key, existing_ctx), height=150)
+st.subheader("Enter the associated context:")
+context = st.text_area("Your text here", value=st.session_state.get(ctx_key, existing_ctx), height=150)
 st.session_state[ctx_key] = context
 
 col1, col2, col3 = st.columns([1, 1, 2])
 with col1:
-    if st.button("⬅️ Précédent", disabled=st.session_state.current_index == 0) and st.session_state.current_index > 0:
+    if st.button("⬅️ Previous", disabled=st.session_state.current_index == 0) and st.session_state.current_index > 0:
         st.session_state.current_index -= 1
         st.rerun()
 with col2:
-    if st.button("Suivant ➡️", disabled=st.session_state.current_index == len(st.session_state.remaining_ids)) and st.session_state.current_index < len(st.session_state.remaining_ids) - 1:
+    if st.button("Next ➡️", disabled=st.session_state.current_index == len(st.session_state.remaining_ids)) and st.session_state.current_index < len(st.session_state.remaining_ids) - 1:
         st.session_state.current_index += 1
         st.rerun()
 with col3:
-    st.write(f"Référence actuelle : {st.session_state.current_index + 1}/{len(st.session_state.remaining_ids)}")
+    st.write(f"Current reference: {st.session_state.current_index + 1}/{len(st.session_state.remaining_ids)}")
 
-if st.button("Soumettre"):
+if st.button("Submit"):
     if reference.strip() == "" or context.strip() == "":
-        st.warning("Veuillez remplir à la fois la référence et le contexte.")
+        st.warning("Please fill in both the reference and the context.")
     else:
         new_entry = {
             "request_id": current_request_id,
@@ -120,5 +120,5 @@ if st.button("Soumettre"):
         if st.session_state.current_index >= len(st.session_state.remaining_ids):
             st.session_state.current_index = 0
 
-        st.success("Référence enregistrée !")
+        st.success("Reference saved.")
         st.rerun()
