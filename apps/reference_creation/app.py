@@ -9,8 +9,10 @@ from src.aiter_lab.utils import load_from_hf
 @st.cache_data
 def load_data():
     ids_df = pd.read_csv(SELECTED_IDS_CSV)
+    ids_df["request_id"] = ids_df["request_id"].astype(str)
     df = load_from_hf(HYP_DS)
-    if VERSION['DATASET_VERSION'] == "mkqa":
+    df["request_id"] = df["request_id"].astype(str)
+    if VERSION['DATASET'] == "mkqa":
         resp_df = load_from_hf(REQ_DS)
     else:
         resp_df = None
@@ -49,7 +51,7 @@ st.title("Interface d'annotation")
 st.subheader("Requête :")
 st.markdown(f"> {request_text}")
 
-if VERSION['DATASET_VERSION'] == "mkqa":
+if VERSION['DATASET'] == "mkqa":
     st.subheader("Elements de réponse MKQA:")
     ref_text_df = resp_df[resp_df['request_id'] == str(current_request_id)]
     ref_text = ref_text_df['reference_annotation'].iloc[0] if not ref_text_df.empty else None

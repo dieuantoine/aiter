@@ -48,7 +48,7 @@ def main():
     elif args.action == "create_temp_csv":
         create_temp_hyp_csv()
     elif args.action == "push_temp_csv":
-        push_temp_hyp_csv()
+        push_hyp_to_hf()
     else:
         print("Invalid action. Choose from 'create_ds', 'create_temp_csv', or 'push_temp_csv'.")
 

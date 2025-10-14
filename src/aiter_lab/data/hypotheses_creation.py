@@ -24,7 +24,7 @@ def push_temp_hyp_csv(mkqa_hyp_ds_path, temp_hyp_csv):
     merged_df = pd.merge(
         existing_hyp_df,
         temp_hyp_df,
-        on=['conv_id', 'model_id', 'request_id', 'request'],
+        on=['conv_id'],
         how='left',
         suffixes=('', '_new')
     )
@@ -34,7 +34,7 @@ def push_temp_hyp_csv(mkqa_hyp_ds_path, temp_hyp_csv):
         axis=1
     )
     
-    hyp_df = merged_df.drop(columns=['hypothesis_new'])
+    hyp_df = merged_df[['conv_id', 'model_id', 'request_id', 'request', 'hypothesis']]
 
     push_to_hf(hyp_df, mkqa_hyp_ds_path)
     return
