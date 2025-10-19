@@ -1,0 +1,1168 @@
+conv_id,model_id,request_id,request,reference,context,hypothesis,corrected_hypothesis,score
+3,GPT-4o,6277735658261425592,d'où vient la phrase great scott,"L'origine de l'expression ""Great Scott"" n'est pas clairement établie.","L'origine exacte de l'expression ""Great Scott!"", interjection qui exprime la surprise, l'étonnement ou la consternation, n'est pas connue, mais plusieurs hypothèses existent:
+- elle pourrait faire référence à Sir Walter Scott, écrivain écossais du 19e siècle.
+- elle pourrait aussi faire référence à Winfield Scott, général de l'armée américaine.
+L'expression apparaît dans la littérature du 19e siècle, notamment chez Mark Twain, et a été popularisée par le personnage Doc Brown dans ""Retour vers le futur"" (1985).",,"*(La réponse du modèle était vide, donc aucune correction n'est nécessaire. Voici une réponse neutre respectant la consigne :)*
+
+L'origine de l'expression *""Great Scott""* n'est pas clairement établie.",100.0
+4,Le Chat,6277735658261425592,d'où vient la phrase great scott,"L'origine de l'expression ""Great Scott"" n'est pas clairement établie.","L'origine exacte de l'expression ""Great Scott!"", interjection qui exprime la surprise, l'étonnement ou la consternation, n'est pas connue, mais plusieurs hypothèses existent:
+- elle pourrait faire référence à Sir Walter Scott, écrivain écossais du 19e siècle.
+- elle pourrait aussi faire référence à Winfield Scott, général de l'armée américaine.
+L'expression apparaît dans la littérature du 19e siècle, notamment chez Mark Twain, et a été popularisée par le personnage Doc Brown dans ""Retour vers le futur"" (1985).",,"L'origine de l'expression *""Great Scott""* n'est pas clairement établie.",100.0
+5,DeepSeek,6277735658261425592,d'où vient la phrase great scott,"L'origine de l'expression ""Great Scott"" n'est pas clairement établie.","L'origine exacte de l'expression ""Great Scott!"", interjection qui exprime la surprise, l'étonnement ou la consternation, n'est pas connue, mais plusieurs hypothèses existent:
+- elle pourrait faire référence à Sir Walter Scott, écrivain écossais du 19e siècle.
+- elle pourrait aussi faire référence à Winfield Scott, général de l'armée américaine.
+L'expression apparaît dans la littérature du 19e siècle, notamment chez Mark Twain, et a été popularisée par le personnage Doc Brown dans ""Retour vers le futur"" (1985).",,"Désolé, mais la réponse du modèle à corriger n'a pas été fournie. Veuillez la partager pour que je puisse procéder aux corrections nécessaires.",100.0
+6,GPT-4o,-4766029169354683727,Qui interprète la chanson Love you like there's no tomorrow,Love Me Like There's No Tomorrow est une chanson de Freddie Mercury.,"""Love Me Like There's No Tomorrow"" est une chanson de Freddie Mercury, le chanteur du groupe Queen, sortie en 1985 en tant que quatrième et dernier single de son premier album solo Mr. Bad Guy. Elle a été écrite par Mercury et produite par Reinhold Mack et Mercury.",,"Désolé, mais aucune correction n'est nécessaire : la réponse du modèle était vide. Si vous souhaitez une réponse, voici une version factuellement correcte basée sur la référence :
+
+*Love Me Like There's No Tomorrow* est une chanson de Freddie Mercury.",100.0
+7,Le Chat,-4766029169354683727,Qui interprète la chanson Love you like there's no tomorrow,Love Me Like There's No Tomorrow est une chanson de Freddie Mercury.,"""Love Me Like There's No Tomorrow"" est une chanson de Freddie Mercury, le chanteur du groupe Queen, sortie en 1985 en tant que quatrième et dernier single de son premier album solo Mr. Bad Guy. Elle a été écrite par Mercury et produite par Reinhold Mack et Mercury.",,"Désolé, mais aucune correction n'est nécessaire : la réponse du modèle était vide. Si vous souhaitez une réponse, voici une version factuellement correcte basée sur la référence :
+
+*Love Me Like There's No Tomorrow* est une chanson de Freddie Mercury.",100.0
+8,DeepSeek,-4766029169354683727,Qui interprète la chanson Love you like there's no tomorrow,Love Me Like There's No Tomorrow est une chanson de Freddie Mercury.,"""Love Me Like There's No Tomorrow"" est une chanson de Freddie Mercury, le chanteur du groupe Queen, sortie en 1985 en tant que quatrième et dernier single de son premier album solo Mr. Bad Guy. Elle a été écrite par Mercury et produite par Reinhold Mack et Mercury.",,"Désolé, mais aucune correction n'est nécessaire : la réponse du modèle était vide. Si vous souhaitez une réponse, voici une version factuellement correcte basée sur la référence :
+
+*Love Me Like There's No Tomorrow* est une chanson de Freddie Mercury.",100.0
+12,GPT-4o,7960403399608384663,Quand est-ce que les Lakers ont fait les playoffs la dernière fois,Les Los Angeles Lakers ont participés aux playoffs de la NBA pour la dernière fois en 2025.,Les Los Angeles Lakers ont participés aux playoffs de la NBA pour la dernière fois en 2025. Les Los Angeles Lakers ont été éliminés des playoffs par les Timberwolves du Minnesota au premier tour (1-4).,,Les Los Angeles Lakers ont participé aux playoffs de la NBA pour la dernière fois en **2025**.,100.0
+13,Le Chat,7960403399608384663,Quand est-ce que les Lakers ont fait les playoffs la dernière fois,Les Los Angeles Lakers ont participés aux playoffs de la NBA pour la dernière fois en 2025.,Les Los Angeles Lakers ont participés aux playoffs de la NBA pour la dernière fois en 2025. Les Los Angeles Lakers ont été éliminés des playoffs par les Timberwolves du Minnesota au premier tour (1-4).,,"Désolé, la réponse du modèle à corriger n'a pas été fournie. Pourriez-vous la partager afin que je puisse procéder aux corrections nécessaires ?",100.0
+14,DeepSeek,7960403399608384663,Quand est-ce que les Lakers ont fait les playoffs la dernière fois,Les Los Angeles Lakers ont participés aux playoffs de la NBA pour la dernière fois en 2025.,Les Los Angeles Lakers ont participés aux playoffs de la NBA pour la dernière fois en 2025. Les Los Angeles Lakers ont été éliminés des playoffs par les Timberwolves du Minnesota au premier tour (1-4).,,"Désolé, mais la réponse du modèle à corriger n'a pas été fournie. Veuillez la partager pour que je puisse procéder aux corrections nécessaires.",100.0
+27,GPT-4o,8201177426304478596,Quel est l'origine du logo starbucks,Le logo de Starbucks est une sirène inspirée d’une gravure sur bois scandinave du XVe siècle,"Le logo initial de Starbucks est une sirène inspirée d’une gravure sur bois scandinave du XVe siècle, avec de longs cheveux de chaque côté, la poitrine dénudée, tenant sa double queue. Certains chercheurs ont identifié l'image comme étant celle de Mélusine, mais ce lien est parfois remis en question.
+Steve Murray, directeur créatif du Starbucks Global Creative Studio jusqu'en juillet 2022, a souligné deux liens importants entre Starbucks et le monde maritime.
+Premièrement, Seattle, ville natale de l'entreprise, est une ville portuaire historique. Deuxièmement, le café lui-même parcourt souvent de longues distances par voie maritime, arrivant au port dans de grands porte-conteneurs.",,"Désolé, mais aucune correction n'est nécessaire : la réponse du modèle était vide. Si vous souhaitez que j'évalue une réponse spécifique, n'hésitez pas à la fournir !",100.0
+28,Le Chat,8201177426304478596,Quel est l'origine du logo starbucks,Le logo de Starbucks est une sirène inspirée d’une gravure sur bois scandinave du XVe siècle,"Le logo initial de Starbucks est une sirène inspirée d’une gravure sur bois scandinave du XVe siècle, avec de longs cheveux de chaque côté, la poitrine dénudée, tenant sa double queue. Certains chercheurs ont identifié l'image comme étant celle de Mélusine, mais ce lien est parfois remis en question.
+Steve Murray, directeur créatif du Starbucks Global Creative Studio jusqu'en juillet 2022, a souligné deux liens importants entre Starbucks et le monde maritime.
+Premièrement, Seattle, ville natale de l'entreprise, est une ville portuaire historique. Deuxièmement, le café lui-même parcourt souvent de longues distances par voie maritime, arrivant au port dans de grands porte-conteneurs.",,"Désolé, mais aucune correction n'est nécessaire : la réponse du modèle était vide. Si vous souhaitez que j'évalue une réponse spécifique, n'hésitez pas à la fournir !",100.0
+29,DeepSeek,8201177426304478596,Quel est l'origine du logo starbucks,Le logo de Starbucks est une sirène inspirée d’une gravure sur bois scandinave du XVe siècle,"Le logo initial de Starbucks est une sirène inspirée d’une gravure sur bois scandinave du XVe siècle, avec de longs cheveux de chaque côté, la poitrine dénudée, tenant sa double queue. Certains chercheurs ont identifié l'image comme étant celle de Mélusine, mais ce lien est parfois remis en question.
+Steve Murray, directeur créatif du Starbucks Global Creative Studio jusqu'en juillet 2022, a souligné deux liens importants entre Starbucks et le monde maritime.
+Premièrement, Seattle, ville natale de l'entreprise, est une ville portuaire historique. Deuxièmement, le café lui-même parcourt souvent de longues distances par voie maritime, arrivant au port dans de grands porte-conteneurs.",,"---
+*(Aucune correction nécessaire : la réponse du modèle était vide.)*
+---",100.0
+45,GPT-4o,-4767536963343233422,qui a le plus de followers sur instagram,"En juillet 2025, le compte instagram avec le plus grand nombre d'abonnés est celui de Cristiano Ronaldo (@cristiano).","En juillet 2025, le compte instagram avec le plus grand nombre d'abonnés est celui du footballeur professionnel portugais Cristiano Ronaldo (@cristiano) avec 661 millions d'abonnés. Il est suivi de près par Lionel Messi (@leomessi) avec 506 millions d'abonnés et Selena Gomez (@selenagomez) avec 418 millions d'abonnés.
+Ces chiffres évoluent régulièrement.",,"En juillet 2025, le compte Instagram avec le plus grand nombre d'abonnés est celui de Cristiano Ronaldo (@cristiano).",100.0
+46,Le Chat,-4767536963343233422,qui a le plus de followers sur instagram,"En juillet 2025, le compte instagram avec le plus grand nombre d'abonnés est celui de Cristiano Ronaldo (@cristiano).","En juillet 2025, le compte instagram avec le plus grand nombre d'abonnés est celui du footballeur professionnel portugais Cristiano Ronaldo (@cristiano) avec 661 millions d'abonnés. Il est suivi de près par Lionel Messi (@leomessi) avec 506 millions d'abonnés et Selena Gomez (@selenagomez) avec 418 millions d'abonnés.
+Ces chiffres évoluent régulièrement.",,"Désolé, mais aucune correction n'est nécessaire : la réponse du modèle était vide. Si vous souhaitez une réponse factuelle, voici l'information validée :
+
+En juillet 2025, le compte Instagram avec le plus grand nombre d'abonnés est celui de Cristiano Ronaldo (@cristiano).",100.0
+47,DeepSeek,-4767536963343233422,qui a le plus de followers sur instagram,"En juillet 2025, le compte instagram avec le plus grand nombre d'abonnés est celui de Cristiano Ronaldo (@cristiano).","En juillet 2025, le compte instagram avec le plus grand nombre d'abonnés est celui du footballeur professionnel portugais Cristiano Ronaldo (@cristiano) avec 661 millions d'abonnés. Il est suivi de près par Lionel Messi (@leomessi) avec 506 millions d'abonnés et Selena Gomez (@selenagomez) avec 418 millions d'abonnés.
+Ces chiffres évoluent régulièrement.",,"Désolé, la réponse du modèle à corriger n'a pas été fournie. Veuillez la partager pour que je puisse procéder aux corrections nécessaires.",100.0
+51,GPT-4o,234131699687376880,Qui produit le plus de pistaches dans le monde,"Les deux plus grands producteurs de pistaches au monde sont l'Iran et les États-Unis, les deux pays se partageant la première place selon les années.","Les principaux pays producteurs sont l'Iran (principalement la province de Kerman, notamment Rafsandjan) et les États-Unis (principalement la Californie). Viennent ensuite la Turquie, la Chine, puis la Syrie.",,"Je suis ravi de vous aider ! Les deux plus grands producteurs de pistaches au monde sont l'**Iran et les États-Unis**, ces deux pays se partageant souvent la première place selon les années.",100.0
+52,Le Chat,234131699687376880,Qui produit le plus de pistaches dans le monde,"Les deux plus grands producteurs de pistaches au monde sont l'Iran et les États-Unis, les deux pays se partageant la première place selon les années.","Les principaux pays producteurs sont l'Iran (principalement la province de Kerman, notamment Rafsandjan) et les États-Unis (principalement la Californie). Viennent ensuite la Turquie, la Chine, puis la Syrie.",,"Je suis ravi de vous aider ! Les deux plus grands producteurs de pistaches au monde sont l'**Iran et les États-Unis**, ces deux pays se partageant souvent la première place selon les années.",100.0
+53,DeepSeek,234131699687376880,Qui produit le plus de pistaches dans le monde,"Les deux plus grands producteurs de pistaches au monde sont l'Iran et les États-Unis, les deux pays se partageant la première place selon les années.","Les principaux pays producteurs sont l'Iran (principalement la province de Kerman, notamment Rafsandjan) et les États-Unis (principalement la Californie). Viennent ensuite la Turquie, la Chine, puis la Syrie.",,"Désolé, il semble que la réponse du modèle à corriger n'ait pas été fournie. Pourriez-vous la partager afin que je puisse procéder aux corrections nécessaires ?",100.0
+54,GPT-4o,7818112641371223126,quel est le nom du stade des arizona cardinals,Le stade des Arizona Cardinals s'appelle le State Farm Stadium.,"Le stade de l'équipe de NFL des Arizona Cardinals s'appelle le State farm Stadium, il est situé à Glendale, Arizona. Ce stade était anciennement nommé University of Phoenix Stadium et les Arizona Cardinals y jouent depuis 2006.",,"Désolé, mais votre message semble incomplet : vous n'avez pas fourni la réponse du modèle à corriger. Pour que je puisse appliquer les consignes, merci de partager la réponse générée par le modèle que vous souhaitez voir évaluée et corrigée.
+
+*(Exemple de format attendu : ""Voici la réponse du modèle : [texte]"")*",100.0
+55,Le Chat,7818112641371223126,quel est le nom du stade des arizona cardinals,Le stade des Arizona Cardinals s'appelle le State Farm Stadium.,"Le stade de l'équipe de NFL des Arizona Cardinals s'appelle le State farm Stadium, il est situé à Glendale, Arizona. Ce stade était anciennement nommé University of Phoenix Stadium et les Arizona Cardinals y jouent depuis 2006.",,"Désolé, mais aucune correction n'est nécessaire car la réponse du modèle était vide. Si vous fournissez une réponse du modèle à corriger, je pourrai l'ajuster en fonction de la référence donnée.",100.0
+56,DeepSeek,7818112641371223126,quel est le nom du stade des arizona cardinals,Le stade des Arizona Cardinals s'appelle le State Farm Stadium.,"Le stade de l'équipe de NFL des Arizona Cardinals s'appelle le State farm Stadium, il est situé à Glendale, Arizona. Ce stade était anciennement nommé University of Phoenix Stadium et les Arizona Cardinals y jouent depuis 2006.",,"Désolé, mais aucune correction n'est nécessaire car la réponse du modèle était vide. Si vous fournissez une réponse du modèle à corriger, je pourrai l'ajuster en fonction de la référence donnée.",100.0
+60,GPT-4o,-1881286304870722165,Dans combien d'états s'étendent les Montagnes Rocheuses ?,Les Montagnes Rocheuses s'étendent sur six états américains et deux provinces canadiennes.,"Les Montagnes Rocheuses sont une grande chaîne de montagnes dans l'Ouest de l'Amérique du Nord. Les Montagnes Rocheuses s'étendent sur 6 états américains (Montana, Idaho, Wyoming, Utah, Colorado, Nouveau-Mexique) et 2 provinces canadiennes (Colombie-Britannique, Alberta) et sur plus de 3000 km de long.",,Les Montagnes Rocheuses s'étendent sur six états américains et deux provinces canadiennes.,100.0
+61,Le Chat,-1881286304870722165,Dans combien d'états s'étendent les Montagnes Rocheuses ?,Les Montagnes Rocheuses s'étendent sur six états américains et deux provinces canadiennes.,"Les Montagnes Rocheuses sont une grande chaîne de montagnes dans l'Ouest de l'Amérique du Nord. Les Montagnes Rocheuses s'étendent sur 6 états américains (Montana, Idaho, Wyoming, Utah, Colorado, Nouveau-Mexique) et 2 provinces canadiennes (Colombie-Britannique, Alberta) et sur plus de 3000 km de long.",,La chaîne des Montagnes Rocheuses traverse **six états américains** et **deux provinces canadiennes**.,100.0
+62,DeepSeek,-1881286304870722165,Dans combien d'états s'étendent les Montagnes Rocheuses ?,Les Montagnes Rocheuses s'étendent sur six états américains et deux provinces canadiennes.,"Les Montagnes Rocheuses sont une grande chaîne de montagnes dans l'Ouest de l'Amérique du Nord. Les Montagnes Rocheuses s'étendent sur 6 états américains (Montana, Idaho, Wyoming, Utah, Colorado, Nouveau-Mexique) et 2 provinces canadiennes (Colombie-Britannique, Alberta) et sur plus de 3000 km de long.",,Les Montagnes Rocheuses s'étendent sur six états américains et deux provinces canadiennes.,100.0
+69,GPT-4o,3309140698422618645,qui a gagné america's got talent en 2015,Le gagnant d'America's Got Talent en 2015 était Paul Zerdin.,Paul Zerdin est un ventriloque et comédien britannique qui a remporté la saison 10 de l'émission America's Got Talent en 2015.,,"Désolé, mais il semble que votre question n'ait pas été incluse dans la demande de correction. Pour répondre à votre attente, voici la version corrigée d'une réponse hypothétique sur le gagnant d'*America's Got Talent* en 2015 :
+
+---
+Le gagnant d'*America's Got Talent* en 2015 était **Paul Zerdin**, un ventriloque britannique.
+---",100.0
+70,Le Chat,3309140698422618645,qui a gagné america's got talent en 2015,Le gagnant d'America's Got Talent en 2015 était Paul Zerdin.,Paul Zerdin est un ventriloque et comédien britannique qui a remporté la saison 10 de l'émission America's Got Talent en 2015.,,"Désolé, mais il semble que vous n'ayez pas fourni la réponse du modèle à corriger. Pour que je puisse effectuer la correction, merci de partager la réponse générée par le modèle.",100.0
+71,DeepSeek,3309140698422618645,qui a gagné america's got talent en 2015,Le gagnant d'America's Got Talent en 2015 était Paul Zerdin.,Paul Zerdin est un ventriloque et comédien britannique qui a remporté la saison 10 de l'émission America's Got Talent en 2015.,,"Désolé, mais la réponse initiale du modèle était vide. Voici la réponse corrigée basée sur la référence :
+
+Le gagnant d'*America's Got Talent* en 2015 était **Paul Zerdin**.",100.0
+78,GPT-4o,476368974337766528,quand les républicains ont-ils gagné le vote populaire pour la dernière fois,"Les républicains ont remporté le vote populaire lors d'une élection présidentielle américaine pour la dernière fois en 2024, lors de la réélection de Donald Trump.","Lors des élections présidentielles américaines de 2024, le candidat républicain Donald Trump a remporté le vote populaire face à la candidate démocrate Kamala Harris, avec 49.3% des voix, contre 48.3%. Les républicains n'avaient pas gagné le vote populaire depuis 2004 avec l'élection de George W. Bush, même s'ils avaient remporté la présidence en 2016.",,"Les républicains ont remporté le vote populaire lors d'une élection présidentielle américaine pour la dernière fois en **2024**, lors de la **réélection de Donald Trump**.",100.0
+79,Le Chat,476368974337766528,quand les républicains ont-ils gagné le vote populaire pour la dernière fois,"Les républicains ont remporté le vote populaire lors d'une élection présidentielle américaine pour la dernière fois en 2024, lors de la réélection de Donald Trump.","Lors des élections présidentielles américaines de 2024, le candidat républicain Donald Trump a remporté le vote populaire face à la candidate démocrate Kamala Harris, avec 49.3% des voix, contre 48.3%. Les républicains n'avaient pas gagné le vote populaire depuis 2004 avec l'élection de George W. Bush, même s'ils avaient remporté la présidence en 2016.",,"Désolé, mais votre question semble incomplète : la réponse du modèle à corriger n'a pas été fournie. Pour que je puisse procéder à la correction factuelle, merci de partager la réponse générée par le modèle que vous souhaitez évaluer.
+
+*(Je reste à disposition pour corriger dès que vous aurez ajouté le texte à analyser.)*",100.0
+80,DeepSeek,476368974337766528,quand les républicains ont-ils gagné le vote populaire pour la dernière fois,"Les républicains ont remporté le vote populaire lors d'une élection présidentielle américaine pour la dernière fois en 2024, lors de la réélection de Donald Trump.","Lors des élections présidentielles américaines de 2024, le candidat républicain Donald Trump a remporté le vote populaire face à la candidate démocrate Kamala Harris, avec 49.3% des voix, contre 48.3%. Les républicains n'avaient pas gagné le vote populaire depuis 2004 avec l'élection de George W. Bush, même s'ils avaient remporté la présidence en 2016.",,"Désolé, mais il semble que vous n'ayez pas fourni la réponse du modèle à corriger. Pourriez-vous la partager afin que je puisse l'évaluer et la corriger en fonction de la référence donnée ?",100.0
+87,GPT-4o,-9075218135116230593,comment s'appellent les sept continents du monde,"Les sept continents sont: l'Afrique, l'Amérique du Nord, l'Amérique du Sud, l'Antarctique, l'Asie, l'Europe et l'Océanie.","Il existe différents modèles de continents, mais selon le plus courant, le modèle à sept continents, les continents du monde sont l'Afrique, l'Amérique du Nord, l'Amérique du Sud, l'Antarctique, l'Asie, l'Europe et l'Océanie.",,"Il semble que vous n'ayez pas fourni la réponse du modèle à corriger. Pour que je puisse effectuer la correction, merci de partager la réponse générée par le modèle. Je m'appuierai alors sur la référence pour identifier et corriger les éventuelles erreurs factuelles.",100.0
+88,Le Chat,-9075218135116230593,comment s'appellent les sept continents du monde,"Les sept continents sont: l'Afrique, l'Amérique du Nord, l'Amérique du Sud, l'Antarctique, l'Asie, l'Europe et l'Océanie.","Il existe différents modèles de continents, mais selon le plus courant, le modèle à sept continents, les continents du monde sont l'Afrique, l'Amérique du Nord, l'Amérique du Sud, l'Antarctique, l'Asie, l'Europe et l'Océanie.",,"Il semble que vous n'ayez pas fourni la réponse du modèle à corriger. Pour que je puisse effectuer la correction, merci de partager la réponse générée par le modèle. Je m'appuierai alors sur la référence donnée pour identifier et corriger les éventuelles erreurs factuelles.",100.0
+89,DeepSeek,-9075218135116230593,comment s'appellent les sept continents du monde,"Les sept continents sont: l'Afrique, l'Amérique du Nord, l'Amérique du Sud, l'Antarctique, l'Asie, l'Europe et l'Océanie.","Il existe différents modèles de continents, mais selon le plus courant, le modèle à sept continents, les continents du monde sont l'Afrique, l'Amérique du Nord, l'Amérique du Sud, l'Antarctique, l'Asie, l'Europe et l'Océanie.",,"Désolé, il semble que la réponse du modèle à corriger n'ait pas été fournie. Pourriez-vous la partager afin que je puisse procéder aux corrections nécessaires ?",100.0
+90,GPT-4o,846466415522403319,quand michael jordan fut enrôlé à la nba,Michael Jordan a été enrôlé à la NBA en 1984.,"Michael Jordan a été sélectionné par les Chicago Bulls lors de la draft NBA du 19 juin 1984. il a été choisi en 3e position, après Hakeem Olajuwon et Sam Bowie.","Michael Jordan fut **enrôlé à la NBA en 1984**.
+
+Plus précisément, il a été **sélectionné lors de la draft NBA de 1984**, au **3e choix global** par les **Chicago Bulls**, après Hakeem Olajuwon (1er) et Sam Bowie (2e). Cette draft est aujourd’hui considérée comme l'une des plus légendaires de l’histoire de la NBA. Jordan a ensuite fait ses débuts en NBA lors de la **saison 1984-1985**.","Michael Jordan fut **enrôlé à la NBA en 1984**.
+
+Plus précisément, il a été **sélectionné lors de la draft NBA de 1984**, au **3e choix global** par les **Chicago Bulls**, après Hakeem Olajuwon (1er) et Sam Bowie (2e). Cette draft est aujourd’hui considérée comme l'une des plus légendaires de l’histoire de la NBA. Jordan a ensuite fait ses débuts en NBA lors de la **saison 1984-1985**.",0.0
+91,Le Chat,846466415522403319,quand michael jordan fut enrôlé à la nba,Michael Jordan a été enrôlé à la NBA en 1984.,"Michael Jordan a été sélectionné par les Chicago Bulls lors de la draft NBA du 19 juin 1984. il a été choisi en 3e position, après Hakeem Olajuwon et Sam Bowie.",Michael Jordan a été sélectionné par les Chicago Bulls lors de la draft 1984 de la NBA. Il a été choisi en troisième position globale. Il a ensuite commencé sa carrière professionnelle en NBA lors de la saison 1984-1985.,Michael Jordan a été sélectionné par les Chicago Bulls lors de la draft 1984 de la NBA. Il a été **enrôlé** cette même année. Il a ensuite commencé sa carrière professionnelle en NBA lors de la saison 1984-1985.,13.157894736842104
+92,DeepSeek,846466415522403319,quand michael jordan fut enrôlé à la nba,Michael Jordan a été enrôlé à la NBA en 1984.,"Michael Jordan a été sélectionné par les Chicago Bulls lors de la draft NBA du 19 juin 1984. il a été choisi en 3e position, après Hakeem Olajuwon et Sam Bowie.","Michael Jordan a été **drafté** (enrôlé) en NBA en **1984** par les **Chicago Bulls**, en **3ᵉ position** du premier tour.  
+
+### Détails clés :
+- **Date du draft** : 19 juin 1984  
+- **Équipe** : Chicago Bulls  
+- **Choix n°3** (derrière Hakeem Olajuwon et Sam Bowie)  
+- **Université** : Jordan venait de jouer à l'Université de Caroline du Nord (UNC).  
+
+### À noter :
+- **Rookie de l'année** : Jordan a remporté ce titre en 1985.  
+- **Impact immédiat** : Dès sa première saison, il a marqué la ligue avec une moyenne de **28,2 points par match**.  
+
+C'est le début d'une légende ! 🏀🔥","Michael Jordan a été **enrôlé** en NBA en **1984** par les **Chicago Bulls**, en **3ᵉ position** du premier tour.
+
+### Détails clés :
+- **Date du draft** : 19 juin 1984
+- **Équipe** : Chicago Bulls
+- **Choix n°3** (derrière Hakeem Olajuwon et Sam Bowie)
+- **Université** : Jordan venait de jouer à l'Université de Caroline du Nord (UNC).
+
+### À noter :
+- **Rookie de l'année** : Jordan a remporté ce titre en 1985.
+- **Impact immédiat** : Dès sa première saison, il a marqué la ligue avec une moyenne de **28,2 points par match**.
+
+C'est le début d'une légende ! 🏀🔥",2.1052631578947367
+108,GPT-4o,-6991508190482400297,où va se dérouler la coupe du monde,"La Coupe du Monde de la FIFA 2026 se déroulera dans 3 pays différents: les État-Unis, le Canada et le Mexique.","La prochaine Coupe du Monde de football, organisée par la FIFA en 2026, se déroulera dans 3 pays différents: les État-Unis, le Canada et le Mexique. 16 villes hôtes accueilleront les matchs:
+- New York / New Jersey,
+- Los Angeles,
+- Dallas,
+- San Francisco,
+- Miami,
+- Atlanta,
+- Seattle,
+- Houston,
+- Philadelphie,
+- Kansas City,
+- Boston
+- Toronto,
+- Vancouver,
+- Mexico,
+- Guadalajara,
+- Monterrey","La **Coupe du Monde de la FIFA 2026** se déroulera dans **trois pays** :
+
+* **États-Unis**
+* **Canada**
+* **Mexique**
+
+C’est la première fois que la Coupe du Monde sera organisée conjointement par **trois nations**.
+Le tournoi comptera **48 équipes**, contre 32 lors des éditions précédentes, et les matchs auront lieu dans plusieurs villes hôtes réparties dans les trois pays.
+
+### Quelques villes hôtes notables :
+
+* **États-Unis** : New York, Los Angeles, Dallas, Miami, Atlanta...
+* **Canada** : Toronto, Vancouver
+* **Mexique** : Mexico, Guadalajara, Monterrey
+
+Souhaites-tu la liste complète des stades ou un planning des matchs ?","La **Coupe du Monde de la FIFA 2026** se déroulera dans **trois pays** :
+
+* **États-Unis**
+* **Canada**
+* **Mexique**
+
+C’est la première fois que la Coupe du Monde sera organisée conjointement par **trois nations**.
+Le tournoi comptera **48 équipes**, contre 32 lors des éditions précédentes, et les matchs auront lieu dans plusieurs villes hôtes réparties dans les trois pays.
+
+### Quelques villes hôtes notables :
+
+* **États-Unis** : New York, Los Angeles, Dallas, Miami, Atlanta...
+* **Canada** : Toronto, Vancouver
+* **Mexique** : Mexico, Guadalajara, Monterrey
+
+Souhaites-tu la liste complète des stades ou un planning des matchs ?",0.0
+109,Le Chat,-6991508190482400297,où va se dérouler la coupe du monde,"La Coupe du Monde de la FIFA 2026 se déroulera dans 3 pays différents: les État-Unis, le Canada et le Mexique.","La prochaine Coupe du Monde de football, organisée par la FIFA en 2026, se déroulera dans 3 pays différents: les État-Unis, le Canada et le Mexique. 16 villes hôtes accueilleront les matchs:
+- New York / New Jersey,
+- Los Angeles,
+- Dallas,
+- San Francisco,
+- Miami,
+- Atlanta,
+- Seattle,
+- Houston,
+- Philadelphie,
+- Kansas City,
+- Boston
+- Toronto,
+- Vancouver,
+- Mexico,
+- Guadalajara,
+- Monterrey","La Coupe du Monde de football 2026 se déroulera dans trois pays : les États-Unis, le Canada et le Mexique. Ce sera la première fois que le tournoi sera organisé conjointement par trois nations.","La Coupe du Monde de la FIFA 2026 se déroulera dans trois pays : les États-Unis, le Canada et le Mexique. Ce sera la première fois que le tournoi sera organisé conjointement par trois nations.",5.88235294117647
+110,DeepSeek,-6991508190482400297,où va se dérouler la coupe du monde,"La Coupe du Monde de la FIFA 2026 se déroulera dans 3 pays différents: les État-Unis, le Canada et le Mexique.","La prochaine Coupe du Monde de football, organisée par la FIFA en 2026, se déroulera dans 3 pays différents: les État-Unis, le Canada et le Mexique. 16 villes hôtes accueilleront les matchs:
+- New York / New Jersey,
+- Los Angeles,
+- Dallas,
+- San Francisco,
+- Miami,
+- Atlanta,
+- Seattle,
+- Houston,
+- Philadelphie,
+- Kansas City,
+- Boston
+- Toronto,
+- Vancouver,
+- Mexico,
+- Guadalajara,
+- Monterrey","La **Coupe du Monde 2026** se déroulera pour la première fois dans **trois pays** : les **États-Unis**, le **Canada** et le **Mexique**.  
+
+- **16 villes hôtes** ont été sélectionnées :  
+  - **États-Unis** : New York/New Jersey, Los Angeles, Dallas, San Francisco, Miami, Atlanta, Seattle, Houston, Philadelphie, Kansas City  
+  - **Canada** : Toronto, Vancouver  
+  - **Mexique** : Mexico, Guadalajara, Monterrey  
+
+Ce sera la première Coupe du Monde **à 48 équipes** (au lieu de 32), avec un total de **104 matchs**.  
+
+Si tu parles d'une autre édition (future ou passée), précise-la et je te donnerai les détails ! 😊","La **Coupe du Monde 2026** se déroulera pour la première fois dans **trois pays** : les **États-Unis**, le **Canada** et le **Mexique**.
+
+Ce sera la première Coupe du Monde **à 48 équipes** (au lieu de 32), avec un total de **104 matchs**.
+
+Si tu parles d'une autre édition (future ou passée), précise-la et je te donnerai les détails ! 😊",56.896551724137936
+744,GPT-4o,-7219970968305775032,combien de sommets possède une pyramide à base carrée,Une pyramide à base carrée possède 5 sommets.,Une pyramide à base carrée possède 5 sommets: les 4 sommets du carré de la base plus 1 sommet au sommet de la pyramide.,"Une **pyramide à base carrée** possède :
+
+* **1 sommet au sommet de la pyramide** (le point où toutes les faces triangulaires se rejoignent),
+* **4 sommets à la base**, qui forment un carré.
+
+Donc, au total, une pyramide à base carrée a **5 sommets**. ✅","Une **pyramide à base carrée** possède :
+
+* **1 sommet au sommet de la pyramide** (le point où toutes les faces triangulaires se rejoignent),
+* **4 sommets à la base**, qui forment un carré.
+
+Donc, au total, une pyramide à base carrée a **5 sommets**. ✅",0.0
+745,Le Chat,-7219970968305775032,combien de sommets possède une pyramide à base carrée,Une pyramide à base carrée possède 5 sommets.,Une pyramide à base carrée possède 5 sommets: les 4 sommets du carré de la base plus 1 sommet au sommet de la pyramide.,Une pyramide à base carrée possède 5 sommets : les quatre coins de la base carrée et le sommet au-dessus du centre de la base.,Une pyramide à base carrée possède 5 sommets.,200.0
+746,DeepSeek,-7219970968305775032,combien de sommets possède une pyramide à base carrée,Une pyramide à base carrée possède 5 sommets.,Une pyramide à base carrée possède 5 sommets: les 4 sommets du carré de la base plus 1 sommet au sommet de la pyramide.,"Une pyramide à base carrée possède **5 sommets** au total.  
+
+Voici la répartition :  
+- **4 sommets** pour le carré de la base.  
+- **1 sommet** au sommet de la pyramide (l'apex).  
+
+Donc, **4 (base) + 1 (apex) = 5 sommets**.  
+
+Si tu as d'autres questions sur les solides géométriques, n'hésite pas ! 😊","Une pyramide à base carrée possède **5 sommets** au total.
+
+Voici la répartition :
+- **4 sommets** pour le carré de la base.
+- **1 sommet** au sommet de la pyramide (l'apex).
+
+Donc, **4 (base) + 1 (apex) = 5 sommets**.
+
+Si tu as d'autres questions sur les solides géométriques, n'hésite pas ! 😊",0.0
+1296,GPT-4o,1473472112489240672,qui est le visage sur le billet d'un dollar,Le visage représenté sur le billet d'un dollar américain est celui de George Washington.,"Depuis 1963, le visage du premier président des Etats-Unis, George Washington, est représenté sur l'avers des billets d'un dollar américain. Au revers de ces billets se trouve le grand sceau des Etats-Unis.","Le visage qui figure sur le **billet d'un dollar américain** est celui de **George Washington**, le premier président des États-Unis. Il a été président de 1789 à 1797.
+
+Son portrait sur le billet d’un dollar est basé sur une peinture réalisée par **Gilbert Stuart**, un artiste américain du XVIIIe siècle. Ce billet est en circulation depuis plus d’un siècle et son design est resté pratiquement inchangé depuis 1963.","Le visage qui figure sur le **billet d'un dollar américain** est celui de **George Washington**, le premier président des États-Unis.
+
+Son portrait sur le billet d’un dollar est basé sur une peinture réalisée par **Gilbert Stuart**, un artiste américain du XVIIIe siècle. Ce billet est en circulation depuis plus d’un siècle et son design est resté pratiquement inchangé depuis **1963**.",15.0
+1297,Le Chat,1473472112489240672,qui est le visage sur le billet d'un dollar,Le visage représenté sur le billet d'un dollar américain est celui de George Washington.,"Depuis 1963, le visage du premier président des Etats-Unis, George Washington, est représenté sur l'avers des billets d'un dollar américain. Au revers de ces billets se trouve le grand sceau des Etats-Unis.","Le visage sur le billet d'un dollar américain est celui de George Washington, le premier président des États-Unis.",Le visage sur le billet d'un dollar américain est celui de George Washington.,38.46153846153847
+1298,DeepSeek,1473472112489240672,qui est le visage sur le billet d'un dollar,Le visage représenté sur le billet d'un dollar américain est celui de George Washington.,"Depuis 1963, le visage du premier président des Etats-Unis, George Washington, est représenté sur l'avers des billets d'un dollar américain. Au revers de ces billets se trouve le grand sceau des Etats-Unis.","Le visage présent sur le billet d'un dollar américain est celui de **George Washington**, le premier président des États-Unis (1789–1797). Il apparaît sur le recto (face avant) du billet.  
+
+Au verso, on trouve les **grands sceaux des États-Unis**, avec notamment la pyramide inachevée et l'œil de la Providence (côté droit), ainsi qu'un aigle américain (côté gauche).  
+
+George Washington est un symbole fort de l'indépendance américaine et de la démocratie, ce qui explique sa présence sur ce billet très répandu.","Le visage présent sur le billet d'un dollar américain est celui de **George Washington**.
+
+Au verso, on trouve les **grands sceaux des États-Unis**, avec notamment la pyramide inachevée et l'œil de la Providence (côté droit), ainsi qu'un aigle américain (côté gauche).
+
+George Washington est un symbole fort de l'indépendance américaine et de la démocratie, ce qui explique sa présence sur ce billet très répandu.",23.4375
+1404,GPT-4o,-7841128731892324098,quel est le point le plus bas sur terre,"Le point émergé le plus bas est le rivage de la mer Morte.
+Le point naturel le plus profond est la fosse Challenger, au fond de la fosse des Mariannes.","Le point émergé le plus bas est le rivage de la mer Morte, à 434 m au-dessous du niveau de la mer, entre Israël, Palestine, Jordanie et Cisjordanie.
+Le point naturel le plus profond est la fosse Challenger, au fond de la fosse des Mariannes : entre 10 900 et 11 000 m au-dessous du niveau de la mer.","Le point le plus bas sur Terre **à la surface terrestre libre** (hors océan) est :
+
+### 🏜️ **La dépression de la mer Morte**
+
+* **Altitude** : environ **−430 mètres** sous le niveau de la mer
+* **Lieu** : entre **Israël**, la **Jordanie** et la **Cisjordanie**
+
+---
+
+Si on inclut les profondeurs océaniques, alors le point le plus bas devient :
+
+### 🌊 **La fosse des Mariannes** – Challenger Deep
+
+* **Profondeur** : environ **−10 984 mètres** (mesures variables)
+* **Lieu** : dans l’océan Pacifique occidental, au sud-est des îles Mariannes
+
+Souhaites-tu le point le plus bas en France ou dans un autre pays en particulier ?","Le point le plus bas sur Terre **à la surface terrestre libre** (hors océan) est :
+
+### 🏜️ **Le rivage de la mer Morte**
+
+* **Altitude** : environ **−430 mètres** sous le niveau de la mer
+* **Lieu** : entre **Israël**, la **Jordanie** et la **Cisjordanie**
+
+---
+
+Si on inclut les profondeurs océaniques, alors le point le plus bas devient :
+
+### 🌊 **La fosse Challenger** – au fond de la fosse des Mariannes
+
+* **Profondeur** : environ **−10 984 mètres** (mesures variables)
+* **Lieu** : dans l’océan Pacifique occidental, au sud-est des îles Mariannes
+
+Souhaites-tu le point le plus bas en France ou dans un autre pays en particulier ?",9.615384615384617
+1405,Le Chat,-7841128731892324098,quel est le point le plus bas sur terre,"Le point émergé le plus bas est le rivage de la mer Morte.
+Le point naturel le plus profond est la fosse Challenger, au fond de la fosse des Mariannes.","Le point émergé le plus bas est le rivage de la mer Morte, à 434 m au-dessous du niveau de la mer, entre Israël, Palestine, Jordanie et Cisjordanie.
+Le point naturel le plus profond est la fosse Challenger, au fond de la fosse des Mariannes : entre 10 900 et 11 000 m au-dessous du niveau de la mer.","Le point le plus bas sur Terre est la mer Morte, située à la frontière entre Israël, la Cisjordanie et la Jordanie. Sa surface et ses rives se trouvent à environ 430 mètres sous le niveau de la mer, ce qui en fait le point le plus bas à la surface de la Terre.","Le point émergé le plus bas sur Terre est le rivage de la mer Morte, située à la frontière entre Israël, la Cisjordanie et la Jordanie. Sa surface et ses rives se trouvent à environ 430 mètres sous le niveau de la mer, ce qui en fait le point émergé le plus bas à la surface de la Terre.",8.47457627118644
+1406,DeepSeek,-7841128731892324098,quel est le point le plus bas sur terre,"Le point émergé le plus bas est le rivage de la mer Morte.
+Le point naturel le plus profond est la fosse Challenger, au fond de la fosse des Mariannes.","Le point émergé le plus bas est le rivage de la mer Morte, à 434 m au-dessous du niveau de la mer, entre Israël, Palestine, Jordanie et Cisjordanie.
+Le point naturel le plus profond est la fosse Challenger, au fond de la fosse des Mariannes : entre 10 900 et 11 000 m au-dessous du niveau de la mer.","Le point le plus bas sur Terre est la **fosse des Mariannes**, située dans l'océan Pacifique, avec une profondeur d'environ **10 984 mètres** sous le niveau de la mer.  
+
+Cependant, si l'on considère uniquement les terres émergées, le point le plus bas est la **rive de la mer Morte**, entre Israël, la Palestine et la Jordanie, qui se situe à environ **430 mètres sous le niveau de la mer**.  
+
+Si tu veux une réponse plus précise sur un aspect particulier (océanique ou terrestre), n'hésite pas à demander ! 🌍","Le point naturel le plus profond sur Terre est la **fosse Challenger**, située au fond de la fosse des Mariannes dans l'océan Pacifique.
+
+Cependant, si l'on considère uniquement les terres émergées, le point le plus bas est la **rive de la mer Morte**, entre Israël, la Palestine et la Jordanie.
+
+Si tu veux une réponse plus précise sur un aspect particulier (océanique ou terrestre), n'hésite pas à demander ! 🌍",43.47826086956522
+7122,GPT-4o,-5824018452742426380,qui joue sam dans le seigneur des anneaux,"Dans la trilogie ""Le Seigneur des Anneaux"", le personnage de Sam est joué par l'acteur Sean Astin.","Dans la trilogie ""Le Seigneur des Anneaux"" de Peter Jackson, le personnage de Sam (Samsagace Gamegie) est joué par l'acteur Sean Astin. Sean Astin est un acteur américain qui a également joué dans les Goonies et Stranger Things.","Sam (Samwise Gamgee) dans **Le Seigneur des Anneaux** est joué par **Sean Astin**.
+
+Sean Astin est un acteur américain connu pour plusieurs rôles emblématiques, notamment dans **Les Goonies**, **Rudy**, et plus récemment dans la série **Stranger Things**. Dans *Le Seigneur des Anneaux*, il incarne Sam, le fidèle compagnon de Frodon Sacquet, tout au long de leur périple vers le Mordor.","Sam (Samwise Gamgee) dans **Le Seigneur des Anneaux** est joué par **Sean Astin**.
+
+Sean Astin est un acteur américain connu pour plusieurs rôles emblématiques, notamment dans **Les Goonies** et **Rudy**. Dans *Le Seigneur des Anneaux*, il incarne Sam, le fidèle compagnon de Frodon Sacquet, tout au long de leur périple vers le Mordor.",15.09433962264151
+7123,Le Chat,-5824018452742426380,qui joue sam dans le seigneur des anneaux,"Dans la trilogie ""Le Seigneur des Anneaux"", le personnage de Sam est joué par l'acteur Sean Astin.","Dans la trilogie ""Le Seigneur des Anneaux"" de Peter Jackson, le personnage de Sam (Samsagace Gamegie) est joué par l'acteur Sean Astin. Sean Astin est un acteur américain qui a également joué dans les Goonies et Stranger Things.","Dans la trilogie cinématographique ""Le Seigneur des Anneaux"" réalisée par Peter Jackson, le personnage de Samwise ""Sam"" Gamegie est joué par l'acteur Sean Astin.","Dans la trilogie cinématographique *""Le Seigneur des Anneaux""*, le personnage de Sam est joué par l'acteur Sean Astin.",44.44444444444444
+7124,DeepSeek,-5824018452742426380,qui joue sam dans le seigneur des anneaux,"Dans la trilogie ""Le Seigneur des Anneaux"", le personnage de Sam est joué par l'acteur Sean Astin.","Dans la trilogie ""Le Seigneur des Anneaux"" de Peter Jackson, le personnage de Sam (Samsagace Gamegie) est joué par l'acteur Sean Astin. Sean Astin est un acteur américain qui a également joué dans les Goonies et Stranger Things.","Dans la trilogie **""Le Seigneur des Anneaux""** de Peter Jackson, le personnage de **Sam** (Samsagace Gamegie) est joué par l'acteur **Sean Astin**.  
+
+- **Nom du personnage** : Samsagace Gamegie (Sam)  
+- **Interprété par** : Sean Astin  
+- **Rôle** : Fidèle compagnon de Frodon Sacquet, Sam est un hobbit courageux qui l'accompagne jusqu'au Mordor pour détruire l'Anneau Unique.  
+
+Sean Astin a également joué dans d'autres films comme **""Goonies""** et **""Stranger Things""** (saison 2). 😊","Dans la trilogie **""Le Seigneur des Anneaux""** de Peter Jackson, le personnage de **Sam** (Samsagace Gamegie) est joué par l'acteur **Sean Astin**.
+
+- **Nom du personnage** : Samsagace Gamegie (Sam)
+- **Interprété par** : Sean Astin
+- **Rôle** : Fidèle compagnon de Frodon Sacquet, Sam est un hobbit courageux qui l'accompagne jusqu'au Mordor pour détruire l'Anneau Unique.
+
+Sean Astin a également joué dans d'autres films comme **""Goonies""** et **""Les Goonies 2""** (ou d'autres projets, mais pas *""Stranger Things""*). 😊",13.157894736842104
+7128,GPT-4o,-1552631803764154645,Quand a eu lieu la guerre de sept ans ?,La guerre de Sept Ans s'est déroulée entre 1756 et 1763.,"La guerre de Sept Ans a opposé des grandes puissances européennes et leurs colonies sur plusieurs continents (l'Europe, l'Amérique du Nord, l'Inde, l'Afrique, les Caraïbes).
+Elle démarre en 1756 avec l'attaque de Frédéric II sur la Saxe, et se termine en 1763 avec le traité de Paris.","La **guerre de Sept Ans** a eu lieu de **1756 à 1763**.
+Elle a opposé plusieurs grandes puissances européennes, notamment :
+
+* **La Grande-Bretagne et la Prusse**
+  contre
+* **La France, l’Autriche, la Russie, l’Espagne** et d’autres alliés.
+
+C’est un conflit mondial avant l’heure, car il s’est déroulé sur plusieurs continents : **Europe, Amérique du Nord, Caraïbes, Afrique, Inde et océans**.
+
+En Amérique du Nord, cette guerre est souvent appelée **la guerre de la Conquête** ou **French and Indian War** (1754–1763), et elle a mené à la perte du Canada français au profit des Britanniques.","La **guerre de Sept Ans** a eu lieu de **1756 à 1763**.
+Elle a opposé plusieurs grandes puissances européennes, notamment :
+
+* **La Grande-Bretagne et la Prusse**
+  contre
+* **La France, l’Autriche, la Russie, l’Espagne** et d’autres alliés.
+
+C’est un conflit mondial avant l’heure, car il s’est déroulé sur plusieurs continents : **Europe, Amérique du Nord, Caraïbes, Afrique, Inde et océans**.
+
+En Amérique du Nord, cette guerre est souvent appelée **la guerre de la Conquête** ou **French and Indian War** (1754–1763), et elle a mené à la perte du Canada français au profit des Britanniques.",0.0
+7129,Le Chat,-1552631803764154645,Quand a eu lieu la guerre de sept ans ?,La guerre de Sept Ans s'est déroulée entre 1756 et 1763.,"La guerre de Sept Ans a opposé des grandes puissances européennes et leurs colonies sur plusieurs continents (l'Europe, l'Amérique du Nord, l'Inde, l'Afrique, les Caraïbes).
+Elle démarre en 1756 avec l'attaque de Frédéric II sur la Saxe, et se termine en 1763 avec le traité de Paris.","La guerre de Sept Ans a eu lieu de 1756 à 1763. C'était un conflit majeur qui a impliqué plusieurs des grandes puissances de l'époque et s'est déroulé sur plusieurs continents, y compris l'Europe, l'Amérique du Nord et l'Asie.","La guerre de Sept Ans a eu lieu entre 1756 et 1763. C'était un conflit majeur qui a impliqué plusieurs des grandes puissances de l'époque et s'est déroulé sur plusieurs continents, y compris l'Europe, l'Amérique du Nord et l'Asie.",5.128205128205128
+7130,DeepSeek,-1552631803764154645,Quand a eu lieu la guerre de sept ans ?,La guerre de Sept Ans s'est déroulée entre 1756 et 1763.,"La guerre de Sept Ans a opposé des grandes puissances européennes et leurs colonies sur plusieurs continents (l'Europe, l'Amérique du Nord, l'Inde, l'Afrique, les Caraïbes).
+Elle démarre en 1756 avec l'attaque de Frédéric II sur la Saxe, et se termine en 1763 avec le traité de Paris.","La **guerre de Sept Ans** a eu lieu de **1756 à 1763**.  
+
+Ce conflit majeur a impliqué les grandes puissances européennes (dont la France, l'Autriche, la Russie, la Prusse et la Grande-Bretagne) ainsi que leurs colonies, notamment en Amérique du Nord (où elle est connue sous le nom de *French and Indian War*). La guerre s'est conclue par le **traité de Paris en 1763**, qui a marqué la domination britannique sur les colonies françaises en Amérique et a redessiné l'équilibre des puissances en Europe.","La **guerre de Sept Ans** a eu lieu de **1756 à 1763**.
+
+Ce conflit majeur a impliqué les grandes puissances européennes (dont la France, l'Autriche, la Russie, la Prusse et la Grande-Bretagne) ainsi que leurs colonies, notamment en Amérique du Nord (où elle est connue sous le nom de *French and Indian War*). La guerre s'est conclue par le **traité de Paris en 1763**, qui a marqué la domination britannique sur les colonies françaises en Amérique et a redessiné l'équilibre des puissances en Europe.",0.0
+7167,GPT-4o,-1836566113551085118,Quand est-ce que ça va être la marée haute,L'heure des marées dépendent de la localisation et de la date.,"Il n'est pas possible de fournir une réponse à cette question sans informations supplémentaires de la part de l'utilisateur, comme sa localisation (ville, plage,...) et la date.","Pour te donner l'heure précise de la **marée haute**, j'ai besoin de connaître ta **localisation** (par exemple : ville ou plage spécifique). La marée varie beaucoup selon l’endroit.
+
+Peux-tu me dire où tu te trouves ou pour quelle zone tu veux connaître la marée ?","Pour te donner l'heure précise des **marées**, j'ai besoin de connaître ta **localisation** (par exemple : ville ou plage spécifique) et la **date** qui t'intéresse. Les marées varient beaucoup selon l’endroit et le moment.
+
+Peux-tu me dire où tu te trouves et pour quelle date tu veux connaître les marées ?",36.734693877551024
+7168,Le Chat,-1836566113551085118,Quand est-ce que ça va être la marée haute,L'heure des marées dépendent de la localisation et de la date.,"Il n'est pas possible de fournir une réponse à cette question sans informations supplémentaires de la part de l'utilisateur, comme sa localisation (ville, plage,...) et la date.","Pour connaître les horaires des marées, il est nécessaire de savoir à quel endroit précis vous vous référez, car les horaires des marées varient selon les lieux. Pourriez-vous me dire où vous souhaitez connaître les horaires des marées ?","Pour connaître les horaires des marées, il est nécessaire de savoir à quel endroit précis et à quelle date vous vous référez, car les horaires des marées dépendent de la localisation et de la date. Pourriez-vous me dire où et quand vous souhaitez connaître les horaires des marées ?",29.166666666666668
+7169,DeepSeek,-1836566113551085118,Quand est-ce que ça va être la marée haute,L'heure des marées dépendent de la localisation et de la date.,"Il n'est pas possible de fournir une réponse à cette question sans informations supplémentaires de la part de l'utilisateur, comme sa localisation (ville, plage,...) et la date.","Pour connaître l'horaire de la marée haute, j'ai besoin de savoir **l'emplacement précis** (ville, port ou région côtière) qui vous intéresse, ainsi que **la date** (si vous pensez à un jour spécifique).  
+
+Les horaires des marées varient selon :  
+- **L'endroit** (ex. Saint-Malo, Marseille, Mont-Saint-Michel, etc.)  
+- **Le jour** (la marée change quotidiennement).  
+
+### Comment obtenir l'info rapidement ?  
+1. **En ligne** : Sites comme [SHOM](https://www.shom.fr/) (France) ou [Marées.info](https://www.marees.info/) fournissent des prédictions précises.  
+2. **Applications mobiles** : ""Marées"" ou ""Shom"" (gratuites).  
+
+Dites-moi le lieu et la date, et je peux vous aider à trouver les horaires exacts ! 🌊","Pour connaître l'horaire de la marée haute, j'ai besoin de savoir **la localisation** (ville, port ou région côtière) qui vous intéresse, ainsi que **la date** (si vous pensez à un jour spécifique).
+
+Les horaires des marées dépendent de :
+- **La localisation** (ex. Saint-Malo, Marseille, Mont-Saint-Michel, etc.)
+- **La date** (la marée change selon le jour).
+
+### Comment obtenir l'info rapidement ?
+1. **En ligne** : Sites comme [SHOM](https://www.shom.fr/) (France) ou [Marées.info](https://www.marees.info/) fournissent des prédictions précises.
+2. **Applications mobiles** : ""Marées"" ou ""Shom"" (gratuites).
+
+Dites-moi le lieu et la date, et je peux vous aider à trouver les horaires exacts ! 🌊",11.34020618556701
+7185,GPT-4o,724737885404663616,combien de grands requins blancs il y a dans le monde,"Selon les dernières estimations, il resterait entre 1000 et 5000 individus de grands requins blancs dans le monde.","Le grand requin blanc est classé comme espèce vulnérable par l'UICN (Union Internationale pour la Conservation de la Nature). Il est très difficile d'estimer avec précision leur nombre exact, mais une étude de 2010 suggère qu'il reste moins de 3500 grands requins blancs à l'échelle mondiale. Une fourchette large qui pourrait être acceptée serait entre 1000 et 5000 individus.","Il est très difficile de connaître avec précision le nombre exact de **grands requins blancs** dans le monde, car ce sont des animaux solitaires, migrateurs et souvent situés dans des zones océaniques très vastes.
+
+Cependant, les **estimations scientifiques** actuelles suggèrent qu’il y aurait :
+
+* Environ **3 500 à 5 000 grands requins blancs adultes** dans le monde.
+* Certaines études, comme celle menée au large de la Californie, estiment que cette région abrite seulement **quelques centaines d’individus**.
+* D’autres populations connues existent notamment en **Australie**, **Afrique du Sud**, **Nouvelle-Zélande**, et le **Nord-Est des États-Unis**.
+
+### Pourquoi cette estimation est difficile :
+
+* Les requins blancs ne vivent pas en groupes fixes.
+* Ils peuvent parcourir des **milliers de kilomètres** en un an.
+* Ils passent souvent sous la surface ou dans des zones profondes difficiles à surveiller.
+
+### État de conservation :
+
+* Le grand requin blanc est classé comme **""Vulnérable""** sur la liste rouge de l’UICN (Union internationale pour la conservation de la nature), ce qui signifie que ses populations sont **menacées de déclin** à cause de la surpêche, des prises accidentelles et de la pollution.
+
+Si tu veux, je peux chercher les données les plus récentes sur leur population estimée en 2025.","Il est très difficile de connaître avec précision le nombre exact de **grands requins blancs** dans le monde, car ce sont des animaux solitaires, migrateurs et souvent situés dans des zones océaniques très vastes.
+
+Cependant, les **estimations scientifiques** actuelles suggèrent qu’il y aurait :
+* **Entre 1 000 et 5 000 grands requins blancs** dans le monde.
+* Certaines études, comme celle menée au large de la Californie, estiment que cette région abrite seulement **quelques centaines d’individus**.
+* D’autres populations connues existent notamment en **Australie**, **Afrique du Sud**, **Nouvelle-Zélande**, et le **Nord-Est des États-Unis**.
+
+### Pourquoi cette estimation est difficile :
+* Les requins blancs ne vivent pas en groupes fixes.
+* Ils peuvent parcourir des **milliers de kilomètres** en un an.
+* Ils passent souvent sous la surface ou dans des zones profondes difficiles à surveiller.
+
+### État de conservation :
+* Le grand requin blanc est classé comme **""Vulnérable""** sur la liste rouge de l’UICN (Union internationale pour la conservation de la nature), ce qui signifie que ses populations sont **menacées de déclin** à cause de la surpêche, des prises accidentelles et de la pollution.
+
+Si tu veux, je peux chercher les données les plus récentes sur leur population estimée en 2025.",2.9850746268656714
+7186,Le Chat,724737885404663616,combien de grands requins blancs il y a dans le monde,"Selon les dernières estimations, il resterait entre 1000 et 5000 individus de grands requins blancs dans le monde.","Le grand requin blanc est classé comme espèce vulnérable par l'UICN (Union Internationale pour la Conservation de la Nature). Il est très difficile d'estimer avec précision leur nombre exact, mais une étude de 2010 suggère qu'il reste moins de 3500 grands requins blancs à l'échelle mondiale. Une fourchette large qui pourrait être acceptée serait entre 1000 et 5000 individus.","Selon les dernières estimations disponibles avant ma date de mise à jour, la population mondiale de grands requins blancs est estimée à environ 3 500 individus matures. Cependant, ces chiffres peuvent varier et il est important de consulter les dernières recherches pour obtenir des informations à jour, car les efforts de conservation et les études continues peuvent influencer ces estimations.","Selon les dernières estimations disponibles, la population mondiale de grands requins blancs est estimée entre **1 000 et 5 000** individus. Cependant, ces chiffres peuvent varier et il est important de consulter les dernières recherches pour obtenir des informations à jour, car les efforts de conservation et les études continues peuvent influencer ces estimations.",25.925925925925924
+7187,DeepSeek,724737885404663616,combien de grands requins blancs il y a dans le monde,"Selon les dernières estimations, il resterait entre 1000 et 5000 individus de grands requins blancs dans le monde.","Le grand requin blanc est classé comme espèce vulnérable par l'UICN (Union Internationale pour la Conservation de la Nature). Il est très difficile d'estimer avec précision leur nombre exact, mais une étude de 2010 suggère qu'il reste moins de 3500 grands requins blancs à l'échelle mondiale. Une fourchette large qui pourrait être acceptée serait entre 1000 et 5000 individus.","Le nombre exact de **grands requins blancs** (Carcharodon carcharias) dans le monde est difficile à déterminer, mais les estimations scientifiques suggèrent qu'il en reste entre **3 000 et 5 000 individus** à l'échelle mondiale.  
+
+### Quelques précisions :  
+- **Statut de conservation** : Le grand requin blanc est classé **""Vulnérable""** par l'UICN (Union Internationale pour la Conservation de la Nature).  
+- **Répartition** : On les trouve principalement dans les eaux côtières et océaniques tempérées (Afrique du Sud, Australie, Californie, Méditerranée, etc.).  
+- **Menaces** : La surpêche, les prises accidentelles, la chasse aux trophées et la raréfaction des proies (comme les phoques) réduisent leurs populations.  
+
+Des études récentes utilisant le marquage et la modélisation suggèrent que certaines sous-populations pourraient être stables, notamment en Australie et en Afrique du Sud, grâce à des mesures de protection.  
+
+Si vous cherchez des données plus précises, je peux essayer de trouver des sources actualisées ! 🦈","Le nombre exact de **grands requins blancs** (Carcharodon carcharias) dans le monde est difficile à déterminer, mais les estimations scientifiques suggèrent qu'il en reste entre **1 000 et 5 000 individus** à l'échelle mondiale.
+
+### Quelques précisions :
+- **Statut de conservation** : Le grand requin blanc est classé **""Vulnérable""** par l'UICN (Union Internationale pour la Conservation de la Nature).
+- **Répartition** : On les trouve principalement dans les eaux côtières et océaniques tempérées (Afrique du Sud, Australie, Californie, Méditerranée, etc.).
+- **Menaces** : La surpêche, les prises accidentelles, la chasse aux trophées et la raréfaction des proies (comme les phoques) réduisent leurs populations.
+
+Des études récentes utilisant le marquage et la modélisation suggèrent que certaines sous-populations pourraient être stables, notamment en Australie et en Afrique du Sud, grâce à des mesures de protection.
+
+Si vous cherchez des données plus précises, je peux essayer de trouver des sources actualisées ! 🦈",0.684931506849315
+7824,GPT-4o,5703223611732539738,quelles sont les dimensions d'une feuille de papier,"Les dimensions d'une feuille de papier dépendent du format utilisé. En France, le format le plus courant est le format A4, avec des dimensions de 210 × 297 mm.","Les dimensions d'une feuille de papier dépendent du format utilisé. Dans la majorité des pays, excepté les Etats-Unis et le Canada, les formats les plus répandus sont ceux fixés par la norme ISO 216.
+Les séries A, B, et C sont définies par un format standard avec un rapport longueur/largeur de √2. Chaque format est la moitié du précédent. Les dimensions du format A4, le plus courant, sont de 210 × 297 mm.
+Le format américain le plus répandu est le format Letter (11 × 8½ pouces).","Les dimensions d'une feuille de papier dépendent du format utilisé. Le plus courant dans le monde (hors Amérique du Nord) est le **format ISO 216**, notamment le **format A**. Voici les dimensions principales :
+
+### 📄 Formats de papier de la série A (en millimètres) :
+
+| Format | Dimensions (mm) | Dimensions (cm) |
+| ------ | --------------- | --------------- |
+| A0     | 841 × 1189      | 84,1 × 118,9    |
+| A1     | 594 × 841       | 59,4 × 84,1     |
+| A2     | 420 × 594       | 42 × 59,4       |
+| A3     | 297 × 420       | 29,7 × 42       |
+| A4     | 210 × 297       | 21 × 29,7       |
+| A5     | 148 × 210       | 14,8 × 21       |
+| A6     | 105 × 148       | 10,5 × 14,8     |
+
+### 📌 Le format **A4** est le plus couramment utilisé :
+
+* **Dimensions : 210 mm × 297 mm**
+* **Utilisation :** lettres, imprimantes, dossiers, etc.
+
+Si tu voulais un autre type de format (par exemple les formats américains comme ""Letter""), fais-le moi savoir !","Les dimensions d'une feuille de papier dépendent du format utilisé. En France, le format le plus courant est le **format A4**, avec des dimensions de 210 × 297 mm. Voici les dimensions principales des formats de la série A (en millimètres) :
+
+### 📄 Formats de papier de la série A (en millimètres) :
+| Format | Dimensions (mm) | Dimensions (cm) |
+| ------ | --------------- | --------------- |
+| A0     | 841 × 1189      | 84,1 × 118,9    |
+| A1     | 594 × 841       | 59,4 × 84,1     |
+| A2     | 420 × 594       | 42 × 59,4       |
+| A3     | 297 × 420       | 29,7 × 42       |
+| A4     | 210 × 297       | 21 × 29,7       |
+| A5     | 148 × 210       | 14,8 × 21       |
+| A6     | 105 × 148       | 10,5 × 14,8     |
+
+### 📌 Le format **A4** est le plus couramment utilisé en France :
+* **Dimensions : 210 mm × 297 mm**
+* **Utilisation :** lettres, imprimantes, dossiers, etc.
+
+Si tu voulais un autre type de format (par exemple les formats américains comme ""Letter""), fais-le moi savoir !",13.227513227513226
+7825,Le Chat,5703223611732539738,quelles sont les dimensions d'une feuille de papier,"Les dimensions d'une feuille de papier dépendent du format utilisé. En France, le format le plus courant est le format A4, avec des dimensions de 210 × 297 mm.","Les dimensions d'une feuille de papier dépendent du format utilisé. Dans la majorité des pays, excepté les Etats-Unis et le Canada, les formats les plus répandus sont ceux fixés par la norme ISO 216.
+Les séries A, B, et C sont définies par un format standard avec un rapport longueur/largeur de √2. Chaque format est la moitié du précédent. Les dimensions du format A4, le plus courant, sont de 210 × 297 mm.
+Le format américain le plus répandu est le format Letter (11 × 8½ pouces).","Les dimensions d'une feuille de papier dépendent du format utilisé. Voici quelques formats courants :
+
+Format	Dimensions (mm)
+A0	841 x 1189
+A1	594 x 841
+A2	420 x 594
+A3	297 x 420
+A4	210 x 297
+A5	148 x 210
+
+Le format A4 est le plus couramment utilisé pour les documents standard. Si vous avez un format spécifique en tête, n'hésitez pas à demander !","Les dimensions d'une feuille de papier dépendent du format utilisé. En France, le format le plus courant est le A4, avec des dimensions de 210 × 297 mm.
+
+Voici quelques autres formats de la série A pour référence :
+
+Format	Dimensions (mm)
+A0	841 x 1189
+A1	594 x 841
+A2	420 x 594
+A3	297 x 420
+A5	148 x 210
+
+Si vous avez un format spécifique en tête, n'hésitez pas à demander !",41.0958904109589
+7826,DeepSeek,5703223611732539738,quelles sont les dimensions d'une feuille de papier,"Les dimensions d'une feuille de papier dépendent du format utilisé. En France, le format le plus courant est le format A4, avec des dimensions de 210 × 297 mm.","Les dimensions d'une feuille de papier dépendent du format utilisé. Dans la majorité des pays, excepté les Etats-Unis et le Canada, les formats les plus répandus sont ceux fixés par la norme ISO 216.
+Les séries A, B, et C sont définies par un format standard avec un rapport longueur/largeur de √2. Chaque format est la moitié du précédent. Les dimensions du format A4, le plus courant, sont de 210 × 297 mm.
+Le format américain le plus répandu est le format Letter (11 × 8½ pouces).","Les dimensions d'une feuille de papier dépendent de son format. Voici les dimensions standardisées selon la norme **ISO 216** (utilisée dans la plupart des pays, dont la France) :
+
+### **Série A (la plus courante)**
+- **A0** : 841 × 1189 mm  
+- **A1** : 594 × 841 mm  
+- **A2** : 420 × 594 mm  
+- **A3** : 297 × 420 mm  
+- **A4** : 210 × 297 mm *(format standard pour les documents imprimés)*  
+- **A5** : 148 × 210 mm *(carnet, livret)*  
+- **A6** : 105 × 148 mm *(carte postale)*  
+- **A7** : 74 × 105 mm  
+- **A8** : 52 × 74 mm  
+- **A9** : 37 × 52 mm  
+- **A10** : 26 × 37 mm  
+
+### **Série B (utilisée pour les affiches et enveloppes)**
+- **B0** : 1000 × 1414 mm  
+- **B1** : 707 × 1000 mm  
+- **B2** : 500 × 707 mm  
+- **B3** : 353 × 500 mm  
+- **B4** : 250 × 353 mm  
+- **B5** : 176 × 250 mm  
+- **B6** : 125 × 176 mm  
+- **B7** : 88 × 125 mm  
+- **B8** : 62 × 88 mm  
+- **B9** : 44 × 62 mm  
+- **B10** : 31 × 44 mm  
+
+### **Série C (pour les enveloppes)**
+- **C4** : 229 × 324 mm *(pour une feuille A4 non pliée)*  
+- **C5** : 162 × 229 mm *(pour une feuille A5 ou A4 pliée en deux)*  
+- **C6** : 114 × 162 mm *(pour une feuille A6 ou A4 pliée en quatre)*  
+
+### **Formats Américains (utilisés aux États-Unis et Canada)**
+- **Letter** : 8,5 × 11 pouces *(216 × 279 mm)*  
+- **Legal** : 8,5 × 14 pouces *(216 × 356 mm)*  
+- **Tabloid** : 11 × 17 pouces *(279 × 432 mm)*  
+
+### **Particularités**
+- Le rapport longueur/largeur est toujours **√2 (≈1,414)** pour les formats ISO (A, B, C).  
+- Chaque format est la moitié du précédent (ex. : A4 = ½ A3).  
+
+Si vous cherchez un format spécifique, précisez-le ! 😊","Les dimensions d'une feuille de papier dépendent de son format. En France, le format le plus courant est le **A4**, avec des dimensions de **210 × 297 mm**.",1053.5714285714287
+7863,GPT-4o,-980836884486017537,Quel est l'immeuble le plus haut des États-Unis ?,L'immeuble le plus haut des États-Unis est le One World Trade Center.,"Le One World Trade Center, situé à New York, est le plus haut gratte-ciel des États-Unis. Inauguré en 2014, il culmine à 1 776 pieds (541 mètres) de hauteur.","L'immeuble le plus haut des **États-Unis** est le **One World Trade Center**, situé à **New York City**.
+
+### Caractéristiques principales :
+
+* **Hauteur totale (avec flèche)** : **541,3 mètres** (1 776 pieds, en référence à l’année de l’indépendance des États-Unis)
+* **Hauteur du toit** : Environ **417 mètres**
+* **Nombre d'étages** : **104**
+* **Achèvement** : 2014
+* **Emplacement** : Lower Manhattan, à l’emplacement du World Trade Center détruit lors des attentats du 11 septembre 2001.
+
+C’est non seulement le plus haut des États-Unis, mais aussi le plus haut gratte-ciel de l’hémisphère occidental.","L'immeuble le plus haut des **États-Unis** est le **One World Trade Center**.
+
+### Caractéristiques principales :
+
+* **Hauteur totale (avec flèche)** : **541,3 mètres** (1 776 pieds, en référence à l’année de l’indépendance des États-Unis)
+* **Hauteur du toit** : Environ **417 mètres**
+* **Nombre d'étages** : **104**
+* **Achèvement** : 2014
+* **Emplacement** : Lower Manhattan, à l’emplacement du World Trade Center détruit lors des attentats du 11 septembre 2001.
+
+C’est non seulement le plus haut des États-Unis, mais aussi le plus haut gratte-ciel de l’hémisphère occidental.",6.097560975609756
+7864,Le Chat,-980836884486017537,Quel est l'immeuble le plus haut des États-Unis ?,L'immeuble le plus haut des États-Unis est le One World Trade Center.,"Le One World Trade Center, situé à New York, est le plus haut gratte-ciel des États-Unis. Inauguré en 2014, il culmine à 1 776 pieds (541 mètres) de hauteur.","L'immeuble le plus haut des États-Unis est le One World Trade Center, situé à New York. Il a une hauteur architecturale de 541 mètres.",L'immeuble le plus haut des États-Unis est le One World Trade Center.,100.0
+7865,DeepSeek,-980836884486017537,Quel est l'immeuble le plus haut des États-Unis ?,L'immeuble le plus haut des États-Unis est le One World Trade Center.,"Le One World Trade Center, situé à New York, est le plus haut gratte-ciel des États-Unis. Inauguré en 2014, il culmine à 1 776 pieds (541 mètres) de hauteur.","L'immeuble le plus haut des États-Unis est actuellement la **One World Trade Center** (ou Freedom Tower), située à New York.  
+
+- **Hauteur** : 541,3 mètres (1 776 pieds, en référence à l'année de l'indépendance des États-Unis).  
+- **Étages** : 104 étages.  
+- **Localisation** : Lower Manhattan, sur le site du World Trade Center original.  
+- **Année d'achèvement** : 2014.  
+
+Avant le One WTC, la **Willis Tower** (anciennement Sears Tower) à Chicago détenait le record avec 442 mètres.  
+
+*Note* : Si l'on considère les structures *non habitables*, la **Tour KVLY-TV** dans le Dakota du Nord (628,8 m) est plus haute, mais il s'agit d'un mât de télévision.","L'immeuble le plus haut des États-Unis est actuellement le **One World Trade Center** (ou Freedom Tower), situé à New York.
+
+- **Hauteur** : 541,3 mètres (1 776 pieds, en référence à l'année de l'indépendance des États-Unis).
+- **Étages** : 104 étages.
+- **Localisation** : Lower Manhattan, sur le site du World Trade Center original.
+- **Année d'achèvement** : 2014.
+
+Avant le One WTC, la **Willis Tower** (anciennement Sears Tower) à Chicago détenait le record avec 442 mètres.
+
+*Note* : Si l'on considère les structures *non habitables*, la **Tour KVLY-TV** dans le Dakota du Nord (628,8 m) est plus haute, mais il s'agit d'un mât de télévision.",1.9801980198019802
+7881,GPT-4o,4993232957540670980,Quand est-ce que Pâques a eu lieu pour la dernière fois un 12 avril,Pâques a eu lieu pour la dernière fois un 12 avril en 2020.,"En 2020, le dimanche de Pâques était le 12 avril. Cela n'arrivera plus avant 2050","La dernière fois que **Pâques** est tombé un **12 avril** était en **1998**.
+
+### Détails :
+
+* En 1998, le **dimanche de Pâques** était le **12 avril**.
+* La prochaine fois que Pâques tombera un 12 avril sera en **2026**.
+
+Si tu veux, je peux aussi t’expliquer comment on calcule la date de Pâques, qui change chaque année.","La dernière fois que **Pâques** est tombé un **12 avril** était en **2020**.
+
+### Détails :
+
+* En 2020, le **dimanche de Pâques** était le **12 avril**.
+* La prochaine fois que Pâques tombera un 12 avril sera en **2026**.
+
+Si tu veux, je peux aussi t’expliquer comment on calcule la date de Pâques, qui change chaque année.",3.508771929824561
+7882,Le Chat,4993232957540670980,Quand est-ce que Pâques a eu lieu pour la dernière fois un 12 avril,Pâques a eu lieu pour la dernière fois un 12 avril en 2020.,"En 2020, le dimanche de Pâques était le 12 avril. Cela n'arrivera plus avant 2050","Pour déterminer quand Pâques est tombé un 12 avril, il faut comprendre que la date de Pâques est calculée en fonction du calendrier lunaire et varie chaque année. Pâques est célébré le dimanche qui suit la première pleine lune après l'équinoxe de printemps.
+
+En recherchant les dates de Pâques, on trouve que Pâques est tombé un 12 avril en 2009. C'est la dernière fois que cela s'est produit.","Pour déterminer quand Pâques est tombé un 12 avril, il faut comprendre que la date de Pâques est calculée en fonction du calendrier lunaire et varie chaque année. Pâques est célébré le dimanche qui suit la première pleine lune après l'équinoxe de printemps.
+
+En recherchant les dates de Pâques, on trouve que Pâques est tombé un 12 avril en **2020**. C'est la dernière fois que cela s'est produit.",1.4705882352941175
+7883,DeepSeek,4993232957540670980,Quand est-ce que Pâques a eu lieu pour la dernière fois un 12 avril,Pâques a eu lieu pour la dernière fois un 12 avril en 2020.,"En 2020, le dimanche de Pâques était le 12 avril. Cela n'arrivera plus avant 2050","Pour déterminer la dernière fois que Pâques est tombé un **12 avril**, nous devons examiner les dates de Pâques dans le calendrier grégorien. Pâques est une fête mobile calculée selon des règles précises (premier dimanche après la première pleine lune suivant l'équinoxe de printemps).
+
+### Méthode de vérification :
+1. **Calcul des dates de Pâques** : On peut utiliser l'algorithme de Gauss ou consulter des tables historiques.
+2. **Période récente** : Vérifions les années autour de 2020–2023 (par exemple).
+
+### Résultat :
+- **2020** : Pâques était le **12 avril** (dimanche).  
+  C'était la dernière occurrence en date.  
+
+### Contexte :
+- En 2020, les conditions astronomiques (pleine lune) et le calcul du comput ecclésiastique ont aligné Pâques sur cette date.  
+- Avant 2020, la précédente occurrence du 12 avril était en **2015** (mais 2020 est plus récente).  
+
+### Prochaine occurrence après 2020 :
+- Après 2020, Pâques tombera à nouveau un **12 avril** en **2026** (dans le futur).  
+
+**Réponse :** La dernière fois que Pâques a eu lieu un **12 avril** était le **dimanche 12 avril 2020**.  
+
+*(Source : Calculs basés sur les tables de dates pascales publiées par les observatoires astronomiques.)*","Pour déterminer la dernière fois que Pâques est tombé un **12 avril**, nous devons examiner les dates de Pâques dans le calendrier grégorien. Pâques est une fête mobile calculée selon des règles précises (premier dimanche après la première pleine lune suivant l'équinoxe de printemps).
+
+### Méthode de vérification :
+1. **Calcul des dates de Pâques** : On peut utiliser l'algorithme de Gauss ou consulter des tables historiques.
+2. **Période récente** : Vérifions les années autour de 2020–2023 (par exemple).
+
+### Résultat :
+- **2020** : Pâques était le **12 avril** (dimanche).
+  C'était la dernière occurrence en date.
+
+### Contexte :
+- En 2020, les conditions astronomiques (pleine lune) et le calcul du comput ecclésiastique ont aligné Pâques sur cette date.
+- Avant 2020, la précédente occurrence du 12 avril était en **2009** (mais 2020 est plus récente).
+
+### Prochaine occurrence après 2020 :
+- Après 2020, Pâques tombera à nouveau un **12 avril** en **2031** (dans le futur).
+
+**Réponse :** La dernière fois que Pâques a eu lieu un **12 avril** était le **dimanche 12 avril 2020**.
+
+*(Source : Calculs basés sur les tables de dates pascales publiées par les observatoires astronomiques.)*",1.0869565217391304
+7884,GPT-4o,-3557268865091350602,quand est-ce que le samsung galaxy s8 est sorti,Le Samsung Galaxy S8 a été commercialisé à partir du 21 avril 2017 dans certains pays dont les Etats-Unis.,Le Samsung Galaxy S8 a été officiellement présenté le 29 mars 2017 et a été commercialisé à partir du 21 avril 2017 aux Etats-Unis et dans d'autres pays. Il est sorti en France et en Europe le 28 avril 2017.,"Le **Samsung Galaxy S8** est sorti le **21 avril 2017** dans la plupart des pays, dont les États-Unis et le Canada. En France et en Europe, il a été officiellement lancé à la fin du mois d’avril 2017.
+
+Il avait été **annoncé le 29 mars 2017** lors d’un événement à New York.","Le **Samsung Galaxy S8** est sorti le **21 avril 2017** dans certains pays, dont les États-Unis.
+
+Il avait été **annoncé le 29 mars 2017** lors d’un événement à New York.",76.66666666666667
+7885,Le Chat,-3557268865091350602,quand est-ce que le samsung galaxy s8 est sorti,Le Samsung Galaxy S8 a été commercialisé à partir du 21 avril 2017 dans certains pays dont les Etats-Unis.,Le Samsung Galaxy S8 a été officiellement présenté le 29 mars 2017 et a été commercialisé à partir du 21 avril 2017 aux Etats-Unis et dans d'autres pays. Il est sorti en France et en Europe le 28 avril 2017.,Le Samsung Galaxy S8 est sorti le 21 avril 2017.,Le Samsung Galaxy S8 a été commercialisé à partir du 21 avril 2017.,46.15384615384615
+7886,DeepSeek,-3557268865091350602,quand est-ce que le samsung galaxy s8 est sorti,Le Samsung Galaxy S8 a été commercialisé à partir du 21 avril 2017 dans certains pays dont les Etats-Unis.,Le Samsung Galaxy S8 a été officiellement présenté le 29 mars 2017 et a été commercialisé à partir du 21 avril 2017 aux Etats-Unis et dans d'autres pays. Il est sorti en France et en Europe le 28 avril 2017.,"Le **Samsung Galaxy S8** est sorti le **21 avril 2017**.  
+
+Il a été officiellement dévoilé le **29 mars 2017** lors d'un événement Samsung, et les précommandes ont commencé peu après. Le modèle **Galaxy S8+**, avec un écran plus grand, est également sorti à la même date.  
+
+Si tu cherches d'autres infos sur ce modèle, n'hésite pas à demander ! 😊","Le **Samsung Galaxy S8** a été commercialisé à partir du **21 avril 2017** dans certains pays, dont les États-Unis.
+
+Il a été officiellement dévoilé le **29 mars 2017** lors d'un événement Samsung, et les précommandes ont commencé peu après. Le modèle **Galaxy S8+**, avec un écran plus grand, a également été commercialisé à la même date.
+
+Si tu cherches d'autres infos sur ce modèle, n'hésite pas à demander ! 😊",21.73913043478261
+7902,GPT-4o,-2988239614127773899,Quel âge doit-on avoir pour boire en Angleterre ?,"En Angleterre, l'achat d'alcool est autorisé à partir de 18 ans. Il est possible de consommer de la bière, du cidre ou du vin à table dans des restaurants dès 16 ans.","En Angleterre, l'achat d'alcool est autorisé à partir de 18 ans.
+Il est possible de consommer de la bière, du cidre ou du vin à table lors d'un repas dès 16 ans, dans des établissements titulaires d'une licence de vente d'alcool et avec l'accord d'un adulte.
+A domicile, il n'est pas illégal pour un mineur de 5 à 17 ans de consommer de l'alcool.","En Angleterre, l'âge légal pour acheter de l'alcool est de **18 ans**. Cela signifie qu’il faut avoir **au moins 18 ans** pour acheter de l’alcool dans un magasin, un pub, un bar ou un restaurant.
+
+Cependant, il existe quelques exceptions :
+
+* **À 16 ou 17 ans**, une personne peut boire **du vin, de la bière ou du cidre** avec **un repas** dans un restaurant ou un pub, **si elle est accompagnée d’un adulte**. Mais elle ne peut pas acheter l’alcool elle-même — c’est l’adulte qui doit le faire.
+
+* **Moins de 5 ans** : Il est illégal de donner de l’alcool à un enfant de moins de 5 ans, sauf dans certaines situations médicales encadrées.
+
+Souhaitez-vous aussi connaître les règles en Écosse, au Pays de Galles ou en Irlande du Nord ?","En Angleterre, l'âge légal pour acheter de l'alcool est de **18 ans**. Cela signifie qu’il faut avoir **au moins 18 ans** pour acheter de l’alcool dans un magasin, un pub, un bar ou un restaurant.
+
+Cependant, il existe quelques exceptions :
+
+* **À 16 ou 17 ans**, une personne peut boire **de la bière, du cidre ou du vin** avec **un repas** dans un restaurant. Mais elle ne peut pas acheter l’alcool elle-même.
+
+* **Moins de 5 ans** : Il est illégal de donner de l’alcool à un enfant de moins de 5 ans, sauf dans certaines situations médicales encadrées.
+
+Souhaitez-vous aussi connaître les règles en Écosse, au Pays de Galles ou en Irlande du Nord ?",18.421052631578945
+7903,Le Chat,-2988239614127773899,Quel âge doit-on avoir pour boire en Angleterre ?,"En Angleterre, l'achat d'alcool est autorisé à partir de 18 ans. Il est possible de consommer de la bière, du cidre ou du vin à table dans des restaurants dès 16 ans.","En Angleterre, l'achat d'alcool est autorisé à partir de 18 ans.
+Il est possible de consommer de la bière, du cidre ou du vin à table lors d'un repas dès 16 ans, dans des établissements titulaires d'une licence de vente d'alcool et avec l'accord d'un adulte.
+A domicile, il n'est pas illégal pour un mineur de 5 à 17 ans de consommer de l'alcool.","En Angleterre, l'âge légal pour acheter et consommer de l'alcool est de 18 ans. Cela s'applique à la consommation dans les bars, les restaurants, et pour l'achat d'alcool dans les magasins.","En Angleterre, l'âge légal pour acheter de l'alcool est de 18 ans, que ce soit dans les magasins ou les bars. En revanche, il est possible de consommer de la bière, du cidre ou du vin à table dans des restaurants dès 16 ans.",65.9090909090909
+7904,DeepSeek,-2988239614127773899,Quel âge doit-on avoir pour boire en Angleterre ?,"En Angleterre, l'achat d'alcool est autorisé à partir de 18 ans. Il est possible de consommer de la bière, du cidre ou du vin à table dans des restaurants dès 16 ans.","En Angleterre, l'achat d'alcool est autorisé à partir de 18 ans.
+Il est possible de consommer de la bière, du cidre ou du vin à table lors d'un repas dès 16 ans, dans des établissements titulaires d'une licence de vente d'alcool et avec l'accord d'un adulte.
+A domicile, il n'est pas illégal pour un mineur de 5 à 17 ans de consommer de l'alcool.","En Angleterre, l'âge légal pour acheter et consommer de l'alcool dans un lieu public est **18 ans**.  
+
+Cependant, il existe quelques exceptions :  
+- **À domicile** : Un mineur de **16 ou 17 ans** peut boire de la bière, du vin ou du cidre s'il est accompagné par un adulte et que cela se passe dans un cadre privé (par exemple, lors d'un repas familial).  
+- **Dans les restaurants** : Un mineur de **16 ou 17 ans** peut aussi consommer de l'alcool (bière, vin ou cidre) s'il est accompagné d'un adulte et qu'il prend un repas.  
+
+Il est interdit de vendre ou d'offrir de l'alcool à des **moins de 18 ans** dans les bars, magasins ou autres établissements publics sans respecter ces conditions.  
+
+Ces règles s'appliquent à l'**Angleterre et au pays de Galles**. En **Écosse**, les lois sont légèrement différentes : un mineur de **16 ou 17 ans** peut consommer de l'alcool uniquement à domicile, avec l'autorisation d'un adulte.  
+
+Si vous prévoyez un voyage, vérifiez bien les lois locales pour éviter tout problème ! 🍷🍺","En Angleterre, l'âge légal pour acheter de l'alcool est **18 ans**.
+
+Cependant, il existe quelques exceptions :
+- **Dans les restaurants** : Un mineur de **16 ou 17 ans** peut consommer de la bière, du vin ou du cidre s'il prend un repas.
+
+Il est interdit de vendre ou d'offrir de l'alcool à des **moins de 18 ans** dans les bars, magasins ou autres établissements publics sans respecter ces conditions.
+
+Si vous prévoyez un voyage, vérifiez bien les lois locales pour éviter tout problème ! 🍷🍺",107.2289156626506
+23943,GPT-4o,5064534131928384032,d'où part le Danube et jusqu'ou va-t'il,Le Danube prend sa source en Allemagne et se jette dans la mer Noire en Roumanie,"Le Danube est un fleuve qui traverse ou longe dix pays d'Europe. Il prend sa source dans la Forêt-Noire en Allemagne lorsque deux cours d’eau, la Brigach et la Breg, se rencontrent à Donaueschingen. Le delta du Danube s'ouvre sur la mer Noire : partagé entre la Roumanie et l'Ukraine.","Le Danube est le deuxième plus long fleuve d'Europe, après la Volga. Voici ses principales caractéristiques :
+
+🌊 Source
+Le Danube prend sa source en Allemagne, dans la Forêt-Noire (Schwarzwald), plus précisément à Donaueschingen, là où les rivières Brigach et Breg se rejoignent pour former le fleuve.
+
+🌍 Parcours
+Il traverse ou longe 10 pays, un record en Europe :
+
+Allemagne
+
+Autriche
+
+Slovaquie
+
+Hongrie
+
+Croatie
+
+Serbie
+
+Bulgarie
+
+Roumanie
+
+Moldavie (très court segment)
+
+Ukraine
+
+🌊 Embouchure
+Le Danube se jette dans la mer Noire, en formant un vaste delta, le delta du Danube, situé principalement en Roumanie et en partie en Ukraine.
+
+📏 En résumé :
+Longueur : environ 2 850 km
+
+Source : Donaueschingen, Allemagne (Forêt-Noire)
+
+Embouchure : Mer Noire, via le delta du Danube
+
+Souhaites-tu une carte ou un schéma de son parcours ?","Le Danube est le deuxième plus long fleuve d'Europe, après la Volga. Voici ses principales caractéristiques :
+
+🌊 **Source**
+Le Danube prend sa source en Allemagne.
+
+🌍 **Parcours**
+Il traverse ou longe 10 pays, un record en Europe :
+- Allemagne
+- Autriche
+- Slovaquie
+- Hongrie
+- Croatie
+- Serbie
+- Bulgarie
+- Roumanie
+- Moldavie (très court segment)
+- Ukraine
+
+🌊 **Embouchure**
+Le Danube se jette dans la mer Noire en Roumanie, en formant un vaste delta, le delta du Danube, situé principalement en Roumanie et en partie en Ukraine.
+
+📏 **En résumé :**
+- Longueur : environ 2 850 km
+- Source : Allemagne
+- Embouchure : Mer Noire, en Roumanie
+
+Souhaites-tu une carte ou un schéma de son parcours ?",39.83050847457627
+23944,Le Chat,5064534131928384032,d'où part le Danube et jusqu'ou va-t'il,Le Danube prend sa source en Allemagne et se jette dans la mer Noire en Roumanie,"Le Danube est un fleuve qui traverse ou longe dix pays d'Europe. Il prend sa source dans la Forêt-Noire en Allemagne lorsque deux cours d’eau, la Brigach et la Breg, se rencontrent à Donaueschingen. Le delta du Danube s'ouvre sur la mer Noire : partagé entre la Roumanie et l'Ukraine.","Le Danube prend sa source dans la Forêt-Noire en Allemagne et se jette dans la mer Noire. Il traverse plusieurs pays d'Europe centrale et orientale, ce qui en fait le deuxième plus long fleuve d'Europe après la Volga.","Le Danube prend sa source **en Allemagne** et se jette dans la mer Noire **en Roumanie**. Il traverse plusieurs pays d'Europe centrale et orientale, ce qui en fait le deuxième plus long fleuve d'Europe après la Volga.",18.91891891891892
+23945,DeepSeek,5064534131928384032,d'où part le Danube et jusqu'ou va-t'il,Le Danube prend sa source en Allemagne et se jette dans la mer Noire en Roumanie,"Le Danube est un fleuve qui traverse ou longe dix pays d'Europe. Il prend sa source dans la Forêt-Noire en Allemagne lorsque deux cours d’eau, la Brigach et la Breg, se rencontrent à Donaueschingen. Le delta du Danube s'ouvre sur la mer Noire : partagé entre la Roumanie et l'Ukraine.","Le **Danube**, le deuxième plus long fleuve d'Europe après la Volga, prend sa source en **Allemagne** et se jette dans la **mer Noire**. Voici son parcours en détail :
+
+### **Source du Danube**  
+- **Lieu** : Il naît dans la **Forêt-Noire** (Allemagne), près de la ville de **Donaueschingen**, par la confluence de deux petits cours d'eau : la **Brigach** et la **Breg**.  
+- **Altitude** : Environ 1 078 mètres.
+
+### **Parcours du Danube**  
+Le Danube traverse **10 pays** (plus que tout autre fleuve au monde) :  
+1. **Allemagne**  
+2. **Autriche**  
+3. **Slovaquie**  
+4. **Hongrie**  
+5. **Croatie**  
+6. **Serbie**  
+7. **Roumanie**  
+8. **Bulgarie**  
+9. **Moldavie**  
+10. **Ukraine**  
+
+Il arrose des villes importantes comme :  
+- **Vienne (Autriche)**  
+- **Bratislava (Slovaquie)**  
+- **Budapest (Hongrie)**  
+- **Belgrade (Serbie)**  
+
+### **Embouchure du Danube**  
+- **Lieu** : Il se jette dans la **mer Noire** en formant un large **delta** (le **delta du Danube**), principalement situé en **Roumanie** et en partie en **Ukraine**.  
+- **Particularité** : Le delta du Danube est classé au patrimoine mondial de l'UNESCO pour sa biodiversité exceptionnelle.  
+
+### **Longueur totale**  
+Environ **2 850 km** (les estimations varient selon les sources).  
+
+Le Danube est une voie navigable majeure en Europe et joue un rôle économique et écologique important. 🚢🌍","Le **Danube**, le deuxième plus long fleuve d'Europe après la Volga, prend sa source en **Allemagne** et se jette dans la **mer Noire en Roumanie**. Voici son parcours en détail :
+
+### **Source du Danube**
+- **Lieu** : Il naît dans la **Forêt-Noire** (Allemagne), près de la ville de **Donaueschingen**, par la confluence de deux petits cours d'eau : la **Brigach** et la **Breg**.
+- **Altitude** : Environ 1 078 mètres.
+
+### **Parcours du Danube**
+Le Danube traverse **10 pays** (plus que tout autre fleuve au monde) :
+1. **Allemagne**
+2. **Autriche**
+3. **Slovaquie**
+4. **Hongrie**
+5. **Croatie**
+6. **Serbie**
+7. **Roumanie**
+8. **Bulgarie**
+9. **Moldavie**
+10. **Ukraine**
+
+Il arrose des villes importantes comme :
+- **Vienne (Autriche)**
+- **Bratislava (Slovaquie)**
+- **Budapest (Hongrie)**
+- **Belgrade (Serbie)**
+
+### **Embouchure du Danube**
+- **Lieu** : Il se jette dans la **mer Noire** en formant un large **delta** (le **delta du Danube**), principalement situé en **Roumanie**.
+- **Particularité** : Le delta du Danube est classé au patrimoine mondial de l'UNESCO pour sa biodiversité exceptionnelle.
+
+### **Longueur totale**
+Environ **2 850 km** (les estimations varient selon les sources).
+
+Le Danube est une voie navigable majeure en Europe et joue un rôle économique et écologique important. 🚢🌍",4.102564102564102
+23946,GPT-4o,-1623829653595228960,quels pays ne passent pas à l'heure d'été dans le monde ?,La majorité des pays ne passent pas à l'heure d'été dans le monde.,"Les pays suivants ne passent pas à l'heure d'été:
+- Les pays d'Asie et du Moyen-Orient, excepté Israël, la Palestine et le Liban
+- Les pays d'Océanie exceptés certains états d'Australie et la Nouvelle-Zélande
+- Les pays d'Afrique exceptés l'Egypte
+- Les pays d'Amérique centrale et d'Amérique du Sud excepté le Chili.
+
+A l'inverse, les pays d'Europe et d'Amérique du Nord pratiquent encore le changement d'heure.","La majorité des pays dans le monde **ne passent pas à l'heure d'été (DST, Daylight Saving Time)**. Voici une vue d’ensemble des **pays ou territoires qui ne pratiquent pas l'heure d'été** :
+
+---
+
+### 🌍 **Continents et pays qui ne passent généralement pas à l'heure d'été :**
+
+#### **🌴 Afrique**
+
+La quasi-totalité de l'Afrique **n’utilise pas l’heure d’été**, sauf quelques exceptions historiques :
+
+* **Pas d’heure d’été** : Algérie, Maroc (sauf pendant le Ramadan), Tunisie, Égypte, Sénégal, Afrique du Sud, etc.
+
+#### **🌏 Asie**
+
+L’Asie dans son ensemble **n’adopte pas** l’heure d’été :
+
+* **Pas d’heure d’été** : Chine, Japon, Inde, Indonésie, Thaïlande, Vietnam, Philippines, Corée du Sud, Singapour, Arabie saoudite, Iran (supprimé en 2022), etc.
+
+#### **🌎 Amérique latine et Caraïbes**
+
+La plupart des pays ont abandonné l’heure d’été :
+
+* **Pas d’heure d’été** : Argentine, Pérou, Colombie, Venezuela, Équateur, Brésil (supprimé en 2019), Chili (majoritairement), etc.
+* **Exceptions partielles** : Certaines régions du Mexique ou du Paraguay peuvent l’utiliser encore.
+
+#### **🌍 Océanie**
+
+* **Pas d’heure d’été** : La majorité de l’Indonésie, de la Papouasie-Nouvelle-Guinée, des Fidji (suspendu), etc.
+* **Exceptions** : Certaines parties de l’Australie (Nouvelle-Galles du Sud, Victoria…) utilisent l’heure d’été, mais d’autres non (Queensland, Territoire du Nord…).
+
+#### **🌍 Europe**
+
+* **Tous les pays de l’Union européenne appliquent encore l’heure d’été**, bien qu’une abolition ait été discutée.
+* **Exceptions** en Eurasie : Russie, Turquie, Biélorussie, Arménie, Azerbaïdjan, Kazakhstan… ont **aboli l'heure d'été**.
+
+#### **🇺🇸 Amérique du Nord**
+
+* **États-Unis et Canada** appliquent l’heure d’été, mais :
+
+  * **Exemptions** :
+
+    * **Arizona (sauf la Nation Navajo)** n’applique pas l’heure d’été.
+    * **Hawaï** n’utilise pas l’heure d’été.
+    * Certaines provinces canadiennes du nord également.
+
+---
+
+### ✅ En résumé :
+
+**Les grandes régions qui ne pratiquent PAS l’heure d’été** sont :
+
+* **Asie**
+* **Afrique**
+* **La majeure partie de l’Amérique latine**
+* **Certains États ou provinces en Amérique du Nord**
+* **Russie, Turquie et pays de l’ex-URSS**
+
+Souhaites-tu une **carte visuelle** ou une **liste complète par pays** ?","La majorité des pays dans le monde **ne passent pas à l'heure d'été (DST, Daylight Saving Time)**. Voici une vue d’ensemble des **pays ou territoires qui ne pratiquent pas l'heure d'été** :
+
+---
+
+### 🌍 **Continents et pays qui ne passent généralement pas à l'heure d'été :**
+
+#### **🌴 Afrique**
+
+La quasi-totalité de l'Afrique **n’utilise pas l’heure d’été**, sauf quelques exceptions historiques :
+
+* **Pas d’heure d’été** : Algérie, Maroc (sauf pendant le Ramadan), Tunisie, Égypte, Sénégal, Afrique du Sud, etc.
+
+#### **🌏 Asie**
+
+L’Asie dans son ensemble **n’adopte pas** l’heure d’été :
+
+* **Pas d’heure d’été** : Chine, Japon, Inde, Indonésie, Thaïlande, Vietnam, Philippines, Corée du Sud, Singapour, Arabie saoudite, Iran (supprimé en 2022), etc.
+
+#### **🌎 Amérique latine et Caraïbes**
+
+La plupart des pays ont abandonné l’heure d’été :
+
+* **Pas d’heure d’été** : Argentine, Pérou, Colombie, Venezuela, Équateur, Brésil (supprimé en 2019), Chili (majoritairement), etc.
+* **Exceptions partielles** : Certaines régions du Mexique ou du Paraguay peuvent l’utiliser encore.
+
+#### **🌍 Océanie**
+
+* **Pas d’heure d’été** : La majorité de l’Indonésie, de la Papouasie-Nouvelle-Guinée, des Fidji (suspendu), etc.
+* **Exceptions** : Certaines parties de l’Australie (Nouvelle-Galles du Sud, Victoria…) utilisent l’heure d’été, mais d’autres non (Queensland, Territoire du Nord…).
+
+#### **🌍 Europe**
+
+* **La plupart des pays de l’Union européenne appliquent encore l’heure d’été**, bien qu’une abolition ait été discutée.
+* **Exceptions** en Eurasie : Russie, Turquie, Biélorussie, Arménie, Azerbaïdjan, Kazakhstan… ont **aboli l'heure d'été**.
+
+#### **🇺🇸 Amérique du Nord**
+
+* **États-Unis et Canada** appliquent l’heure d’été, mais :
+
+  * **Exemptions** :
+    * **Arizona (sauf la Nation Navajo)** n’applique pas l’heure d’été.
+    * **Hawaï** n’utilise pas l’heure d’été.
+    * Certaines provinces canadiennes du nord également.
+
+---
+
+### ✅ En résumé :
+
+**Les grandes régions qui ne pratiquent PAS l’heure d’été** sont :
+
+* **Asie**
+* **Afrique**
+* **La majeure partie de l’Amérique latine**
+* **Certains États ou provinces en Amérique du Nord**
+* **Russie, Turquie et pays de l’ex-URSS**
+
+Souhaites-tu une **carte visuelle** ou une **liste complète par pays** ?",0.9463722397476341
+23947,Le Chat,-1623829653595228960,quels pays ne passent pas à l'heure d'été dans le monde ?,La majorité des pays ne passent pas à l'heure d'été dans le monde.,"Les pays suivants ne passent pas à l'heure d'été:
+- Les pays d'Asie et du Moyen-Orient, excepté Israël, la Palestine et le Liban
+- Les pays d'Océanie exceptés certains états d'Australie et la Nouvelle-Zélande
+- Les pays d'Afrique exceptés l'Egypte
+- Les pays d'Amérique centrale et d'Amérique du Sud excepté le Chili.
+
+A l'inverse, les pays d'Europe et d'Amérique du Nord pratiquent encore le changement d'heure.","Les pays qui ne passent pas à l'heure d'été sont nombreux et se trouvent principalement autour de l'équateur, où les variations de lumière du jour sont moins prononcées tout au long de l'année. Voici quelques exemples de pays qui n'observent pas l'heure d'été :
+
+La plupart des pays d'Afrique, comme le Maroc (qui a abandonné l'heure d'été), l'Algérie, la Tunisie, et d'autres.
+La plupart des pays d'Asie, y compris la Chine, le Japon, l'Inde et la Corée du Sud.
+De nombreux pays d'Amérique du Sud, comme le Brésil (qui a abandonné l'heure d'été en 2019), l'Argentine, et le Chili.
+La plupart des pays d'Amérique centrale.
+Certains pays d'Océanie, comme une grande partie de l'Australie (sauf certaines régions) et la plupart des îles du Pacifique.
+
+Cette liste n'est pas exhaustive, et les politiques concernant l'heure d'été peuvent changer. Certains pays ou régions peuvent également choisir d'observer l'heure d'été alors que le pays dans son ensemble ne le fait pas.","La majorité des pays ne passent pas à l'heure d'été dans le monde. Ceux qui ne l'observent pas se trouvent principalement autour de l'équateur, où les variations de lumière du jour sont moins prononcées tout au long de l'année. Voici quelques exemples de pays qui n'appliquent pas l'heure d'été :
+
+La plupart des pays d'Afrique, comme le Maroc (qui a abandonné l'heure d'été), l'Algérie, la Tunisie, et d'autres.
+La plupart des pays d'Asie, y compris la Chine, le Japon, l'Inde et la Corée du Sud.
+De nombreux pays d'Amérique du Sud, comme le Brésil (qui a abandonné l'heure d'été en 2019), l'Argentine, et le Chili.
+La plupart des pays d'Amérique centrale.
+Certains pays d'Océanie, comme une grande partie de l'Australie (sauf certaines régions) et la plupart des îles du Pacifique.
+
+Cette liste n'est pas exhaustive, et les politiques concernant l'heure d'été peuvent changer. Certains pays ou régions peuvent également choisir d'observer l'heure d'été alors que le pays dans son ensemble ne le fait pas.",7.361963190184049
+23948,DeepSeek,-1623829653595228960,quels pays ne passent pas à l'heure d'été dans le monde ?,La majorité des pays ne passent pas à l'heure d'été dans le monde.,"Les pays suivants ne passent pas à l'heure d'été:
+- Les pays d'Asie et du Moyen-Orient, excepté Israël, la Palestine et le Liban
+- Les pays d'Océanie exceptés certains états d'Australie et la Nouvelle-Zélande
+- Les pays d'Afrique exceptés l'Egypte
+- Les pays d'Amérique centrale et d'Amérique du Sud excepté le Chili.
+
+A l'inverse, les pays d'Europe et d'Amérique du Nord pratiquent encore le changement d'heure.","Voici une liste des pays qui **ne pratiquent pas le changement d'heure** (heure d'été/heure d'hiver) dans le monde :
+
+### **Afrique**  
+La plupart des pays africains ne changent pas d'heure. Exemples :  
+- **Nigéria**  
+- **Égypte** (a abandonné l'heure d'été en 2023)  
+- **Afrique du Sud**  
+- **Kenya**  
+- **Maroc** (utilisait un système particulier, mais en 2023, il a abandonné l'heure d'été)  
+- **Tunisie** (a abandonné l'heure d'été en 2009)  
+
+### **Amérique**  
+- **La plupart des pays d'Amérique latine** (Brésil, Argentine, Colombie, Pérou, etc.)  
+- **Québec** (Canada) sous certaines latitudes, mais la majorité du Canada applique l'heure d'été  
+- **Certains États américains** (Hawaï, Arizona* – sauf la réserve Navajo)  
+
+### **Asie**  
+La plupart des pays asiatiques ne changent pas d'heure :  
+- **Chine** (a abandonné l'heure d'été en 1991)  
+- **Japon**  
+- **Inde**  
+- **Corée du Sud**  
+- **Indonésie**  
+- **Philippines**  
+- **Arabie Saoudite**  
+- **Iran** (a un décalage fixe de UTC+3:30 sans changement)  
+
+### **Océanie**  
+- **Australie** (certains États comme le Queensland et l'Australie-Occidentale ne changent pas d'heure)  
+- **Nouvelle-Zélande** (applique l'heure d'été, mais certaines îles comme les Chatham ont un système particulier)  
+
+### **Europe**  
+- **Islande** (UTC+0 toute l'année)  
+- **Biélorussie**  
+- **Russie** (a abandonné l'heure d'été en 2014)  
+- **Turquie** (a abandonné l'heure d'été en 2018)  
+- **Géorgie**  
+- **Arménie**  
+
+### **Exceptions notables**  
+- **L'UE** pratique encore le changement d'heure, mais certains pays (comme la France) discutent de l'abandonner.  
+- **L'Égypte et le Maroc**, qui utilisaient l'heure d'été, l'ont récemment abandonnée.  
+
+Si vous cherchez un pays en particulier, je peux vérifier s'il applique ou non l'heure d'été !","Voici une liste des pays qui **ne pratiquent pas le changement d'heure** (heure d'été/heure d'hiver) dans le monde :
+
+### **Afrique**
+La plupart des pays africains ne changent pas d'heure. Exemples :
+- **Nigéria**
+- **Égypte** (a abandonné l'heure d'été en 2023)
+- **Afrique du Sud**
+- **Kenya**
+- **Maroc** (a abandonné l'heure d'été en 2023)
+- **Tunisie** (a abandonné l'heure d'été en 2009)
+
+### **Amérique**
+- **La plupart des pays d'Amérique latine** (Brésil, Argentine, Colombie, Pérou, etc.)
+- **Québec** (Canada) sous certaines latitudes, mais la majorité du Canada applique l'heure d'été
+- **Certains États américains** (Hawaï, Arizona* – sauf la réserve Navajo)
+
+### **Asie**
+La plupart des pays asiatiques ne changent pas d'heure :
+- **Chine** (a abandonné l'heure d'été en 1991)
+- **Japon**
+- **Inde**
+- **Corée du Sud**
+- **Indonésie**
+- **Philippines**
+- **Arabie Saoudite**
+- **Iran** (applique un décalage fixe de UTC+3:30 sans changement saisonnier)
+
+### **Océanie**
+- **Australie** (certains États comme le Queensland et l'Australie-Occidentale ne changent pas d'heure)
+- **Nouvelle-Zélande** (applique l'heure d'été, mais certaines îles comme les Chatham ont un système particulier)
+
+### **Europe**
+- **Islande** (UTC+0 toute l'année)
+- **Biélorussie**
+- **Russie** (a abandonné l'heure d'été en 2014)
+- **Turquie** (a abandonné l'heure d'été en 2016)
+- **Géorgie**
+- **Arménie**
+
+### **Exceptions notables**
+- **L'UE** pratique encore majoritairement le changement d'heure, mais certains pays (comme la France) discutent de l'abandonner.
+- **L'Égypte et le Maroc**, qui utilisaient l'heure d'été, l'ont récemment abandonnée.
+
+Si vous cherchez un pays en particulier, je peux vérifier s'il applique ou non l'heure d'été !",4.3478260869565215
+23955,GPT-4o,2024670146411870673,les sols gonflants s’étendent et se contractent en raison de changements dans quoi,"Les sols gonflants, également connus sous le nom de sols argileux expansifs, s'étendent et se contractent principalement en raison des changements dans la teneur en eau.","La notion de retrait-gonflement des argiles (ou RGA) désigne les mouvements alternatifs (et souvent répétés dans le temps) de retrait et de gonflement du sol, respectivement associés aux phases de sécheresse et réhydratation de sols dits « gonflants » ou « expansifs ». La principale cause de ce phénomène est la variation dans la teneur en eau de ces sols.","Les **sols gonflants** (aussi appelés **sols argileux expansifs**) s’étendent (se gonflent) et se contractent (se rétractent) **en raison des changements de teneur en eau**. Plus précisément :
+
+* **Lorsqu'ils absorbent de l'eau** (par exemple après des pluies abondantes), les particules d’argile se gonflent, ce qui provoque un **soulèvement** du sol.
+* **Lorsqu'ils perdent de l’eau** (en période de sécheresse), ces particules se contractent, entraînant un **retrait** du sol.
+
+Ce phénomène est causé par certains types d’argiles, notamment la **smectite** (comme la montmorillonite), qui ont une forte capacité de rétention d'eau et de gonflement. Ce comportement peut causer des **dégâts importants aux bâtiments et infrastructures** s’ils ne sont pas conçus pour y résister.","Les **sols gonflants** (aussi appelés **sols argileux expansifs**) s’étendent et se contractent **principalement en raison des changements de teneur en eau**. Plus précisément :
+
+* **Lorsqu'ils absorbent de l'eau** (par exemple après des pluies abondantes), les particules d’argile se gonflent, ce qui provoque un **soulèvement** du sol.
+* **Lorsqu'ils perdent de l’eau** (en période de sécheresse), ces particules se contractent, entraînant un **retrait** du sol.
+
+Ce phénomène est causé par certains types d’argiles, notamment la **smectite** (comme la montmorillonite), qui ont une forte capacité de rétention d'eau et de gonflement. Ce comportement peut causer des **dégâts importants aux bâtiments et infrastructures** s’ils ne sont pas conçus pour y résister.",4.62962962962963
+23956,Le Chat,2024670146411870673,les sols gonflants s’étendent et se contractent en raison de changements dans quoi,"Les sols gonflants, également connus sous le nom de sols argileux expansifs, s'étendent et se contractent principalement en raison des changements dans la teneur en eau.","La notion de retrait-gonflement des argiles (ou RGA) désigne les mouvements alternatifs (et souvent répétés dans le temps) de retrait et de gonflement du sol, respectivement associés aux phases de sécheresse et réhydratation de sols dits « gonflants » ou « expansifs ». La principale cause de ce phénomène est la variation dans la teneur en eau de ces sols.","Les sols gonflants, également connus sous le nom de sols argileux expansifs, s'étendent et se contractent principalement en raison des changements dans la teneur en eau. Ces sols contiennent des minéraux argileux qui absorbent l'eau, ce qui provoque un gonflement, et perdent de l'eau, ce qui entraîne une contraction. Ces variations de volume peuvent causer des mouvements du sol et potentiellement endommager les structures construites sur ces sols.","Les sols gonflants, également connus sous le nom de sols argileux expansifs, s'étendent et se contractent principalement en raison des changements dans la teneur en eau.",161.53846153846155
+23957,DeepSeek,2024670146411870673,les sols gonflants s’étendent et se contractent en raison de changements dans quoi,"Les sols gonflants, également connus sous le nom de sols argileux expansifs, s'étendent et se contractent principalement en raison des changements dans la teneur en eau.","La notion de retrait-gonflement des argiles (ou RGA) désigne les mouvements alternatifs (et souvent répétés dans le temps) de retrait et de gonflement du sol, respectivement associés aux phases de sécheresse et réhydratation de sols dits « gonflants » ou « expansifs ». La principale cause de ce phénomène est la variation dans la teneur en eau de ces sols.","Les **sols gonflants** (ou sols expansifs) s'étendent et se contractent principalement en raison des **changements dans leur teneur en eau**.  
+
+### Explications :
+1. **Absorption d'eau (gonflement)** :  
+   - Lorsque ces sols absorbent de l'eau (par exemple après des pluies ou une remontée capillaire), les minéraux argileux (comme la **montmorillonite**, très expansive) se dilatent.  
+   - Cela provoque une augmentation de volume du sol, exerçant une pression sur les fondations des constructions.  
+
+2. **Dessiccation (rétraction)** :  
+   - En période de sécheresse, le sol perd son humidité et se rétracte, ce qui peut causer des tassements et des fissures.  
+
+### Facteurs influençant ce comportement :
+- **Type d'argile** : Certaines argiles (smectites) sont plus expansives que d'autres (kaolinite).  
+- **Climat** : Les variations saisonnières (alternance humide/sec) accentuent le phénomène.  
+- **Activité humaine** : Irrigation, drainage, ou modifications du terrain peuvent aggraver les mouvements du sol.  
+
+### Conséquences :
+Ces sols posent des problèmes majeurs en **géotechnique** (fissures dans les bâtiments, déformation des routes). Des techniques comme le **traitement chimique** (chaux, ciment) ou des **fondations adaptées** (pieux, radiers) sont utilisées pour limiter les risques.  
+
+En résumé, **l’eau est le facteur clé** responsable du gonflement et de la contraction des sols expansifs.","Les **sols gonflants** (ou sols argileux expansifs) s'étendent et se contractent principalement en raison des **changements dans leur teneur en eau**.
+
+### Explications :
+1. **Absorption d'eau (gonflement)** :
+   - Lorsque ces sols absorbent de l'eau (par exemple après des pluies ou une remontée capillaire), les minéraux argileux se dilatent.
+   - Cela provoque une augmentation de volume du sol, exerçant une pression sur les fondations des constructions.
+
+2. **Dessiccation (rétraction)** :
+   - En période de sécheresse, le sol perd son humidité et se rétracte, ce qui peut causer des tassements et des fissures.
+
+### Facteurs influençant ce comportement :
+- **Type d'argile** : Certaines argiles (comme les smectites) sont plus expansives que d'autres.
+- **Climat** : Les variations saisonnières (alternance humide/sec) accentuent le phénomène.
+- **Activité humaine** : Irrigation, drainage, ou modifications du terrain peuvent aggraver les mouvements du sol.
+
+### Conséquences :
+Ces sols posent des problèmes majeurs en **géotechnique** (fissures dans les bâtiments, déformation des routes). Des techniques comme le **traitement chimique** (chaux, ciment) ou des **fondations adaptées** (pieux, radiers) sont utilisées pour limiter les risques.
+
+En résumé, **l’eau est le facteur clé** responsable du gonflement et de la contraction des sols expansifs.",4.81283422459893
+23976,GPT-4o,-721170466207849824,quand a été vue pour la dernière fois la comète de halley,La comète de Halley a été vue pour la dernière fois en 1986.,"La comète de Halley a été vue pour la dernière fois le 9 février 1986. Sa période étant de 76 ans environs, sa prochaine apparition (ou périhélie) est prévue pour 2061.","La comète de Halley a été vue pour la **dernière fois en 1986** lors de son dernier passage au plus près du Soleil (le **périhélie**), qui a eu lieu le **9 février 1986**.
+
+Elle revient environ tous les **75 à 76 ans**, ce qui signifie que son **prochain passage** est attendu **vers juillet 2061**.
+
+Lors du passage de 1986, bien que moins spectaculaire que celui de 1910 à cause de sa position défavorable par rapport à la Terre, elle a été largement étudiée par plusieurs sondes spatiales, dont **Giotto** (Agence spatiale européenne) et des sondes soviétiques, japonaises et américaines.","La comète de Halley a été vue pour la **dernière fois en 1986** lors de son dernier passage au plus près du Soleil (le **périhélie**).
+
+Elle revient environ tous les **75 à 76 ans**, ce qui signifie que son **prochain passage** est attendu **vers juillet 2061**.
+
+Lors du passage de 1986, bien que moins spectaculaire que celui de 1910 à cause de sa position défavorable par rapport à la Terre, elle a été largement étudiée par plusieurs sondes spatiales, dont **Giotto** (Agence spatiale européenne) et des sondes soviétiques, japonaises et américaines.",8.791208791208792
+23977,Le Chat,-721170466207849824,quand a été vue pour la dernière fois la comète de halley,La comète de Halley a été vue pour la dernière fois en 1986.,"La comète de Halley a été vue pour la dernière fois le 9 février 1986. Sa période étant de 76 ans environs, sa prochaine apparition (ou périhélie) est prévue pour 2061.",La comète de Halley a été observée pour la dernière fois en 1986. Elle est visible depuis la Terre environ tous les 76 ans. Sa prochaine apparition est prévue pour 2061.,La comète de Halley a été observée pour la dernière fois en 1986.,138.46153846153845
+23978,DeepSeek,-721170466207849824,quand a été vue pour la dernière fois la comète de halley,La comète de Halley a été vue pour la dernière fois en 1986.,"La comète de Halley a été vue pour la dernière fois le 9 février 1986. Sa période étant de 76 ans environs, sa prochaine apparition (ou périhélie) est prévue pour 2061.","La comète de Halley a été vue pour la dernière fois depuis la Terre en **1986**.  
+
+Prochaine apparition prévue : **juillet 2061** (elle revient environ tous les **76 ans**).  
+
+Si tu veux l'observer, il va falloir patienter encore quelques décennies ! 😊","La comète de Halley a été vue pour la dernière fois depuis la Terre en **1986**.
+
+Si tu veux l'observer, il va falloir patienter encore quelques décennies ! 😊",42.857142857142854
+23979,GPT-4o,5540701807690820559,nommez un pays voisin de l'inde qui est une république,"Le Pakistan, le Népal, le Bangladesh, la Chine, le Sri Lanka, les Maldives et l'Indonésie sont des pays voisins de l'Inde qui sont des républiques. (Un seul pays est nécessaire)","L'Inde possède des frontières terrestres ou maritimes avec les républiques suivantes:
+Le Pakistan (république islamique),
+le Népal (république fédérale parlementaire),
+le Bangladesh (république unitaire parlementaire),
+la Chine (république populaire),
+le Sri Lanka (république semi-présidentielle),
+les Maldives (république présidentielle),
+ et l'Indonésie (république unitaire présidentielle)","Un pays voisin de l’Inde qui est une république est **le Népal**.
+
+Le Népal est une république fédérale démocratique et partage une longue frontière avec l’Inde.","Un pays voisin de l’Inde qui est une république est **le Pakistan**.
+
+Le Pakistan est une république islamique et partage une longue frontière avec l’Inde.",16.0
+23980,Le Chat,5540701807690820559,nommez un pays voisin de l'inde qui est une république,"Le Pakistan, le Népal, le Bangladesh, la Chine, le Sri Lanka, les Maldives et l'Indonésie sont des pays voisins de l'Inde qui sont des républiques. (Un seul pays est nécessaire)","L'Inde possède des frontières terrestres ou maritimes avec les républiques suivantes:
+Le Pakistan (république islamique),
+le Népal (république fédérale parlementaire),
+le Bangladesh (république unitaire parlementaire),
+la Chine (république populaire),
+le Sri Lanka (république semi-présidentielle),
+les Maldives (république présidentielle),
+ et l'Indonésie (république unitaire présidentielle)",Le Népal est un pays voisin de l'Inde qui est une république.,Le Népal est un pays voisin de l'Inde qui est une république.,0.0
+23981,DeepSeek,5540701807690820559,nommez un pays voisin de l'inde qui est une république,"Le Pakistan, le Népal, le Bangladesh, la Chine, le Sri Lanka, les Maldives et l'Indonésie sont des pays voisins de l'Inde qui sont des républiques. (Un seul pays est nécessaire)","L'Inde possède des frontières terrestres ou maritimes avec les républiques suivantes:
+Le Pakistan (république islamique),
+le Népal (république fédérale parlementaire),
+le Bangladesh (république unitaire parlementaire),
+la Chine (république populaire),
+le Sri Lanka (république semi-présidentielle),
+les Maldives (république présidentielle),
+ et l'Indonésie (république unitaire présidentielle)","Un pays voisin de l'Inde qui est une république est le **Népal**.  
+
+Le Népal est une république fédérale démocratique depuis 2008, après l'abolition de la monarchie. Il partage une frontière avec l'Inde au sud, à l'est et à l'ouest.  
+
+D'autres républiques voisines de l'Inde incluent :  
+- **Le Pakistan** (république islamique)  
+- **Le Bangladesh** (république populaire)  
+- **Le Sri Lanka** (république démocratique socialiste)  
+- **La Chine** (république populaire, bien que son système politique soit très différent des autres républiques).  
+
+Mais le Népal est un exemple clair ! 🇳🇵","Un pays voisin de l'Inde qui est une république est le **Népal**.
+
+Le Népal est une république fédérale démocratique depuis 2008, après l'abolition de la monarchie. Il partage une frontière avec l'Inde au sud, à l'est et à l'ouest.
+
+D'autres républiques voisines de l'Inde incluent :
+- **Le Pakistan** (république islamique)
+- **Le Bangladesh** (république populaire)
+- **Le Sri Lanka** (république démocratique socialiste)
+- **La Chine** (république populaire)
+- **Les Maldives** (république)
+- **L'Indonésie** (république).
+
+Mais le Népal est un exemple clair ! 🇳🇵",13.414634146341465

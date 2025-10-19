@@ -1,10 +1,10 @@
 VERSION:
-  CODE_VERSION: "3"
+  CODE_VERSION: "2"
   DATASET: "mkqa"
   DATA_VERSION: "0"
 # DATASET: "comparia"
   LANG: "fr"
-  REFORMULATION_MODEL: "gemini-2.5-flash"
+  REFORMULATION_MODEL: "mistral-medium-latest"
   TESTED_MODELS:
     - "GPT-4o"
     - "Le Chat"

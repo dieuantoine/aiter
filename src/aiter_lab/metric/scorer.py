@@ -5,7 +5,7 @@ import os
 from aiter import Scorer
 
 from ..utils import load_from_hf
-from ..config import HYP_DS, VERSION, RESULTS_DIR, REFERENCES_CSV, METADATA_CSV
+from ..config import HYP_DS, VERSION, RESULTS_DIR, REFERENCES_CSV, METADATA_CSV, MISTRAL_API_KEY, GOOGLE_API_KEY
 
 cols_base = ["conv_id", "model_id", "request_id", "request", "reference", "context", "hypothesis"]
 cols = {"1": ["corrected_hypothesis", "score"], 
@@ -25,6 +25,7 @@ class ScoringPipeline:
         self.result_df = pd.DataFrame(columns=self.csv_cols)
         
         self.references_df = pd.read_csv(REFERENCES_CSV)
+        self.references_df['request_id'] = self.references_df['request_id'].astype(str)
         
     def _get_filepath(self, result_filename):
         if result_filename:
@@ -42,19 +43,20 @@ class ScoringPipeline:
         
         if len(new_ids)>0:
             hyp_df = load_from_hf(HYP_DS)
+            hyp_df['request_id'] = hyp_df['request_id'].astype(str)
             hyp_new = hyp_df[hyp_df['request_id'].isin(new_ids)].copy()
             new_df = pd.merge(hyp_new, self.references_df, on='request_id', how='inner', suffixes=("", "_dup"))
             for col in cols[self.version["CODE_VERSION"]]:
                 new_df[col] = None
             new_df = new_df[cols_base + cols[self.version["CODE_VERSION"]]]
-            self.df = pd.concat([self.df, new_df], ignore_index=True)
+            self.result_df = pd.concat([self.result_df, new_df], ignore_index=True)
             
     def scoring(self):
         start_time = datetime.now()
-        scorer = Scorer(self.df, self.version)
+        scorer = Scorer(self.result_df, self.version)
         scorer.reformulation()
         scorer.scoring()
-        self.df = scorer.df
+        self.result_df = scorer.df
         end_time = datetime.now()
         self.duration_time = (end_time - start_time).total_seconds()
         return
@@ -76,7 +78,7 @@ class ScoringPipeline:
         metadata_df.to_csv(METADATA_CSV, mode='a', index=False, header=not file_exists)
     
     def save(self):
-        self.df[self.csv_cols].to_csv(self.filepath, index=False)
+        self.result_df[self.csv_cols].to_csv(self.filepath, index=False)
     
     def exec_pipeline(self):
         self.init_result_df()
