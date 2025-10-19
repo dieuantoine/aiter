@@ -8,14 +8,14 @@ from .utils import calc_msg_length, calc_qw
 def select_valid_msg(conv_dataset, reac_dataset):
     conv_valid_msg = set(
         x['opening_msg'] for x in conv_dataset 
-        if not x['is_unedited_prompt'] and x['languages'] == ['fr'] and len(x['opening_msg'])>10
-        )
+        if x['languages'] == ['fr'] and len(x['opening_msg']) > 10
+    )
     reac_valid_msg = set(
         x['opening_msg'] for x in reac_dataset
         if x['conv_turns'] == 1 and (
             x['useful'] or x['creative'] or x['complete'] or x['clear_formatting'] or x['incorrect'] or x['superficial'] or x['instructions_not_followed']
-            )
         )
+    )
     valid_msg = conv_valid_msg & reac_valid_msg
     return valid_msg
 
@@ -42,7 +42,7 @@ def arrange_comparia_hyp(reac_dataset, valid_msg, req_df):
     df = df.rename(columns={
         'opening_msg': 'request',
         'refers_to_model': 'model_id',
-        'response_content': 'response'
+        'response_content': 'hypothesis'
     })
     request_id_map = req_df[['request_id', 'request']]
     df = df.merge(request_id_map, on='request', how='left')
