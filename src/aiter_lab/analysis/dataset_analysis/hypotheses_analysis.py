@@ -1,5 +1,4 @@
 import pandas as pd
-from config import MKQA_HYP_DS, REFERENCES_CSV
 from ...utils import load_from_hf
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -22,13 +21,13 @@ def ref_len_stats_tab(input_df):
     stats_df = pd.concat([ref_row, ctx_row])
     return stats_df
 
-def merge_stats_tab(output_csv):
-    hyp_df = hyp_len_stats_tab(load_from_hf(MKQA_HYP_DS))
-    ref_df = ref_len_stats_tab(pd.read_csv(REFERENCES_CSV))
-    cols = ['source', 'mean', 'std', 'min', '25%', '50%', '75%', 'max']
-    merged_df = pd.concat([hyp_df[cols], ref_df[cols]])
-    merged_df.to_csv(output_csv, index=False)
-    return
+# def merge_stats_tab(output_csv):
+#     hyp_df = hyp_len_stats_tab(load_from_hf(MKQA_HYP_DS))
+#     ref_df = ref_len_stats_tab(pd.read_csv(REFERENCES_CSV))
+#     cols = ['source', 'mean', 'std', 'min', '25%', '50%', '75%', 'max']
+#     merged_df = pd.concat([hyp_df[cols], ref_df[cols]])
+#     merged_df.to_csv(output_csv, index=False)
+#     return
 
 def len_correlations(input_df, output_path):
     input_df['ref_length'] = input_df['reference'].apply(lambda x: len(x.split()))

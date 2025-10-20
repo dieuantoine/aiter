@@ -16,12 +16,12 @@ def safe_nltk_download(resource_name, subdir):
 safe_nltk_download('punkt', 'tokenizers')
 safe_nltk_download('stopwords', 'corpora')
 
-def words_counter(df):
+def words_counter(df, col):
     stop_words = set(stopwords.words('french'))
     def get_filtered_words_from_clean(msg):
         return {w for w in msg.split() if w not in stop_words and len(w) > 5}
     word_counts = Counter()
-    df['clean_msg'] = df['opening_msg'].apply(clean_text)
+    df['clean_msg'] = df[col].apply(clean_text)
     for msg in df['clean_msg']:
         filtered_words = get_filtered_words_from_clean(msg)
         word_counts.update(filtered_words)

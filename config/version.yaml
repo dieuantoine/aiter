@@ -1,7 +1,7 @@
 VERSION:
-  CODE_VERSION: "2"
+  CODE_VERSION: "3"
   DATASET: "mkqa"
-  DATA_VERSION: "0"
+  DATA_VERSION: "2"
 # DATASET: "comparia"
   LANG: "fr"
   REFORMULATION_MODEL: "mistral-medium-latest"

@@ -1,10 +1,11 @@
 import pandas as pd
 from .counters import words_counter, list_features_counter
-from .visualization import plot_msg_length, create_pie, compare_msg_length, compare_hyp_length
-from .hypotheses_analysis import merge_stats_tab, len_correlations
-from ...config import HF_TOKEN, DS_ANALYSIS_DIR, RESULTS_DIR, COMPARIA_REQ_DS, MKQA_REQ_DS, MKQA_HYP_DS, REFERENCES_CSV
+from .visualization import plot_msg_length, create_pie, compare_msg_length, compare_hyp_length, create_wc
+from .hypotheses_analysis import len_correlations
+from ...config import HF_TOKEN, DS_ANALYSIS_DIR, RESULTS_DIR, HYP_DS, REQ_DS, REFERENCES_CSV
 from ...utils import load_from_hf
 
 if __name__ == '__main__':
-    df = pd.read_csv(RESULTS_DIR / 'results_1.csv')
-    len_correlations(df, DS_ANALYSIS_DIR / 'correlation_matrix.png')
+    df = load_from_hf(REQ_DS)
+    count = words_counter(df, 'request')
+    create_wc(count, DS_ANALYSIS_DIR / 'wordcloud_requests_mkqa.png')
