@@ -1,5 +1,5 @@
 import pandas as pd
-from config import RESULTS_DIR, RESULTS_ANALYSIS_DIR
+from ....config import RESULTS_DIR, RESULTS_ANALYSIS_DIR
 from .bertscore_computation import calculate_bertscore
 
 def results_aggregation(df1, df2, version1="v1", version2="v2"):
@@ -34,11 +34,7 @@ def results_aggregation(df1, df2, version1="v1", version2="v2"):
     return filtered_df
 
 if __name__ == "__main__":
-    results_v1 = RESULTS_DIR / "results_2.csv"
-    results_v2 = RESULTS_DIR / "results_4.csv"
-    df1 = pd.read_csv(results_v1)
-    df2 = pd.read_csv(results_v2)
-    
-    aggregated_results = results_aggregation(df1, df2, 'v1', 'v3')
-    results_wbert = calculate_bertscore(aggregated_results)
-    results_wbert.to_csv(RESULTS_ANALYSIS_DIR / "aggregated_results_v13.csv", index=False)
+    results_df = pd.read_csv(RESULTS_ANALYSIS_DIR / "method3_fullresults.csv")
+    results_df = calculate_bertscore(results_df)
+    results_df['hyp_len'] = results_df['hypothesis'].apply(lambda x: len(x.split()))
+    results_df.to_csv(RESULTS_ANALYSIS_DIR / "method3_fullresults.csv", index=False)

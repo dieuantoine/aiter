@@ -18,6 +18,7 @@ class ScoringPipeline:
         self.version = VERSION
         self.model = VERSION["REFORMULATION_MODEL"]
         self.filepath = self._get_filepath(result_filename)
+        self.temp_filepath = self.filepath.stem + '_temp.csv'
         
         self.duration_time = None
 
@@ -55,6 +56,7 @@ class ScoringPipeline:
         start_time = datetime.now()
         scorer = Scorer(self.result_df, self.version)
         scorer.reformulation()
+        scorer.df.to_csv(self.temp_filepath, index=False)
         scorer.scoring()
         self.result_df = scorer.df
         end_time = datetime.now()

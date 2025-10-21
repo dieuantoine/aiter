@@ -2,3 +2,5 @@ filepath,reformulation_model,code_version,dataset,data_version,timestamp,duratio
 C:\Users\bullg\OneDrive\Bureau\Travail\aiter\data\results\results_1.csv,mistral-medium-latest,1,mkqa,0,2025-10-20 00:33:26,387.31852s
 C:\Users\bullg\OneDrive\Bureau\Travail\aiter\data\results\results_2.csv,mistral-medium-latest,1,mkqa,0,2025-10-20 00:58:21,349.045481s
 C:\Users\bullg\OneDrive\Bureau\Travail\aiter\data\results\results_3.csv,mistral-medium-latest,2,mkqa,0,2025-10-20 01:15:14,728.022834s
+C:\Users\bullg\OneDrive\Bureau\Travail\aiter\data\results\results_4.csv,gemini-2.5-pro,3,mkqa,2,2025-10-21 12:22:15,4332.224371s
+C:\Users\bullg\OneDrive\Bureau\Travail\aiter\data\results\results_5.csv,gemini-2.5-pro,3,mkqa,2,2025-10-21 20:56:36,2247.396047s
