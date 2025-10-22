@@ -29,6 +29,17 @@ def correlation_matrix(df, cols, output_path):
     plt.close()
     return corr_matrix
 
+def correlation_matrix_per_col(df, cols1, cols2, output_path):
+    corr_matrix = df[cols1 + cols2].corr().loc[cols1, cols2]
+    plt.figure(figsize=(10, 8))
+    sns.heatmap(corr_matrix, annot=True, fmt=".2f", cmap="coolwarm")
+    plt.title("Correlation Matrix")
+    plt.tight_layout()
+    plt.savefig(output_path)
+    plt.close()
+    return corr_matrix
+
+
 def boxplot(df, score_cols, output_path):
     num_scores = len(score_cols)
     fig, axes = plt.subplots(1, num_scores, figsize=(5 * num_scores, 6), sharey=False)
@@ -58,7 +69,7 @@ def calculate_mae(df, hter_col, aiter_col):
     mae = np.mean(np.abs(aiter - hter))
     return mae
 
-def trimmed_mae(df, hter_col, aiter_col, trim_ratio=0.2):
+def trimmed_mae(df, hter_col, aiter_col, trim_ratio=0.1):
     y_true = df[hter_col].astype(float).to_numpy()
     y_pred = df[aiter_col].astype(float).to_numpy()
     errors = np.abs(y_true - y_pred)
@@ -95,3 +106,20 @@ def smape_ter(df, cols):
             df[col].astype(float).to_numpy()
         )
     return results
+
+def plot_error(df, cols, output_path):
+    num_scores = len(cols)
+    fig, axes = plt.subplots(1, num_scores, figsize=(5 * num_scores, 6), sharey=False)
+    
+    for i, col in enumerate(cols):
+        errors = np.abs(df[f'hter_{col}'].astype(float) - df[col].astype(float))
+        sns.histplot(errors, bins=30, kde=False, ax=axes[i])
+        axes[i].set_title(f"Error distribution between {col} and HTER")
+        axes[i].set_xlabel("Absolute Error")
+        axes[i].set_ylabel("Frequency")
+        axes[i].tick_params(axis='x', rotation=45)
+    
+    plt.tight_layout()
+    plt.savefig(output_path)
+    plt.close()
+    return

@@ -1,15 +1,16 @@
-from .results_analysis import scores_mean_tab, boxplot, correlation_matrix, smape_ter
+from .results_analysis import scores_mean_tab, boxplot, correlation_matrix, smape_ter, plot_error, correlation_matrix_per_col
 from ...config import DATA_DIR, RESULTS_ANALYSIS_DIR
 import pandas as pd
 
 if __name__ == "__main__":
     df = pd.read_csv(RESULTS_ANALYSIS_DIR / "method3_fullresults.csv")
+    # plot_error(df, ["score", "cor_score", "ot_score"], RESULTS_ANALYSIS_DIR / 'error_distribution_score.png')
     print(smape_ter(df, ["score", "cor_score", "ot_score"]))
     df.rename(columns={
         "score": "Method 3 (global)",
         "cor_score": "Method 3 (correction)",
         "ot_score": "Method 3 (filtering)",
-        "hter_score": "HTER Score",
+        "hter_score": "HTER (global)",
         "hter_ot_score": "HTER (filtering)",
         "hter_cor_score": "HTER (correction)",
         "bertscore_recall_ref": "BERTRecall (ref)",
@@ -19,9 +20,10 @@ if __name__ == "__main__":
     
     models = df["model_id"].unique()
 
-    score_cols = ["Method 3 (correction)", "Method 3 (filtering)", "Method 3 (global)", "HTER Score", "HTER (correction)", "HTER (filtering)"]
+    hter_cols = ["HTER (global)", "HTER (filtering)", "HTER (correction)"]
+    score_cols = ["Method 3 (global)", "Method 3 (filtering)", "Method 3 (correction)"]
     bertscore_cols = ["BERTRecall (ref)", "BERTPrecision (ctx)"]
-    cols = score_cols + bertscore_cols + ["Hypothesis Length"]
+    cols = score_cols + hter_cols + bertscore_cols + ["Hypothesis Length"]
     
     # results_path = RESULTS_ANALYSIS_DIR / "scores_analysis.csv"
     # scores_mean_tab(df, score_cols+bertscore_cols, results_path)
@@ -37,6 +39,6 @@ if __name__ == "__main__":
     #     results_path = RESULTS_ANALYSIS_DIR / f"correlation_matrix_{model}_v3.png"
     #     correlation_matrix(model_df, cols, results_path)
     
-    # corr_matrix_path = RESULTS_ANALYSIS_DIR / "correlation_matrix.png"
-    # correlation_matrix(df, cols, corr_matrix_path)
+    corr_matrix_path = RESULTS_ANALYSIS_DIR / "correlation_matrix.png"
+    correlation_matrix(df, cols, corr_matrix_path)
 
